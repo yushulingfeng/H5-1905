@@ -1,0 +1,297 @@
+main {
+    #content {
+        position: relative;
+        width: 100%;
+        min-height: 1600px;
+        padding-top: 15px;
+        .cont_1 {
+            width: 100%;
+            height: 332px;
+            background: url(../images/cont_1.webp) no-repeat top center;
+        }
+        .cont_1a {
+            position: absolute;
+            top: 15px;
+            left: 166px;
+            width: 1090px;
+            height: 332px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            a {
+                flex: 1;
+            }
+        }
+        .tit {
+            position: relative;
+            font-size: 14px;
+            height: 74px;
+            padding-top: 25px;
+            border-top: 1px solid #e9e9e9;
+            margin: 0;
+            box-sizing: border-box;
+            color: #999;
+            .big {
+                font-size: 22px;
+                color: #333;
+                margin-right: 10px;
+                font-weight: bold;
+            }
+            .more {
+                position: absolute;
+                right: 0px;
+                top: 26px;
+                color: #999;
+            }
+        }
+        .flashSale,
+        .hotBrand {
+            width: 1090px;
+            margin: 40px auto 0px;
+            .cnt {
+                height: 380px;
+                border-top: 1px solid #eaeaea;
+                border-left: 1px solid #eaeaea;
+                .goodList {
+                    float: left;
+                    width: 829px;
+                    height: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    li {
+                        width: 50%;
+                        display: flex;
+                        border-bottom: 1px solid #eaeaea;
+                        box-sizing: border-box;
+                        a {
+                            display: inline-block;
+                            width: 188px;
+                            height: 188px;
+                        }
+                        .detail {
+                            padding-left: 8px;
+                            position: relative;
+                            width: 227px;
+                            height: 188px;
+                            background: #fff;
+                            border-right: 1px solid #eaeaea;
+                            h3 {
+                                margin: 16px 0 6px;
+                                height: 21px;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                                a {
+                                    color: #333;
+                                    font-size: 16px;
+                                    font-weight: bold;
+                                }
+                            }
+                            h4 {
+                                overflow: hidden;
+                                height: 35px;
+                                word-break: break-all;
+                                word-wrap: break-word;
+                                a {
+                                    line-height: 16px;
+                                    overflow: hidden;
+                                    font-size: 12px;
+                                    color: #999;
+                                }
+                            }
+                            .price {
+                                margin-bottom: 33px;
+                                font-weight: bold;
+                                color: #ff1e32;
+                                font-size: 20px;
+                                b {
+                                    font-size: 22px;
+                                    font-weight: bold;
+                                    margin-left: -2px;
+                                }
+                                span,
+                                del {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: #999;
+                                }
+                                del {
+                                    margin-left: -8px;
+                                }
+                            }
+                            .line {
+                                position: relative;
+                                width: 90px;
+                                height: 4px;
+                                line-height: 0;
+                                margin-top: -2px;
+                                text-align: left;
+                                font-size: 12px;
+                                color: #ff1e32;
+                                overflow: hidden;
+                                background: #e8e8e8;
+                                border-radius: 4px;
+                                b {
+                                    display: inline-block;
+                                    width: 99%;
+                                    height: 100%;
+                                    background-color: #ff1429;
+                                }
+                            }
+                            .stock {
+                                margin-top: 5px;
+                                color: #ff1e32;
+                                font-size: 14px;
+                            }
+                            .rushByBtn {
+                                display: inline-block;
+                                position: absolute;
+                                bottom: 20px;
+                                right: 10px;
+                                width: 80px;
+                                height: 36px;
+                                line-height: 36px;
+                                border: 1px solid #ff1e32;
+                                text-align: center;
+                                font-size: 14px;
+                                color: #ff1e32;
+                                text-decoration: none;
+                                border-radius: 36px;
+                            }
+                        }
+                    }
+                }
+                .right {
+                    float: right;
+                    width: 259px;
+                    height: 100%;
+                    a {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        .hotBrand {
+            .cnt {
+                height: 355px;
+                display: flex;
+                .left_banner {
+                    width: 20%;
+                    border-right: 1px solid #eaeaea;
+                    border-bottom: 1px solid #eaeaea;
+                    iframe {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .hot_brand {
+                    width: 80%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    li {
+                        position: relative;
+                        width: 24.86%;
+                        height: 49.7%;
+                        border-right: 1px solid #eaeaea;
+                        border-bottom: 1px solid #eaeaea;
+                        &:hover {
+                            .inf img {
+                                top: -19px;
+                                transform: scale(.66);
+                            }
+                            p {
+                                opacity: 0;
+                            }
+                            .action {
+                                opacity: 1;
+                                .follow,
+                                .followers {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                        .inf {
+                            width: 100%;
+                            height: 100%;
+                            transform: translateZ(0);
+                            margin: 0 auto;
+                            overflow: hidden;
+                            background: #fff;
+                            img {
+                                display: block;
+                                margin: 12px auto 0;
+                                width: 120px;
+                                height: 120px;
+                                position: relative;
+                                top: 0;
+                                transition: all .3s;
+                                transform: scale(1);
+                            }
+                            p {
+                                margin: 10px -90px 0;
+                                text-align: center;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                font-size: 14px;
+                                font-weight: 700;
+                                transition: opacity .2s ease .08s;
+                            }
+                        }
+                        .action {
+                            text-align: center;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0;
+                            transition: all .3s;
+                            .follow {
+                                display: inline-block;
+                                position: absolute;
+                                top: 10px;
+                                left: 10px;
+                                width: 52px;
+                                height: 20px;
+                                font-size: 12px;
+                                line-height: 20px;
+                                color: #999;
+                                border: 1px solid #999;
+                                text-decoration: none;
+                                opacity: 0;
+                                border-radius: 20px;
+                                transition: all .5s;
+                                &:hover {
+                                    background: #eee;
+                                }
+                            }
+                            .followers {
+                                margin: 99px 0 8px;
+                                font-size: 12px;
+                                color: #999;
+                                transition: all .5s;
+                            }
+                            .enter {
+                                display: block;
+                                margin: 0 auto;
+                                width: 80px;
+                                height: 36px;
+                                box-sizing: border-box;
+                                line-height: 32px;
+                                color: #ff1e3c;
+                                background-color: #fff;
+                                text-decoration: none;
+                                border-radius: 32px;
+                                border: 2px solid #ff1e3c;
+                                font-size: 14px;
+                                &:hover {
+                                    background: #fff4f5;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

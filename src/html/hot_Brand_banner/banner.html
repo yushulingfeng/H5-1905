@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+        
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        
+        .swiper-slide a {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .swiper-slide a img {
+            width: 218px;
+            /* margin-top: -21px; */
+        }
+        
+        .swiper-slide a .txt {
+            position: relative;
+            top: -9px;
+            height: 136px;
+            background-color: #151515;
+            color: #fff;
+            z-index: 12;
+            opacity: .8;
+        }
+        
+        .swiper-slide a .txt .name {
+            padding-top: 40px;
+            margin: 0 12px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            padding-bottom: 4px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        
+        .swiper-slide a .txt .desc {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a>
+                    <img src="img/hot_banner.jpg" alt="">
+                    <div class="txt">
+                        <p class="name">AVENT 新安怡</p>
+                        <p class="desc">70多个国家母婴界的信赖品牌</p>
+                    </div>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a>
+                    <img src="img/hot_banner2.jpg" alt="">
+                    <div class="txt">
+                        <p class="name">Mellin 美林</p>
+                        <p class="desc">意大利妈妈的选择</p>
+                    </div>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a>
+                    <img src="img/hot_banner3.jpg" alt="">
+                    <div class="txt">
+                        <p class="name">网易严选</p>
+                        <p class="desc">网易原创生活类品牌</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'progressbar',
+            },
+            loop: true,
+            autoplay: {
+                delay: 2500
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>

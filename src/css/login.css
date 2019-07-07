@@ -1,0 +1,541 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  border-bottom: 1px solid #e8e8ea;
+}
+header #topHead {
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+header #topHead .logokaola {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 330px;
+  height: 65px;
+  cursor: pointer;
+  background: url(../images/logokaola_login.png) no-repeat left center;
+}
+header #topimg {
+  position: absolute;
+  top: 0;
+  left: 458px;
+  width: 504px;
+  height: 100px;
+  background: url(https://haitao.nos.netease.com/d812ec07-4cdb-49e9-84f4-41383c2976e4_504_100.jpg?imageView&thumbnail=504x0&quality=85&v=1);
+}
+
+main {
+  width: 100%;
+  background: #f8f8f8;
+}
+main #body {
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+main #body img {
+  width: 400px;
+  height: 203px;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+}
+main #body .haitao {
+  width: 400px;
+  height: 203px;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  cursor: pointer;
+}
+main #body #loginwrap {
+  width: 350px;
+  height: 360px;
+  border: 1px solid #eaeaea;
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+}
+main #body #loginwrap .top {
+  width: 350px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 16px;
+  border-bottom: 1px solid #eaeaea;
+  color: #333;
+  cursor: pointer;
+}
+main #body #loginwrap .top .login_tel,
+main #body #loginwrap .top .login_email {
+  font-weight: bold;
+  width: 175px;
+  float: left;
+  text-align: center;
+}
+main #body #loginwrap .top .login_tel:hover,
+main #body #loginwrap .top .login_email:hover {
+  color: #e31436;
+}
+main #body #loginwrap .top .line {
+  border: 1px solid #ddd;
+  position: absolute;
+  top: 17px;
+  left: 175px;
+  height: 20px;
+  width: 0;
+}
+main #body #loginwrap .main {
+  width: 350px;
+  height: 268px;
+  background: #fff;
+}
+main #body #loginwrap .main #login_form {
+  width: 270px;
+  padding: 20px 40px 15px;
+}
+main #body #loginwrap .main #login_form .tab {
+  width: 270px;
+  height: 14px;
+  padding: 0 0 10px 0;
+  display: none;
+}
+main #body #loginwrap .main #login_form .tab a {
+  float: right;
+  height: 14px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #666;
+  text-decoration: none;
+  padding-left: 17px;
+  cursor: pointer;
+  user-select: none;
+  background: url(../images/icon2.png) no-repeat;
+}
+main #body #loginwrap .main #login_form .tab .pwd_login {
+  background-position: 0 0px;
+}
+main #body #loginwrap .main #login_form .tab .pwd_login:hover {
+  color: #e31436;
+  background-position: 0 -95px;
+}
+main #body #loginwrap .main #login_form .tab .note_login {
+  background-position: 0 -15px;
+  display: none;
+}
+main #body #loginwrap .main #login_form .tab .note_login:hover {
+  color: #e31436;
+  background-position: 0 -110px;
+}
+main #body #loginwrap .main #login_form p,
+main #body #loginwrap .main #login_form .noteReg {
+  width: 270px;
+  height: 34px;
+  border: 1px solid #d5d5d5;
+  border-radius: 2px;
+  margin-bottom: 16px;
+}
+main #body #loginwrap .main #login_form p label,
+main #body #loginwrap .main #login_form .noteReg label {
+  width: 17px;
+  float: left;
+  padding: 0 11px;
+  height: 34px;
+}
+main #body #loginwrap .main #login_form p label span,
+main #body #loginwrap .main #login_form .noteReg label span {
+  width: 17px;
+  display: block;
+  height: 18px;
+  margin-top: 8px;
+  background: url(../images/icon2.png);
+}
+main #body #loginwrap .main #login_form p label .icon_email,
+main #body #loginwrap .main #login_form .noteReg label .icon_email {
+  background-position: 0 -34px;
+}
+main #body #loginwrap .main #login_form p label .icon_tel,
+main #body #loginwrap .main #login_form .noteReg label .icon_tel {
+  background-position: -36px -34px;
+}
+main #body #loginwrap .main #login_form p label .icon_lock,
+main #body #loginwrap .main #login_form .noteReg label .icon_lock {
+  background-position: -67px -34px;
+}
+main #body #loginwrap .main #login_form p input,
+main #body #loginwrap .main #login_form .noteReg input {
+  line-height: 34px;
+  font-size: 14px;
+}
+main #body #loginwrap .main #login_form .noteReg {
+  display: none;
+}
+main #body #loginwrap .main #login_form .noteReg label {
+  width: 3px;
+  float: left;
+  padding: 0 2px;
+  height: 34px;
+}
+main #body #loginwrap .main #login_form .noteReg input {
+  line-height: 34px;
+  font-size: 14px;
+  float: left;
+}
+main #body #loginwrap .main #login_form .noteReg .getCode {
+  display: block;
+  width: 92px;
+  height: 34px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 32px;
+  color: #333;
+  background: #eee;
+  border-left: 1px solid #d5d5d5;
+  float: right;
+}
+main #body #loginwrap .main #login_form .noteReg .getCode:hover {
+  color: #e31436;
+  background: #fafafa;
+}
+main #body #loginwrap .main #login_form #login_box {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+main #body #loginwrap .main #login_form #login_box .dologin {
+  text-align: center;
+  width: 100%;
+  height: 36px;
+  display: block;
+  text-decoration: none;
+  border-radius: 2px;
+  line-height: 36px;
+  color: #fff;
+  font-size: 14px;
+  background: #e31436;
+}
+main #body #loginwrap .main #login_form #login_box .dologin:hover {
+  opacity: .8;
+}
+main #body #loginwrap .main #login_form .un_login {
+  padding: 0 0 15px 0;
+  height: 16px;
+}
+main #body #loginwrap .main #login_form .un_login .un_checkbox {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #aaa;
+  font-size: 12px;
+  color: #999;
+  float: left;
+  background: url(../images/icon3.png);
+  background-position: -330px -92px;
+}
+main #body #loginwrap .main #login_form .un_login .un_checkbox #un_login {
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+  cursor: pointer;
+}
+main #body #loginwrap .main #login_form .un_login label {
+  font-size: 12px;
+  line-height: 17px;
+  color: #999;
+  height: 16px;
+  float: left;
+  padding-left: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+main #body #loginwrap .main #login_form .un_login label:hover {
+  color: #e31436;
+}
+main #body #loginwrap .main #login_form .un_login .forgetpwd {
+  float: right;
+  font-size: 12px;
+  color: #999;
+  cursor: pointer;
+}
+main #body #loginwrap .main #login_form .un_login .forgetpwd:hover {
+  color: #e31436;
+}
+main #body #loginwrap .main .proto {
+  font-size: 12px;
+  color: #999;
+  margin-left: 40px;
+  transform: translateY(-12px);
+}
+main #body #loginwrap .main .proto a {
+  color: #999;
+  text-decoration: underline;
+}
+main #body #loginwrap .bottom {
+  padding: 10px 40px;
+  width: 270px;
+  height: 20px;
+  border-top: 1px solid #ddd;
+}
+main #body #loginwrap .bottom ul {
+  float: left;
+  width: 160px;
+}
+main #body #loginwrap .bottom ul li {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  float: left;
+}
+main #body #loginwrap .bottom ul li a {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  background: url(../images/icon1.png);
+}
+main #body #loginwrap .bottom ul li .iconwx {
+  background-position: -760px -401px;
+}
+main #body #loginwrap .bottom ul li .iconzf {
+  background-position: -792px -401px;
+}
+main #body #loginwrap .bottom ul li .iconwb {
+  background-position: -824px -401px;
+}
+main #body #loginwrap .bottom ul li .iconqq {
+  background-position: -856px -401px;
+}
+main #body #loginwrap .bottom .gotoreg {
+  font-size: 14px;
+  width: 105px;
+  display: block;
+  float: right;
+  color: #e31436;
+  line-height: 22px;
+  cursor: pointer;
+}
+main #body #loginwrap .bottom .gotoreg:hover {
+  text-decoration: underline;
+}
+main #body #loginwrap .bottom .gotoreg .iconmask {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border-radius: 50%;
+  background: url(../images/icon1.png);
+  background-position: -899px -406px;
+  margin-left: 2px;
+  margin-top: 3px;
+  vertical-align: text-top;
+}
+main #body #regwrap {
+  width: 350px;
+  height: 364px;
+  border: 1px solid #eaeaea;
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  display: none;
+}
+main #body #regwrap .top_reg {
+  width: 270px;
+  padding: 0 40px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+  background: #f8f8f8;
+  height: 52px;
+  line-height: 52px;
+}
+main #body #regwrap .top_reg .welcome_text {
+  color: #e31436;
+  font-weight: bold;
+}
+main #body #regwrap .top_reg .gotologin {
+  float: right;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 52px;
+  color: #333;
+}
+main #body #regwrap .top_reg .gotologin a {
+  color: #51b8f1;
+}
+main #body #regwrap .top_reg .gotologin a:hover {
+  text-decoration: underline;
+}
+main #body #regwrap #reg_box {
+  width: 100%;
+  height: 311px;
+  background: #fff;
+}
+main #body #regwrap #reg_box .content {
+  width: 270px;
+  height: 311px;
+  padding: 40px 40px 15px;
+}
+main #body #regwrap #reg_box .content p,
+main #body #regwrap #reg_box .content .noteReg {
+  width: 270px;
+  height: 34px;
+  border: 1px solid #d5d5d5;
+  border-radius: 2px;
+  margin-bottom: 16px;
+}
+main #body #regwrap #reg_box .content p label,
+main #body #regwrap #reg_box .content .noteReg label {
+  width: 17px;
+  float: left;
+  padding: 0 11px;
+  height: 34px;
+}
+main #body #regwrap #reg_box .content p label span,
+main #body #regwrap #reg_box .content .noteReg label span {
+  width: 17px;
+  display: block;
+  height: 18px;
+  margin-top: 8px;
+  background: url(../images/icon2.png);
+}
+main #body #regwrap #reg_box .content p label .icon_tel,
+main #body #regwrap #reg_box .content .noteReg label .icon_tel {
+  background-position: -36px -34px;
+}
+main #body #regwrap #reg_box .content p label .icon_lock,
+main #body #regwrap #reg_box .content .noteReg label .icon_lock {
+  background-position: -67px -34px;
+}
+main #body #regwrap #reg_box .content p input,
+main #body #regwrap #reg_box .content .noteReg input {
+  line-height: 34px;
+  font-size: 14px;
+}
+main #body #regwrap #reg_box .content .noteReg label {
+  width: 3px;
+  padding: 0 2px;
+}
+main #body #regwrap #reg_box .content .noteReg input {
+  float: left;
+}
+main #body #regwrap #reg_box .content .noteReg .getCode {
+  display: block;
+  width: 92px;
+  height: 34px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 32px;
+  color: #333;
+  background: #eee;
+  border-left: 1px solid #d5d5d5;
+  float: right;
+}
+main #body #regwrap #reg_box .content .noteReg .getCode:hover {
+  color: #e31436;
+  background: #fafafa;
+}
+main #body #regwrap #reg_box .content #reg_btn {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+main #body #regwrap #reg_box .content #reg_btn .doreg {
+  text-align: center;
+  width: 100%;
+  height: 36px;
+  display: block;
+  text-decoration: none;
+  border-radius: 2px;
+  line-height: 36px;
+  color: #fff;
+  font-size: 14px;
+  background: #e31436;
+}
+main #body #regwrap #reg_box .content #reg_btn .doreg:hover {
+  opacity: .8;
+}
+main #body #regwrap #reg_box .content .fur_agree {
+  color: #999;
+}
+main #body #regwrap #reg_box .content .fur_agree label {
+  padding: 0 0 15px 0;
+  height: 16px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #999;
+  user-select: none;
+}
+main #body #regwrap #reg_box .content .fur_agree label .un_checkbox {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #aaa;
+  font-size: 12px;
+  color: #999;
+  float: left;
+  margin-right: 6px;
+  margin-top: 3px;
+  background: url(../images/icon3.png);
+  background-position: 0px 0px;
+}
+main #body #regwrap #reg_box .content .fur_agree label .un_checkbox #un_agree {
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+  cursor: pointer;
+}
+main #body #regwrap #reg_box .content .fur_agree label a {
+  font-size: 12px;
+  line-height: 17px;
+  color: #999;
+  height: 16px;
+  cursor: pointer;
+  user-select: none;
+}
+main #body #regwrap #reg_box .content .fur_agree label a:hover {
+  color: #666;
+}
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 100px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+footer #aboutNEST {
+  width: 100%;
+  height: 115px;
+}
+footer #aboutNEST a {
+  color: #666;
+  line-height: 26px;
+}
+footer #aboutNEST a:hover {
+  text-decoration: underline;
+}
+footer #aboutNEST span {
+  margin: 0 20px;
+  line-height: 26px;
+}
+footer #aboutNEST .license {
+  font-size: 10px;
+  color: #999;
+}
+footer #aboutNEST .tac {
+  text-align: center;
+}
+footer #aboutNEST .tac a {
+  display: inline-block;
+}
+footer #aboutNEST .tac a img {
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=login.css.map */

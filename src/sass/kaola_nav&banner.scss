@@ -1,0 +1,584 @@
+main {
+    width: 100%;
+    #docHead,
+    #HeadWarp {
+        height: 100%;
+        position: relative;
+    }
+    #docHead {
+        background: #fff;
+        .topFixed {
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 50px;
+            z-index: 1001;
+            background: #fff;
+            border-bottom: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+            .kaolalogo {
+                position: absolute;
+                left: 168px;
+                top: 3px;
+                display: inline-block;
+                width: 162px;
+                height: 40px;
+                z-index: 10;
+                background: url(../images/kaola_logo2.png) no-repeat;
+            }
+            .searchBox {
+                position: absolute;
+                left: 510px;
+                top: 5px;
+                #toSearch {
+                    width: 510px;
+                    height: 40px;
+                    padding-left: 1px;
+                    background-color: #ff2337;
+                    border-radius: 40px;
+                    .wrap {
+                        float: left;
+                        margin: 2px 1px;
+                        padding: 6px 39px 5px 30px;
+                        background-color: #fff;
+                        border-radius: 24px 0 0 24px;
+                        white-space: normal;
+                        word-wrap: break-word;
+                        #searchInput {
+                            width: 410px;
+                            height: 24px;
+                            line-height: 24px;
+                            border: 0;
+                            font-size: 13px;
+                            color: #333;
+                        }
+                    }
+                    .searchBtnBox {
+                        width: 60px;
+                        height: 40px;
+                        background: #ff2337;
+                        border-radius: 40px;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        .searchBtn {
+                            display: inline-block;
+                            height: 40px;
+                            width: 50px;
+                            font-size: 19px;
+                            line-height: 40px;
+                            color: #fff;
+                            text-align: center;
+                            cursor: pointer;
+                            position: absolute;
+                            top: 10px;
+                            right: -10px;
+                            background: url(../images/searchBtn.png) no-repeat;
+                        }
+                    }
+                    .icon_search {
+                        position: absolute;
+                        left: 10px;
+                        top: 13px;
+                        display: inline-block;
+                        width: 14px;
+                        height: 14px;
+                        background: url(../images/icon1.png) no-repeat;
+                        background-position: -466px -667px;
+                    }
+                }
+                .searchList {
+                    position: absolute;
+                    top: 39px;
+                    left: 10px;
+                    width: 490px;
+                    background-color: #fff;
+                    #choiceList {
+                        padding: 6px 0;
+                        border: 1px solid #ccc;
+                        border-top: none;
+                        display: none;
+                    }
+                }
+            }
+        }
+        #HeadWarp {
+            height: 100px;
+            width: 1090px;
+            margin: 0 auto;
+            .kaolalogo {
+                position: absolute;
+                left: 0;
+                top: 20px;
+                display: inline-block;
+                width: 330px;
+                height: 65px;
+                z-index: 10;
+                background: url(../images/logoKaola_login.png) no-repeat;
+            }
+            .searchBox {
+                position: absolute;
+                left: 343px;
+                top: 24px;
+                #toSearch {
+                    width: 510px;
+                    height: 40px;
+                    padding-left: 1px;
+                    background-color: #ff2337;
+                    border-radius: 40px;
+                    .wrap {
+                        float: left;
+                        margin: 2px 1px;
+                        padding: 6px 39px 5px 30px;
+                        background-color: #fff;
+                        border-radius: 24px 0 0 24px;
+                        white-space: normal;
+                        word-wrap: break-word;
+                        #searchInput {
+                            width: 410px;
+                            height: 24px;
+                            line-height: 24px;
+                            border: 0;
+                            font-size: 13px;
+                            color: #333;
+                        }
+                    }
+                    .searchBtnBox {
+                        width: 60px;
+                        height: 40px;
+                        background: #ff2337;
+                        border-radius: 40px;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        .searchBtn {
+                            display: inline-block;
+                            height: 40px;
+                            width: 50px;
+                            font-size: 19px;
+                            line-height: 40px;
+                            color: #fff;
+                            text-align: center;
+                            cursor: pointer;
+                            position: absolute;
+                            top: 10px;
+                            right: -10px;
+                            background: url(../images/searchBtn.png) no-repeat;
+                        }
+                    }
+                    .icon_search {
+                        position: absolute;
+                        left: 10px;
+                        top: 13px;
+                        display: inline-block;
+                        width: 14px;
+                        height: 14px;
+                        background: url(../images/icon1.png) no-repeat;
+                        background-position: -466px -667px;
+                    }
+                }
+                .searchList {
+                    position: absolute;
+                    top: 39px;
+                    left: 10px;
+                    width: 490px;
+                    background-color: #fff;
+                    #choiceList {
+                        padding: 6px 0;
+                        border: 1px solid #ccc;
+                        border-top: none;
+                        display: none;
+                    }
+                }
+                #suggestList {
+                    line-height: 22px;
+                    margin-top: 2px;
+                    width: 461px;
+                    height: 22px;
+                    overflow: hidden;
+                    li {
+                        float: left;
+                        white-space: nowrap;
+                        margin-left: 30px;
+                        a {
+                            color: #999;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .cartBtn {
+                display: block;
+                position: absolute;
+                right: 76px;
+                top: 24px;
+                width: 106px;
+                height: 36px;
+                background-color: #fff;
+                line-height: 36px;
+                font-size: 14px;
+                text-align: center;
+                color: #333;
+                border-radius: 36px;
+                border: 2px solid #ff1e32;
+                .icon_cart {
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 2px;
+                    margin-bottom: -5px;
+                    background: url(../images/cart.png) no-repeat;
+                }
+                &:hover {
+                    background: #fff4f5;
+                    span {
+                        color: #ff1e32;
+                    }
+                }
+            }
+        }
+    }
+    #topTabBox {
+        border-bottom: #ccc;
+        background: #fff;
+        .topTab {
+            width: 1090px;
+            height: 40px;
+            margin: 0 auto;
+            .nav_carts {
+                width: 164px;
+                height: 40px;
+                float: left;
+                background: linear-gradient(90deg, red, #ff3264);
+                color: #fff;
+                text-align: center;
+                padding-left: 0;
+                overflow: visible;
+                text-align: left;
+                line-height: 40px;
+                .twoLevel {
+                    border-bottom: 1px solid #ff5160;
+                }
+                .lineIcon {
+                    display: inline-block;
+                    width: 15px;
+                    height: 12px;
+                    margin: 0 24px 0 15px;
+                    overflow: hidden;
+                    i {
+                        width: 15px;
+                        height: 0;
+                        border-top: 2px solid #ddd;
+                        display: block;
+                        margin-bottom: 3px;
+                    }
+                }
+                .seg {
+                    display: block;
+                    position: relative;
+                    bottom: 1px;
+                    left: 3px;
+                    width: 154px;
+                    height: 1px;
+                    background: #ff5160;
+                    margin-top: -1px;
+                }
+                .catMenuBox {
+                    position: relative;
+                }
+                .catMenu {
+                    position: relative;
+                    top: -1px;
+                    z-index: 99;
+                    background: linear-gradient(90deg, red, #ff3264);
+                    li {
+                        background: linear-gradient(90deg, red, #ff3264);
+                        padding-left: 10px;
+                        width: 151px;
+                        cursor: pointer;
+                        text-align: left;
+                        padding-right: 3px;
+                        &:hover {
+                            background: #fff;
+                            padding-left: 9px;
+                            padding-right: 0px;
+                            border-left: 1px solid red;
+                            border-right: 1px solid #ff3263;
+                            color: #ff1e32;
+                            .catCard {
+                                display: block;
+                            }
+                            .seg {
+                                background: #fff;
+                            }
+                            .icon_1 {
+                                background-position: 0 0;
+                            }
+                            .icon_2 {
+                                background: url(../images/muying_hov.png) no-repeat;
+                            }
+                            .icon_3 {
+                                background-position: -50px 0px;
+                            }
+                            .icon_4 {
+                                background-position: -75px 0px;
+                            }
+                            .icon_5 {
+                                background-position: -100px 0px;
+                            }
+                            .icon_6 {
+                                background-position: -125px 0;
+                            }
+                            .icon_7 {
+                                background-position: -150px 0;
+                            }
+                            .icon_8 {
+                                background-position: -175px -0;
+                            }
+                            .icon_9 {
+                                background-position: -200px -0;
+                            }
+                            .icon_10 {
+                                background-position: -225px -0;
+                            }
+                            .icon_11 {
+                                background-position: -250px -0;
+                            }
+                        }
+                        .icon {
+                            width: 20px;
+                            height: 20px;
+                            vertical-align: middle;
+                            margin-right: 20px;
+                            margin-left: 4px;
+                            display: inline-block;
+                            background: url(../images/icon.png) no-repeat;
+                        }
+                        .icon_1 {
+                            background-position: 0 -25px;
+                        }
+                        .icon_2 {
+                            background: url(../images/muying_bai.png) no-repeat;
+                        }
+                        .icon_3 {
+                            background-position: -50px -25px;
+                        }
+                        .icon_4 {
+                            background-position: -75px -25px;
+                        }
+                        .icon_5 {
+                            background-position: -100px -25px;
+                        }
+                        .icon_6 {
+                            background-position: -125px -25px;
+                        }
+                        .icon_7 {
+                            background-position: -150px -25px;
+                        }
+                        .icon_8 {
+                            background-position: -175px -25px;
+                        }
+                        .icon_9 {
+                            background-position: -200px -25px;
+                        }
+                        .icon_10 {
+                            background-position: -225px -25px;
+                        }
+                        .icon_11 {
+                            background-position: -250px -25px;
+                        }
+                        .text {
+                            display: inline-block;
+                            vertical-align: middle;
+                            width: 70px;
+                            height: 30px;
+                            font-size: 14px;
+                            line-height: 30px;
+                            white-space: nowrap;
+                        }
+                        .seg {
+                            display: block;
+                            position: relative;
+                            bottom: 1px;
+                            left: -7px;
+                            width: 154px;
+                            height: 1px;
+                            background: #ff5160;
+                            margin-top: -1px;
+                        }
+                        .catCard {
+                            transition: height .4s;
+                            position: absolute;
+                            z-index: 75;
+                            top: -1px;
+                            left: 164px;
+                            width: 930px;
+                            overflow: hidden;
+                            max-height: 439px;
+                            height: 439px;
+                            background: #fff;
+                            border: 1px solid #ff1a33;
+                            border-width: 1px 1px 1px 0;
+                            text-align: left;
+                            color: #333;
+                            cursor: auto;
+                            display: none;
+                            .fl {
+                                float: left;
+                            }
+                            .fr {
+                                float: right;
+                            }
+                            .ctList {
+                                margin: 0 20px 20px 15px;
+                                width: 658px;
+                                max-height: 440px;
+                                overflow: hidden;
+                                .litd {
+                                    float: left;
+                                    width: 50%;
+                                    vertical-align: top;
+                                    position: relative;
+                                    .underline {
+                                        height: 1px;
+                                        width: 642px;
+                                        background: #eaeaea;
+                                        position: absolute;
+                                        top: 34px;
+                                    }
+                                    .item {
+                                        display: inline-block;
+                                        padding: 0;
+                                        margin: 0 25px 17px 5px;
+                                        vertical-align: top;
+                                        width: 275px;
+                                        height: auto;
+                                        line-height: normal;
+                                        overflow: hidden;
+                                        .title {
+                                            height: 34px;
+                                            line-height: 34px;
+                                            font-size: 14px;
+                                            font-weight: bold;
+                                            a {
+                                                display: inline;
+                                                color: #333;
+                                                text-align: left;
+                                            }
+                                        }
+                                        .listBox a {
+                                            display: inline-block;
+                                            height: 14px;
+                                            line-height: 14px;
+                                            padding: 0 10px;
+                                            margin-top: 20px;
+                                            font-size: 13px;
+                                            color: #666;
+                                        }
+                                    }
+                                }
+                            }
+                            .brandBox {
+                                height: 280px;
+                                overflow: hidden;
+                                width: 218px;
+                                padding: 9px 8px 0 11px;
+                                background: #f6f6f6;
+                            }
+                            .imgBox {
+                                width: 237px;
+                                box-sizing: border-box;
+                                padding: 20px 18px 20px 11px;
+                                background: #f6f6f6;
+                            }
+                        }
+                    }
+                }
+            }
+            .nav {
+                float: left;
+                padding-left: 25px;
+                li {
+                    float: left;
+                    height: 40px;
+                    overflow: hidden;
+                    padding: 0 20px;
+                    line-height: 40px;
+                    a {
+                        font-size: 15px;
+                        font-weight: bold;
+                        color: #333;
+                        &:hover {
+                            color: #ff1e32;
+                        }
+                    }
+                    .active {
+                        color: #ff1e32;
+                    }
+                }
+            }
+        }
+    }
+    #banner {
+        width: 100%;
+        height: 505px;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+        .sell_point {
+            position: relative;
+            z-index: 12;
+            margin-top: -69px;
+            margin-bottom: 20px;
+            height: 65px;
+            background-color: rgba(0, 0, 0, .3);
+            .content {
+                width: 1090px;
+                margin: auto;
+                a {
+                    float: left;
+                    margin-right: 40px;
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+                .sellPoint {
+                    float: left;
+                    height: 44px;
+                    line-height: 64px;
+                    color: #fff;
+                    i {
+                        margin-right: 7px;
+                        font-size: 22px;
+                        vertical-align: -3px;
+                    }
+                }
+                .downLoad {
+                    float: right;
+                    color: #fff;
+                    line-height: 64px;
+                    display: flex;
+                    i {
+                        margin-right: 5px;
+                        font-size: 15px;
+                        vertical-align: -2px;
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        margin-top: 20px;
+                        background: url(../images/phone.png) no-repeat;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import 'kaola_cont.scss';

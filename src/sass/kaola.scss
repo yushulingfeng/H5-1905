@@ -1,0 +1,246 @@
+@import './login.scss';
+@import '../css/base.css';
+header {
+    background: #000;
+    border-bottom: 0;
+    #topNav {
+        width: 1090px;
+        margin: 0 auto;
+        line-height: 30px;
+        height: 30px;
+        #topNav_left {
+            float: left;
+            .welcome {
+                font-size: 12px;
+                color: #999;
+            }
+            .login {
+                margin-left: 16px;
+                padding-right: 10px;
+            }
+            .reg {
+                padding: 0 10px;
+            }
+        }
+        a {
+            z-index: 99;
+            font-size: 12px;
+            color: #999;
+            &:hover {
+                color: #fff;
+            }
+        }
+        #topNav_left2 {
+            float: left;
+            padding-left: 30px;
+            a {
+                cursor: pointer;
+                position: relative;
+                &:hover {
+                    .notice {
+                        display: block;
+                    }
+                }
+                .notice {
+                    position: absolute;
+                    top: 35px;
+                    left: -39px;
+                    padding: 5px 5px 0;
+                    background: #fff;
+                    border: 1px solid #ededee;
+                    display: none;
+                    .text {
+                        font-size: 14px;
+                        color: #ff1e32;
+                        display: block;
+                        text-align: center;
+                        line-height: 18px;
+                        padding: 5px 3px;
+                        font-weight: 400;
+                    }
+                    .arrow {
+                        position: absolute;
+                        left: 56px;
+                        top: 0;
+                        right: auto;
+                        .arr {
+                            position: absolute;
+                            left: 0;
+                            border-width: 8px;
+                            border-style: dashed dashed solid;
+                            width: 0;
+                            height: 0;
+                            font-size: 0;
+                            top: -16px;
+                            border-color: transparent transparent #e4e4e4;
+                        }
+                        .arr1 {
+                            position: absolute;
+                            left: 0;
+                            border-width: 8px;
+                            border-style: dashed dashed solid;
+                            width: 0;
+                            height: 0;
+                            font-size: 0;
+                            top: -15px;
+                            border-color: transparent transparent #fff;
+                        }
+                    }
+                }
+            }
+        }
+        #topNav_right {
+            float: right;
+            width: 600px;
+            height: 30px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            li {
+                z-index: 99;
+                flex: 1;
+                cursor: pointer;
+                position: relative;
+                .cnt {
+                    font-size: 12px;
+                    color: #999;
+                    padding: 5px 10px;
+                    position: relative;
+                    &:hover {
+                        color: #fff;
+                    }
+                    i {
+                        border: 4px solid transparent;
+                        border-top-color: #999;
+                        position: absolute;
+                        top: 12px;
+                        right: 0px;
+                        border-width: 4px 4px 0px;
+                        transition: all .2s;
+                    }
+                }
+                .mcDropMenu {
+                    display: none;
+                    text-align: left;
+                    position: absolute;
+                    left: 0px;
+                    top: 30px;
+                    background: #fff;
+                    padding: 4px 15px 12px 14px;
+                    box-shadow: 0 1px 1px rgba(0, 0, 0, .12);
+                    .menu2 {
+                        padding-left: 20px;
+                    }
+                    a {
+                        color: #000;
+                        display: block;
+                        white-space: nowrap;
+                        word-wrap: normal;
+                        line-height: 28px;
+                        cursor: pointer;
+                        &:hover {
+                            color: #ff1e32;
+                        }
+                        i {
+                            left: 15px;
+                            width: 14px;
+                            height: 14px;
+                            display: inline-block;
+                            position: absolute;
+                            background: url(../images/icon1.png);
+                        }
+                        .contact {
+                            background-position: -5px -290px;
+                            top: 10px;
+                        }
+                        .help {
+                            background-position: -5px -324px;
+                            top: 40px;
+                        }
+                        .prp {
+                            background: url(../images/prp.png) no-repeat;
+                            background-size: 100% 100%;
+                            top: 70px;
+                        }
+                        .rule {
+                            background-position: -5px -351px;
+                            top: 95px;
+                        }
+                        .notice {
+                            display: none;
+                            position: absolute;
+                            left: -132px;
+                            top: 0;
+                            padding: 8px;
+                            background: #fff;
+                            text-align: center;
+                            border: 1px solid #ededee;
+                            .arrow {
+                                position: absolute;
+                                right: 0;
+                                top: 38px;
+                                .arr,
+                                .arr1 {
+                                    position: absolute;
+                                    border-width: 9px;
+                                    border-style: dashed dashed dashed solid;
+                                    right: -18px;
+                                    border-color: transparent transparent transparent #e4e4e4;
+                                }
+                                .arr1 {
+                                    right: -17px;
+                                    border-color: transparent transparent transparent #fff;
+                                }
+                            }
+                        }
+                        .notice_1 {
+                            .arrow {
+                                top: 64px;
+                            }
+                        }
+                        .notice_2 {
+                            .arrow {
+                                top: 92px;
+                            }
+                        }
+                    }
+                    .QRcode {
+                        &:hover {
+                            .notice {
+                                display: block;
+                            }
+                        }
+                    }
+                    .spliter {
+                        display: block;
+                        border-bottom: 1px solid #eaeaea;
+                    }
+                }
+            }
+            .bg {
+                padding-right: 5px;
+                &:hover {
+                    background: #fff;
+                    .rotate {
+                        transform: rotate(180deg);
+                    }
+                }
+                &:hover {
+                    .mcDropMenu {
+                        display: block;
+                    }
+                }
+                .cnt {
+                    &:hover {
+                        color: #ff1e32;
+                        i {
+                            border-top-color: #ff1e32;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import 'kaola_nav&banner.scss';

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.css">
+
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+        
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .swiper-button-white {
+            display: none;
+        }
+        
+        .swiper-button-white .mask {
+            width: 100%;
+            height: 100%;
+            background: #999;
+            border-radius: 5px;
+            opacity: .5;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(img/1.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(img/2.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(img/3.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(img/4.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(img/5.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(img/6.jpg)"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next swiper-button-white">
+            <div class="mask"></div>
+        </div>
+        <div class="swiper-button-prev swiper-button-white">
+            <div class="mask"></div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            effect: 'fade',
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script>
+    (() => {
+
+
+
+        $('.swiper-container').on('mouseover', () => {
+            $('.swiper-button-white').css('display', 'block');
+        })
+
+        $('.swiper-container').on('mouseout', () => {
+            $('.swiper-button-white').css('display', 'none');
+        })
+
+
+
+
+
+
+
+    })();
+</script>
