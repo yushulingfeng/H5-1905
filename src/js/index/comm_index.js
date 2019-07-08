@@ -9,6 +9,9 @@
     $('#content .flashSale').load('html/page/index/flashSale.html');
     //热门品牌
     $('#content .hotBrand').load('html/page/index/hotBrand.html');
+    //美妆专区
+    $('.Beauty_makeupFloor').load('html/page/index/Beauty_makeupFloor.html');
+
 
     window.onscroll = function() {
         if (scrollY >= 100) {

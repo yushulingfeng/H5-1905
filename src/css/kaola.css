@@ -1823,5 +1823,43 @@ main #content .Beauty_makeupFloor .cont .right .loopListBox iframe {
   width: 219px;
   height: 480px;
 }
+main #content .Beauty_makeupFloor .brandList {
+  margin: 20px 0 40px;
+  border: 1px solid #eaeaea;
+  line-height: 167px;
+  background: #fff;
+}
+main #content .Beauty_makeupFloor .brandList .tit {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  text-indent: 20px;
+  line-height: 48px;
+  height: 48px;
+  border-bottom: 1px solid #eaeaea;
+  padding-top: 0;
+}
+main #content .Beauty_makeupFloor .brandList .brand_list {
+  display: flex;
+}
+main #content .Beauty_makeupFloor .brandList .brand_list li {
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid #eaeaea;
+  position: relative;
+}
+main #content .Beauty_makeupFloor .brandList .brand_list li a span {
+  background: url(../images/heart.png) no-repeat;
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-position: 50%;
+}
+main #content .Beauty_makeupFloor .brandList .brand_list li:hover a span {
+  display: block;
+}
 
 /*# sourceMappingURL=kaola.css.map */
