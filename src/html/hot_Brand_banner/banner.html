@@ -120,12 +120,13 @@
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
         <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next" style="display: none"></div>
+        <div class="swiper-button-prev" style="display: none"></div>
     </div>
 
     <!-- Swiper JS -->
     <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-1.10.1.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
@@ -143,6 +144,21 @@
                 prevEl: '.swiper-button-prev',
             },
         });
+
+        (() => {
+
+            $('.swiper-container').on('mouseover', function() {
+                $('.swiper-button-next').css('display', 'block');
+                $('.swiper-button-prev').css('display', 'block');
+
+            });
+
+            $('.swiper-container').on('mouseout', function() {
+                $('.swiper-button-next').css('display', 'none');
+                $('.swiper-button-prev').css('display', 'none');
+
+            });
+        })();
     </script>
 </body>
 

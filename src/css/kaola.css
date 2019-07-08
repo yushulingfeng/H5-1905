@@ -1719,11 +1719,11 @@ main #content .Beauty_makeupFloor .title .more:hover {
 main #content .Beauty_makeupFloor .cont {
   background: #fff;
   height: 541px;
+  display: flex;
 }
 main #content .Beauty_makeupFloor .cont .left,
 main #content .Beauty_makeupFloor .cont .center,
 main #content .Beauty_makeupFloor .cont .right {
-  float: left;
   position: relative;
 }
 main #content .Beauty_makeupFloor .cont .left .pic img {
@@ -1763,7 +1763,7 @@ main #content .Beauty_makeupFloor .cont .center {
   border-bottom: 0;
 }
 main #content .Beauty_makeupFloor .cont .center .centerList li {
-  width: 274px;
+  width: 49.8%;
   height: 269px;
   float: left;
   text-align: center;
@@ -1814,11 +1814,14 @@ main #content .Beauty_makeupFloor .cont .right .tit {
   border-width: 1px 1px 1px 0;
   position: relative;
 }
-main #content .Beauty_makeupFloor .cont .right .loopList {
-  position: relative;
+main #content .Beauty_makeupFloor .cont .right .loopListBox {
   width: 100%;
   height: 480px;
   overflow: hidden;
+}
+main #content .Beauty_makeupFloor .cont .right .loopListBox iframe {
+  width: 219px;
+  height: 480px;
 }
 
 /*# sourceMappingURL=kaola.css.map */
