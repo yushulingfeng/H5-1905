@@ -1467,6 +1467,22 @@ main #content .suspension_right li a .qr_code {
   height: 142px;
   background: url(../images/qrcode.png) no-repeat;
 }
+main #content .floor_jump {
+  display: block;
+  left: 45px;
+  position: absolute;
+  top: 55px;
+  z-index: 99;
+  width: 99px;
+  height: 653px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+}
+main #content .floor_jump .topImg {
+  display: block;
+  height: 49px;
+  border-bottom: 1px solid #eaeaea;
+}
 main #content .cont_1 {
   width: 100%;
   height: 332px;

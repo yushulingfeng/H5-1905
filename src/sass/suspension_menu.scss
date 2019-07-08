@@ -108,3 +108,20 @@
         }
     }
 }
+
+.floor_jump {
+    display: block;
+    left: 45px;
+    position: absolute;
+    top: 55px;
+    z-index: 99;
+    width: 99px;
+    height: 653px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    .topImg {
+        display: block;
+        height: 49px;
+        border-bottom: 1px solid #eaeaea;
+    }
+}
