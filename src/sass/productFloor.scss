@@ -1,0 +1,206 @@
+.Beauty_makeupFloor,
+.muying_product,
+.healthcareFloor,
+.digitalFloor {
+    width: 1090px;
+    margin: 40px auto;
+    .title {
+        height: 74px;
+        padding-top: 25px;
+        border-top: 1px solid #e9e9e9;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #999;
+        position: relative;
+        line-height: 32px;
+        h2 {
+            float: left;
+            font-size: 22px;
+            margin-right: 20px;
+            .tex {
+                font-weight: bold;
+                color: #333;
+            }
+        }
+        .hots_search_words {
+            float: left;
+            position: relative;
+            top: 3px;
+            font-size: 14px;
+            color: #999;
+            li {
+                float: left;
+                margin-right: 14px;
+                a {
+                    color: #999;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+                .red {
+                    color: rgb(255, 8, 15);
+                }
+            }
+        }
+        .more {
+            position: absolute;
+            right: 0;
+            top: 24px;
+            font-size: 14px;
+            color: #999;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .cont {
+        background: #fff;
+        height: 541px;
+        display: flex;
+        .left,
+        .center,
+        .right {
+            position: relative;
+        }
+        .left {
+            .pic img {
+                width: 330px;
+                height: 541px;
+            }
+            ul {
+                position: absolute;
+                left: 24px;
+                bottom: 24px;
+                li {
+                    float: left;
+                    margin: 0 18px 8px 0;
+                    a {
+                        text-align: center;
+                        display: block;
+                        height: 18px;
+                        padding: 11px 0;
+                        overflow: hidden;
+                        font-size: 12px;
+                        color: #333;
+                        border-radius: 40px;
+                        background: #fff;
+                        border: 1px solid #eee;
+                        width: 80px;
+                        box-shadow: 0 0 0 1px rgba(0, 0, 0, .1);
+                        &:hover {
+                            color: #ff1e32;
+                        }
+                    }
+                }
+            }
+        }
+        .center {
+            width: 550px;
+            border: 1px solid #e9e9e9;
+            border-right: 0;
+            border-bottom: 0;
+            .centerList li {
+                width: 49.8%;
+                height: 269px;
+                float: left;
+                text-align: center;
+                border: 1px solid #e9e9e9;
+                border-width: 0 1px 1px 0;
+                a {
+                    text-decoration: none;
+                    .tit {
+                        font-size: 24px;
+                        color: #333;
+                        font-weight: 400;
+                        line-height: 24px;
+                        margin: 0 10px;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        border-top: 0;
+                        height: 49px;
+                    }
+                    .desc {
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin: 10px 10px 14px;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        color: #666;
+                    }
+                    img {
+                        width: 188px;
+                        height: 144px;
+                    }
+                }
+            }
+        }
+        .right {
+            width: 219px;
+            border: 1px solid #e9e9e9;
+            border-width: 0 1px 1px 0;
+            .tit {
+                font-size: 16px;
+                line-height: 58px;
+                padding: 0 0 0 10px;
+                color: #333;
+                font-weight: 700;
+                height: 58px;
+                border: 1px solid #e9e9e9;
+                border-width: 1px 1px 1px 0;
+                position: relative;
+            }
+            .loopListBox {
+                width: 100%;
+                height: 480px;
+                overflow: hidden;
+                iframe {
+                    width: 219px;
+                    height: 480px;
+                }
+            }
+        }
+    }
+    .brandList {
+        margin: 20px 0 40px;
+        border: 1px solid #eaeaea;
+        line-height: 167px;
+        background: #fff;
+        .tit {
+            font-size: 16px;
+            color: #000;
+            font-weight: 700;
+            text-indent: 20px;
+            line-height: 48px;
+            height: 48px;
+            border-bottom: 1px solid #eaeaea;
+            padding-top: 0;
+        }
+        .brand_list {
+            display: flex;
+            li {
+                width: 25%;
+                text-align: center;
+                border-right: 1px solid #eaeaea;
+                position: relative;
+                a span {
+                    background: url(../images/heart.png) no-repeat;
+                    display: none;
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    width: 20px;
+                    height: 20px;
+                    background-position: 50%;
+                }
+                &:hover {
+                    a span {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
