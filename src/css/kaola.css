@@ -1354,7 +1354,7 @@ main #banner .sell_point .content .downLoad a:hover {
 main #content {
   position: relative;
   width: 100%;
-  min-height: 1600px;
+  min-height: 2600px;
   padding-top: 15px;
 }
 main #content .cont_1 {
@@ -1661,6 +1661,164 @@ main #content .hotBrand .cnt .hot_brand li .action .enter {
 }
 main #content .hotBrand .cnt .hot_brand li .action .enter:hover {
   background: #fff4f5;
+}
+main #content .Beauty_makeupFloor {
+  width: 1090px;
+  margin: 40px auto;
+}
+main #content .Beauty_makeupFloor .title {
+  height: 74px;
+  padding-top: 25px;
+  border-top: 1px solid #e9e9e9;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #999;
+  position: relative;
+  line-height: 32px;
+}
+main #content .Beauty_makeupFloor .title h2 {
+  float: left;
+  font-size: 22px;
+  margin-right: 20px;
+}
+main #content .Beauty_makeupFloor .title h2 .tex {
+  font-weight: bold;
+  color: #333;
+}
+main #content .Beauty_makeupFloor .title .hots_search_words {
+  float: left;
+  position: relative;
+  top: 3px;
+  font-size: 14px;
+  color: #999;
+}
+main #content .Beauty_makeupFloor .title .hots_search_words li {
+  float: left;
+  margin-right: 14px;
+}
+main #content .Beauty_makeupFloor .title .hots_search_words li a {
+  color: #999;
+}
+main #content .Beauty_makeupFloor .title .hots_search_words li a:hover {
+  text-decoration: underline;
+}
+main #content .Beauty_makeupFloor .title .hots_search_words li .red {
+  color: #ff080f;
+}
+main #content .Beauty_makeupFloor .title .more {
+  position: absolute;
+  right: 0;
+  top: 24px;
+  font-size: 14px;
+  color: #999;
+}
+main #content .Beauty_makeupFloor .title .more:hover {
+  text-decoration: underline;
+}
+main #content .Beauty_makeupFloor .cont {
+  background: #fff;
+  height: 541px;
+}
+main #content .Beauty_makeupFloor .cont .left,
+main #content .Beauty_makeupFloor .cont .center,
+main #content .Beauty_makeupFloor .cont .right {
+  float: left;
+  position: relative;
+}
+main #content .Beauty_makeupFloor .cont .left .pic img {
+  width: 330px;
+  height: 541px;
+}
+main #content .Beauty_makeupFloor .cont .left ul {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+}
+main #content .Beauty_makeupFloor .cont .left ul li {
+  float: left;
+  margin: 0 18px 8px 0;
+}
+main #content .Beauty_makeupFloor .cont .left ul li a {
+  text-align: center;
+  display: block;
+  height: 18px;
+  padding: 11px 0;
+  overflow: hidden;
+  font-size: 12px;
+  color: #333;
+  border-radius: 40px;
+  background: #fff;
+  border: 1px solid #eee;
+  width: 80px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+main #content .Beauty_makeupFloor .cont .left ul li a:hover {
+  color: #ff1e32;
+}
+main #content .Beauty_makeupFloor .cont .center {
+  width: 550px;
+  border: 1px solid #e9e9e9;
+  border-right: 0;
+  border-bottom: 0;
+}
+main #content .Beauty_makeupFloor .cont .center .centerList li {
+  width: 274px;
+  height: 269px;
+  float: left;
+  text-align: center;
+  border: 1px solid #e9e9e9;
+  border-width: 0 1px 1px 0;
+}
+main #content .Beauty_makeupFloor .cont .center .centerList li a {
+  text-decoration: none;
+}
+main #content .Beauty_makeupFloor .cont .center .centerList li a .tit {
+  font-size: 24px;
+  color: #333;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-top: 0;
+  height: 49px;
+}
+main #content .Beauty_makeupFloor .cont .center .centerList li a .desc {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 10px 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #666;
+}
+main #content .Beauty_makeupFloor .cont .center .centerList li a img {
+  width: 188px;
+  height: 144px;
+}
+main #content .Beauty_makeupFloor .cont .right {
+  width: 219px;
+  border: 1px solid #e9e9e9;
+  border-width: 0 1px 1px 0;
+}
+main #content .Beauty_makeupFloor .cont .right .tit {
+  font-size: 16px;
+  line-height: 58px;
+  padding: 0 0 0 10px;
+  color: #333;
+  font-weight: 700;
+  height: 58px;
+  border: 1px solid #e9e9e9;
+  border-width: 1px 1px 1px 0;
+  position: relative;
+}
+main #content .Beauty_makeupFloor .cont .right .loopList {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=kaola.css.map */
