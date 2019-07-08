@@ -21,6 +21,10 @@
     $('.healthcareFloor').load('html/page/index/healthcareFloor.html');
     //数码家电
     $('.digitalFloor').load('html/page/index/digitalFloor.html');
+    //个人洗护
+    $('.personal_careFloor').load('html/page/index/personal_careFloor.html');
+    //服饰鞋靴
+    $('.clothingFloor').load('html/page/index/clothingFloor.html');
 
 
 
@@ -93,5 +97,16 @@
     $('.floor_jump').on('click', '.item4', function() {
         window.scrollTo(0, 4700);
     });
+
+    //个人洗护
+    $('.floor_jump').on('click', '.item5', function() {
+        window.scrollTo(0, 5585);
+    });
+
+    //服饰鞋靴
+    $('.floor_jump').on('click', '.item6', function() {
+        window.scrollTo(0, 6475);
+    });
+
 
 })();
