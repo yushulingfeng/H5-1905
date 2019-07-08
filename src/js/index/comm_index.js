@@ -5,6 +5,8 @@
     $('#navBox').load('html/component/nav.html');
     //轮播图
     $('#banner').load('html/page/index/banner.html');
+    //右侧悬挂
+    $('.suspension_right').load('html/page/index/suspension.html');
     //限时购
     $('#content .flashSale').load('html/page/index/flashSale.html');
     //热门品牌
@@ -20,5 +22,7 @@
             $('.topFixed').css('display', 'none');
         }
     }
+
+
 
 })();

@@ -1,0 +1,110 @@
+.suspension_right {
+    display: block;
+    right: 80px;
+    position: absolute;
+    top: 55px;
+    z-index: 99;
+    width: 62px;
+    height: 245px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    li a {
+        display: block;
+        width: 62px;
+        height: 49px;
+        padding: 12px 0 0;
+        border-bottom: 1px solid #eaeaea;
+        background: #fff;
+        font-size: 12px;
+        cursor: pointer;
+        text-align: center;
+        color: #333;
+        &:hover {
+            color: #ff1e32;
+            background: #f6f6f6;
+            .sign {
+                background: url(../images/sign_hover.png);
+            }
+            .cart {
+                background: url(../images/cart_right_hover.png);
+            }
+            .app {
+                background: url(../images/app_hover.png);
+                background-size: 20px 20px;
+            }
+            .top {
+                background: url(../images/top_hover.png);
+            }
+            .hover,
+            .qr_code {
+                display: block;
+            }
+        }
+        i {
+            display: block;
+            width: 20px;
+            height: 20px;
+            margin: 0 auto;
+            background-repeat: no-repeat;
+            background-position: 50%;
+        }
+        .sign {
+            background: url(../images/sign.png);
+        }
+        .cart {
+            background: url(../images/cart_right.png);
+        }
+        .app {
+            background: url(../images/app.png);
+        }
+        .top {
+            background: url(../images/top.png);
+        }
+        .hover {
+            display: none;
+            position: absolute;
+            left: -100px;
+            top: 10px;
+            width: 66px;
+            border-radius: 5px;
+            background: #fff;
+            text-align: center;
+            border: 1px solid #ededee;
+            padding: 10px;
+            .txt {
+                font-size: 12px;
+                display: block;
+                line-height: 16px;
+                color: #333;
+            }
+            .arrow {
+                position: absolute;
+                top: 10px;
+                right: 0;
+                .arr {
+                    position: absolute;
+                    right: -18px;
+                    border-width: 9px;
+                    border-style: dashed dashed dashed solid;
+                    border-color: transparent transparent transparent #e4e4e4;
+                }
+                .arr2 {
+                    position: absolute;
+                    right: -17px;
+                    border-width: 9px;
+                    border-style: dashed dashed dashed solid;
+                    border-color: transparent transparent transparent #fff;
+                }
+            }
+        }
+        .qr_code {
+            display: none;
+            position: absolute;
+            left: -110px;
+            top: 106px;
+            width: 105px;
+            height: 142px;
+            background: url(../images/qrcode.png) no-repeat;
+        }
+    }
+}

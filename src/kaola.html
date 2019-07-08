@@ -19,23 +19,28 @@
         <div id="navBox">
             <!-- 导航公共模块引入 -->
         </div>
+
         <div id="banner">
             <!-- 轮播图引入 -->
         </div>
-        <div id="content">
-            <!-- 回到顶部悬挂侧栏 -->
-            <ul class="suspension_right">
 
+        <div id="content">
+            <ul class="suspension_right">
+                <!-- 回到顶部悬挂侧栏 -->
             </ul>
+
             <div class="flashSale">
                 <!-- 限时购 -->
             </div>
+
             <div class="hotBrand">
                 <!-- 热门品牌 -->
             </div>
+
             <div class="Beauty_makeupFloor">
                 <!-- 美妆专区 -->
             </div>
+
         </div>
     </main>
     <footer>
@@ -50,7 +55,15 @@
 <script>
     (() => {
 
+        let suspension = document.querySelector('.suspension_right');
 
+
+        document.onscroll = function() {
+            console.log(suspension.offsetTop)
+                // if (scrollY >= 630) {
+                //     $('.suspension_right')
+                // }
+        }
 
     })();
 </script>
