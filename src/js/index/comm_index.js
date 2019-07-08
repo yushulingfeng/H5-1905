@@ -7,12 +7,26 @@
     $('#banner').load('html/page/index/banner.html');
     //右侧悬挂
     $('.suspension_right').load('html/page/index/suspension.html');
+    //楼层跳跃
+    $('.floor_jump').load('html/page/index/floor_jump.html');
     //限时购
     $('#content .flashSale').load('html/page/index/flashSale.html');
     //热门品牌
     $('#content .hotBrand').load('html/page/index/hotBrand.html');
     //美妆专区
     $('.Beauty_makeupFloor').load('html/page/index/Beauty_makeupFloor.html');
+    //母婴专区
+    $('.muying_product').load('html/page/index/muying_product.html');
+    //营养保健
+    $('.healthcareFloor').load('html/page/index/healthcareFloor.html');
+    //数码家电
+    $('.digitalFloor').load('html/page/index/digitalFloor.html');
+
+
+
+
+
+
 
     //吸顶搜索栏
     window.onscroll = function() {
@@ -28,9 +42,9 @@
     let floor_jump = document.querySelector('.floor_jump');
 
     document.onscroll = function() {
-        // console.log(scrollY)
-        // console.log(suspension.offsetHeight)
-        // let top = window.innerHeight - suspension.offsetHeight;
+        console.log(scrollY)
+            // console.log(suspension.offsetHeight)
+            // let top = window.innerHeight - suspension.offsetHeight;
         if (scrollY >= 655) {
             suspension.style.position = 'fixed';
             suspension.style.top = '70px';
@@ -47,6 +61,37 @@
     //点击回到顶部事件
     $('.suspension_right').on('click', '.topBtn', function() {
         window.scrollTo(0, 0);
-    })
+    });
+
+    //点击跳转对应楼层
+    //限时购
+    $('.floor_jump').on('click', '.jump_flashSale', function() {
+        window.scrollTo(0, 1050);
+    });
+
+    //热门品牌
+    $('.floor_jump').on('click', '.jump_hotBrand', function() {
+        window.scrollTo(0, 1550);
+    });
+
+    //美妆专区
+    $('.floor_jump').on('click', '.item1', function() {
+        window.scrollTo(0, 2015);
+    });
+
+    //母婴专区
+    $('.floor_jump').on('click', '.item2', function() {
+        window.scrollTo(0, 2910);
+    });
+
+    //营养保健
+    $('.floor_jump').on('click', '.item3', function() {
+        window.scrollTo(0, 3800);
+    });
+
+    //数码家电
+    $('.floor_jump').on('click', '.item4', function() {
+        window.scrollTo(0, 4700);
+    });
 
 })();

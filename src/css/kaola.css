@@ -1354,7 +1354,7 @@ main #banner .sell_point .content .downLoad a:hover {
 main #content {
   position: relative;
   width: 100%;
-  min-height: 2600px;
+  min-height: 100%;
   padding-top: 15px;
 }
 main #content .suspension_right {
@@ -1482,6 +1482,47 @@ main #content .floor_jump .topImg {
   display: block;
   height: 49px;
   border-bottom: 1px solid #eaeaea;
+}
+main #content .floor_jump h3 {
+  height: 51px;
+  padding-left: 10px;
+  text-align: left;
+  line-height: 51px;
+  border-bottom: 1px solid #eaeaea;
+  cursor: pointer;
+}
+main #content .floor_jump h3 a {
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+}
+main #content .floor_jump h3:hover {
+  background: #f6f6f6;
+}
+main #content .floor_jump h3:hover a {
+  color: #ff1e32;
+}
+main #content .floor_jump .con_floor {
+  padding: 10px 0;
+}
+main #content .floor_jump .con_floor li {
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 10px;
+  font-size: 12px;
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+main #content .floor_jump .con_floor li:hover {
+  color: #ff1e32;
+  background: #f6f6f6;
+}
+main #content .floor_jump .lastImg {
+  height: 129px;
+  display: block;
+  border-top: 1px solid #eaeaea;
 }
 main #content .cont_1 {
   width: 100%;
@@ -1788,11 +1829,17 @@ main #content .hotBrand .cnt .hot_brand li .action .enter {
 main #content .hotBrand .cnt .hot_brand li .action .enter:hover {
   background: #fff4f5;
 }
-main #content .Beauty_makeupFloor {
+main #content .Beauty_makeupFloor,
+main #content .muying_product,
+main #content .healthcareFloor,
+main #content .digitalFloor {
   width: 1090px;
   margin: 40px auto;
 }
-main #content .Beauty_makeupFloor .title {
+main #content .Beauty_makeupFloor .title,
+main #content .muying_product .title,
+main #content .healthcareFloor .title,
+main #content .digitalFloor .title {
   height: 74px;
   padding-top: 25px;
   border-top: 1px solid #e9e9e9;
@@ -1803,69 +1850,120 @@ main #content .Beauty_makeupFloor .title {
   position: relative;
   line-height: 32px;
 }
-main #content .Beauty_makeupFloor .title h2 {
+main #content .Beauty_makeupFloor .title h2,
+main #content .muying_product .title h2,
+main #content .healthcareFloor .title h2,
+main #content .digitalFloor .title h2 {
   float: left;
   font-size: 22px;
   margin-right: 20px;
 }
-main #content .Beauty_makeupFloor .title h2 .tex {
+main #content .Beauty_makeupFloor .title h2 .tex,
+main #content .muying_product .title h2 .tex,
+main #content .healthcareFloor .title h2 .tex,
+main #content .digitalFloor .title h2 .tex {
   font-weight: bold;
   color: #333;
 }
-main #content .Beauty_makeupFloor .title .hots_search_words {
+main #content .Beauty_makeupFloor .title .hots_search_words,
+main #content .muying_product .title .hots_search_words,
+main #content .healthcareFloor .title .hots_search_words,
+main #content .digitalFloor .title .hots_search_words {
   float: left;
   position: relative;
   top: 3px;
   font-size: 14px;
   color: #999;
 }
-main #content .Beauty_makeupFloor .title .hots_search_words li {
+main #content .Beauty_makeupFloor .title .hots_search_words li,
+main #content .muying_product .title .hots_search_words li,
+main #content .healthcareFloor .title .hots_search_words li,
+main #content .digitalFloor .title .hots_search_words li {
   float: left;
   margin-right: 14px;
 }
-main #content .Beauty_makeupFloor .title .hots_search_words li a {
+main #content .Beauty_makeupFloor .title .hots_search_words li a,
+main #content .muying_product .title .hots_search_words li a,
+main #content .healthcareFloor .title .hots_search_words li a,
+main #content .digitalFloor .title .hots_search_words li a {
   color: #999;
 }
-main #content .Beauty_makeupFloor .title .hots_search_words li a:hover {
+main #content .Beauty_makeupFloor .title .hots_search_words li a:hover,
+main #content .muying_product .title .hots_search_words li a:hover,
+main #content .healthcareFloor .title .hots_search_words li a:hover,
+main #content .digitalFloor .title .hots_search_words li a:hover {
   text-decoration: underline;
 }
-main #content .Beauty_makeupFloor .title .hots_search_words li .red {
+main #content .Beauty_makeupFloor .title .hots_search_words li .red,
+main #content .muying_product .title .hots_search_words li .red,
+main #content .healthcareFloor .title .hots_search_words li .red,
+main #content .digitalFloor .title .hots_search_words li .red {
   color: #ff080f;
 }
-main #content .Beauty_makeupFloor .title .more {
+main #content .Beauty_makeupFloor .title .more,
+main #content .muying_product .title .more,
+main #content .healthcareFloor .title .more,
+main #content .digitalFloor .title .more {
   position: absolute;
   right: 0;
   top: 24px;
   font-size: 14px;
   color: #999;
 }
-main #content .Beauty_makeupFloor .title .more:hover {
+main #content .Beauty_makeupFloor .title .more:hover,
+main #content .muying_product .title .more:hover,
+main #content .healthcareFloor .title .more:hover,
+main #content .digitalFloor .title .more:hover {
   text-decoration: underline;
 }
-main #content .Beauty_makeupFloor .cont {
+main #content .Beauty_makeupFloor .cont,
+main #content .muying_product .cont,
+main #content .healthcareFloor .cont,
+main #content .digitalFloor .cont {
   background: #fff;
   height: 541px;
   display: flex;
 }
 main #content .Beauty_makeupFloor .cont .left,
 main #content .Beauty_makeupFloor .cont .center,
-main #content .Beauty_makeupFloor .cont .right {
+main #content .Beauty_makeupFloor .cont .right,
+main #content .muying_product .cont .left,
+main #content .muying_product .cont .center,
+main #content .muying_product .cont .right,
+main #content .healthcareFloor .cont .left,
+main #content .healthcareFloor .cont .center,
+main #content .healthcareFloor .cont .right,
+main #content .digitalFloor .cont .left,
+main #content .digitalFloor .cont .center,
+main #content .digitalFloor .cont .right {
   position: relative;
 }
-main #content .Beauty_makeupFloor .cont .left .pic img {
+main #content .Beauty_makeupFloor .cont .left .pic img,
+main #content .muying_product .cont .left .pic img,
+main #content .healthcareFloor .cont .left .pic img,
+main #content .digitalFloor .cont .left .pic img {
   width: 330px;
   height: 541px;
 }
-main #content .Beauty_makeupFloor .cont .left ul {
+main #content .Beauty_makeupFloor .cont .left ul,
+main #content .muying_product .cont .left ul,
+main #content .healthcareFloor .cont .left ul,
+main #content .digitalFloor .cont .left ul {
   position: absolute;
   left: 24px;
   bottom: 24px;
 }
-main #content .Beauty_makeupFloor .cont .left ul li {
+main #content .Beauty_makeupFloor .cont .left ul li,
+main #content .muying_product .cont .left ul li,
+main #content .healthcareFloor .cont .left ul li,
+main #content .digitalFloor .cont .left ul li {
   float: left;
   margin: 0 18px 8px 0;
 }
-main #content .Beauty_makeupFloor .cont .left ul li a {
+main #content .Beauty_makeupFloor .cont .left ul li a,
+main #content .muying_product .cont .left ul li a,
+main #content .healthcareFloor .cont .left ul li a,
+main #content .digitalFloor .cont .left ul li a {
   text-align: center;
   display: block;
   height: 18px;
@@ -1879,16 +1977,25 @@ main #content .Beauty_makeupFloor .cont .left ul li a {
   width: 80px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
-main #content .Beauty_makeupFloor .cont .left ul li a:hover {
+main #content .Beauty_makeupFloor .cont .left ul li a:hover,
+main #content .muying_product .cont .left ul li a:hover,
+main #content .healthcareFloor .cont .left ul li a:hover,
+main #content .digitalFloor .cont .left ul li a:hover {
   color: #ff1e32;
 }
-main #content .Beauty_makeupFloor .cont .center {
+main #content .Beauty_makeupFloor .cont .center,
+main #content .muying_product .cont .center,
+main #content .healthcareFloor .cont .center,
+main #content .digitalFloor .cont .center {
   width: 550px;
   border: 1px solid #e9e9e9;
   border-right: 0;
   border-bottom: 0;
 }
-main #content .Beauty_makeupFloor .cont .center .centerList li {
+main #content .Beauty_makeupFloor .cont .center .centerList li,
+main #content .muying_product .cont .center .centerList li,
+main #content .healthcareFloor .cont .center .centerList li,
+main #content .digitalFloor .cont .center .centerList li {
   width: 49.8%;
   height: 269px;
   float: left;
@@ -1896,10 +2003,16 @@ main #content .Beauty_makeupFloor .cont .center .centerList li {
   border: 1px solid #e9e9e9;
   border-width: 0 1px 1px 0;
 }
-main #content .Beauty_makeupFloor .cont .center .centerList li a {
+main #content .Beauty_makeupFloor .cont .center .centerList li a,
+main #content .muying_product .cont .center .centerList li a,
+main #content .healthcareFloor .cont .center .centerList li a,
+main #content .digitalFloor .cont .center .centerList li a {
   text-decoration: none;
 }
-main #content .Beauty_makeupFloor .cont .center .centerList li a .tit {
+main #content .Beauty_makeupFloor .cont .center .centerList li a .tit,
+main #content .muying_product .cont .center .centerList li a .tit,
+main #content .healthcareFloor .cont .center .centerList li a .tit,
+main #content .digitalFloor .cont .center .centerList li a .tit {
   font-size: 24px;
   color: #333;
   font-weight: 400;
@@ -1911,7 +2024,10 @@ main #content .Beauty_makeupFloor .cont .center .centerList li a .tit {
   border-top: 0;
   height: 49px;
 }
-main #content .Beauty_makeupFloor .cont .center .centerList li a .desc {
+main #content .Beauty_makeupFloor .cont .center .centerList li a .desc,
+main #content .muying_product .cont .center .centerList li a .desc,
+main #content .healthcareFloor .cont .center .centerList li a .desc,
+main #content .digitalFloor .cont .center .centerList li a .desc {
   font-size: 14px;
   line-height: 20px;
   margin: 10px 10px 14px;
@@ -1920,16 +2036,25 @@ main #content .Beauty_makeupFloor .cont .center .centerList li a .desc {
   overflow: hidden;
   color: #666;
 }
-main #content .Beauty_makeupFloor .cont .center .centerList li a img {
+main #content .Beauty_makeupFloor .cont .center .centerList li a img,
+main #content .muying_product .cont .center .centerList li a img,
+main #content .healthcareFloor .cont .center .centerList li a img,
+main #content .digitalFloor .cont .center .centerList li a img {
   width: 188px;
   height: 144px;
 }
-main #content .Beauty_makeupFloor .cont .right {
+main #content .Beauty_makeupFloor .cont .right,
+main #content .muying_product .cont .right,
+main #content .healthcareFloor .cont .right,
+main #content .digitalFloor .cont .right {
   width: 219px;
   border: 1px solid #e9e9e9;
   border-width: 0 1px 1px 0;
 }
-main #content .Beauty_makeupFloor .cont .right .tit {
+main #content .Beauty_makeupFloor .cont .right .tit,
+main #content .muying_product .cont .right .tit,
+main #content .healthcareFloor .cont .right .tit,
+main #content .digitalFloor .cont .right .tit {
   font-size: 16px;
   line-height: 58px;
   padding: 0 0 0 10px;
@@ -1940,22 +2065,34 @@ main #content .Beauty_makeupFloor .cont .right .tit {
   border-width: 1px 1px 1px 0;
   position: relative;
 }
-main #content .Beauty_makeupFloor .cont .right .loopListBox {
+main #content .Beauty_makeupFloor .cont .right .loopListBox,
+main #content .muying_product .cont .right .loopListBox,
+main #content .healthcareFloor .cont .right .loopListBox,
+main #content .digitalFloor .cont .right .loopListBox {
   width: 100%;
   height: 480px;
   overflow: hidden;
 }
-main #content .Beauty_makeupFloor .cont .right .loopListBox iframe {
+main #content .Beauty_makeupFloor .cont .right .loopListBox iframe,
+main #content .muying_product .cont .right .loopListBox iframe,
+main #content .healthcareFloor .cont .right .loopListBox iframe,
+main #content .digitalFloor .cont .right .loopListBox iframe {
   width: 219px;
   height: 480px;
 }
-main #content .Beauty_makeupFloor .brandList {
+main #content .Beauty_makeupFloor .brandList,
+main #content .muying_product .brandList,
+main #content .healthcareFloor .brandList,
+main #content .digitalFloor .brandList {
   margin: 20px 0 40px;
   border: 1px solid #eaeaea;
   line-height: 167px;
   background: #fff;
 }
-main #content .Beauty_makeupFloor .brandList .tit {
+main #content .Beauty_makeupFloor .brandList .tit,
+main #content .muying_product .brandList .tit,
+main #content .healthcareFloor .brandList .tit,
+main #content .digitalFloor .brandList .tit {
   font-size: 16px;
   color: #000;
   font-weight: 700;
@@ -1965,16 +2102,25 @@ main #content .Beauty_makeupFloor .brandList .tit {
   border-bottom: 1px solid #eaeaea;
   padding-top: 0;
 }
-main #content .Beauty_makeupFloor .brandList .brand_list {
+main #content .Beauty_makeupFloor .brandList .brand_list,
+main #content .muying_product .brandList .brand_list,
+main #content .healthcareFloor .brandList .brand_list,
+main #content .digitalFloor .brandList .brand_list {
   display: flex;
 }
-main #content .Beauty_makeupFloor .brandList .brand_list li {
+main #content .Beauty_makeupFloor .brandList .brand_list li,
+main #content .muying_product .brandList .brand_list li,
+main #content .healthcareFloor .brandList .brand_list li,
+main #content .digitalFloor .brandList .brand_list li {
   width: 25%;
   text-align: center;
   border-right: 1px solid #eaeaea;
   position: relative;
 }
-main #content .Beauty_makeupFloor .brandList .brand_list li a span {
+main #content .Beauty_makeupFloor .brandList .brand_list li a span,
+main #content .muying_product .brandList .brand_list li a span,
+main #content .healthcareFloor .brandList .brand_list li a span,
+main #content .digitalFloor .brandList .brand_list li a span {
   background: url(../images/heart.png) no-repeat;
   display: none;
   position: absolute;
@@ -1984,7 +2130,10 @@ main #content .Beauty_makeupFloor .brandList .brand_list li a span {
   height: 20px;
   background-position: 50%;
 }
-main #content .Beauty_makeupFloor .brandList .brand_list li:hover a span {
+main #content .Beauty_makeupFloor .brandList .brand_list li:hover a span,
+main #content .muying_product .brandList .brand_list li:hover a span,
+main #content .healthcareFloor .brandList .brand_list li:hover a span,
+main #content .digitalFloor .brandList .brand_list li:hover a span {
   display: block;
 }
 

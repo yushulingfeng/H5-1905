@@ -3,7 +3,7 @@ main {
         @import 'suspension_menu.scss';
         position: relative;
         width: 100%;
-        min-height: 2600px;
+        min-height: 100%;
         padding-top: 15px;
         .cont_1 {
             width: 100%;
@@ -294,6 +294,6 @@ main {
                 }
             }
         }
-        @import 'Beauty_makeupFloor.scss';
+        @import 'productFloor.scss';
     }
 }
