@@ -25,8 +25,16 @@
     $('.personal_careFloor').load('html/page/index/personal_careFloor.html');
     //服饰鞋靴
     $('.clothingFloor').load('html/page/index/clothingFloor.html');
-
-
+    //轻奢馆 
+    $('.light_luxury_halFloor').load('html/page/index/light_luxury_halFloor.html');
+    //手表配饰
+    $('.watchFloor').load('html/page/index/watchFloor.html');
+    //运动户外
+    $('.sportsFloor').load('html/page/index/sportsFloor.html');
+    //家居生活
+    $('.home_lifeFloor').load('html/page/index/home_lifeFloor.html');
+    //美食生鲜
+    $('.foodFloor').load('html/page/index/foodFloor.html');
 
 
 
@@ -106,6 +114,31 @@
     //服饰鞋靴
     $('.floor_jump').on('click', '.item6', function() {
         window.scrollTo(0, 6475);
+    });
+
+    //轻奢馆
+    $('.floor_jump').on('click', '.item7', function() {
+        window.scrollTo(0, 7370);
+    });
+
+    //手表配饰
+    $('.floor_jump').on('click', '.item8', function() {
+        window.scrollTo(0, 8260);
+    });
+
+    //运动户外
+    $('.floor_jump').on('click', '.item9', function() {
+        window.scrollTo(0, 7370);
+    });
+
+    //家居生活
+    $('.floor_jump').on('click', '.item10', function() {
+        window.scrollTo(0, 9150);
+    });
+
+    //美食生鲜
+    $('.floor_jump').on('click', '.item11', function() {
+        window.scrollTo(0, 10045);
     });
 
 

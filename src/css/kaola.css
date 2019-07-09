@@ -1834,7 +1834,12 @@ main #content .muying_product,
 main #content .healthcareFloor,
 main #content .digitalFloor,
 main #content .personal_careFloor,
-main #content .clothingFloor {
+main #content .clothingFloor,
+main #content .light_luxury_halFloor,
+main #content .watchFloor,
+main #content .sportsFloor,
+main #content .home_lifeFloor,
+main #content .foodFloor {
   width: 1090px;
   margin: 40px auto;
 }
@@ -1843,7 +1848,12 @@ main #content .muying_product .title,
 main #content .healthcareFloor .title,
 main #content .digitalFloor .title,
 main #content .personal_careFloor .title,
-main #content .clothingFloor .title {
+main #content .clothingFloor .title,
+main #content .light_luxury_halFloor .title,
+main #content .watchFloor .title,
+main #content .sportsFloor .title,
+main #content .home_lifeFloor .title,
+main #content .foodFloor .title {
   height: 74px;
   padding-top: 25px;
   border-top: 1px solid #e9e9e9;
@@ -1859,7 +1869,12 @@ main #content .muying_product .title h2,
 main #content .healthcareFloor .title h2,
 main #content .digitalFloor .title h2,
 main #content .personal_careFloor .title h2,
-main #content .clothingFloor .title h2 {
+main #content .clothingFloor .title h2,
+main #content .light_luxury_halFloor .title h2,
+main #content .watchFloor .title h2,
+main #content .sportsFloor .title h2,
+main #content .home_lifeFloor .title h2,
+main #content .foodFloor .title h2 {
   float: left;
   font-size: 22px;
   margin-right: 20px;
@@ -1869,7 +1884,12 @@ main #content .muying_product .title h2 .tex,
 main #content .healthcareFloor .title h2 .tex,
 main #content .digitalFloor .title h2 .tex,
 main #content .personal_careFloor .title h2 .tex,
-main #content .clothingFloor .title h2 .tex {
+main #content .clothingFloor .title h2 .tex,
+main #content .light_luxury_halFloor .title h2 .tex,
+main #content .watchFloor .title h2 .tex,
+main #content .sportsFloor .title h2 .tex,
+main #content .home_lifeFloor .title h2 .tex,
+main #content .foodFloor .title h2 .tex {
   font-weight: bold;
   color: #333;
 }
@@ -1878,7 +1898,12 @@ main #content .muying_product .title .hots_search_words,
 main #content .healthcareFloor .title .hots_search_words,
 main #content .digitalFloor .title .hots_search_words,
 main #content .personal_careFloor .title .hots_search_words,
-main #content .clothingFloor .title .hots_search_words {
+main #content .clothingFloor .title .hots_search_words,
+main #content .light_luxury_halFloor .title .hots_search_words,
+main #content .watchFloor .title .hots_search_words,
+main #content .sportsFloor .title .hots_search_words,
+main #content .home_lifeFloor .title .hots_search_words,
+main #content .foodFloor .title .hots_search_words {
   float: left;
   position: relative;
   top: 3px;
@@ -1890,7 +1915,12 @@ main #content .muying_product .title .hots_search_words li,
 main #content .healthcareFloor .title .hots_search_words li,
 main #content .digitalFloor .title .hots_search_words li,
 main #content .personal_careFloor .title .hots_search_words li,
-main #content .clothingFloor .title .hots_search_words li {
+main #content .clothingFloor .title .hots_search_words li,
+main #content .light_luxury_halFloor .title .hots_search_words li,
+main #content .watchFloor .title .hots_search_words li,
+main #content .sportsFloor .title .hots_search_words li,
+main #content .home_lifeFloor .title .hots_search_words li,
+main #content .foodFloor .title .hots_search_words li {
   float: left;
   margin-right: 14px;
 }
@@ -1899,7 +1929,12 @@ main #content .muying_product .title .hots_search_words li a,
 main #content .healthcareFloor .title .hots_search_words li a,
 main #content .digitalFloor .title .hots_search_words li a,
 main #content .personal_careFloor .title .hots_search_words li a,
-main #content .clothingFloor .title .hots_search_words li a {
+main #content .clothingFloor .title .hots_search_words li a,
+main #content .light_luxury_halFloor .title .hots_search_words li a,
+main #content .watchFloor .title .hots_search_words li a,
+main #content .sportsFloor .title .hots_search_words li a,
+main #content .home_lifeFloor .title .hots_search_words li a,
+main #content .foodFloor .title .hots_search_words li a {
   color: #999;
 }
 main #content .Beauty_makeupFloor .title .hots_search_words li a:hover,
@@ -1907,7 +1942,12 @@ main #content .muying_product .title .hots_search_words li a:hover,
 main #content .healthcareFloor .title .hots_search_words li a:hover,
 main #content .digitalFloor .title .hots_search_words li a:hover,
 main #content .personal_careFloor .title .hots_search_words li a:hover,
-main #content .clothingFloor .title .hots_search_words li a:hover {
+main #content .clothingFloor .title .hots_search_words li a:hover,
+main #content .light_luxury_halFloor .title .hots_search_words li a:hover,
+main #content .watchFloor .title .hots_search_words li a:hover,
+main #content .sportsFloor .title .hots_search_words li a:hover,
+main #content .home_lifeFloor .title .hots_search_words li a:hover,
+main #content .foodFloor .title .hots_search_words li a:hover {
   text-decoration: underline;
 }
 main #content .Beauty_makeupFloor .title .hots_search_words li .red,
@@ -1915,7 +1955,12 @@ main #content .muying_product .title .hots_search_words li .red,
 main #content .healthcareFloor .title .hots_search_words li .red,
 main #content .digitalFloor .title .hots_search_words li .red,
 main #content .personal_careFloor .title .hots_search_words li .red,
-main #content .clothingFloor .title .hots_search_words li .red {
+main #content .clothingFloor .title .hots_search_words li .red,
+main #content .light_luxury_halFloor .title .hots_search_words li .red,
+main #content .watchFloor .title .hots_search_words li .red,
+main #content .sportsFloor .title .hots_search_words li .red,
+main #content .home_lifeFloor .title .hots_search_words li .red,
+main #content .foodFloor .title .hots_search_words li .red {
   color: #ff080f;
 }
 main #content .Beauty_makeupFloor .title .more,
@@ -1923,7 +1968,12 @@ main #content .muying_product .title .more,
 main #content .healthcareFloor .title .more,
 main #content .digitalFloor .title .more,
 main #content .personal_careFloor .title .more,
-main #content .clothingFloor .title .more {
+main #content .clothingFloor .title .more,
+main #content .light_luxury_halFloor .title .more,
+main #content .watchFloor .title .more,
+main #content .sportsFloor .title .more,
+main #content .home_lifeFloor .title .more,
+main #content .foodFloor .title .more {
   position: absolute;
   right: 0;
   top: 24px;
@@ -1935,7 +1985,12 @@ main #content .muying_product .title .more:hover,
 main #content .healthcareFloor .title .more:hover,
 main #content .digitalFloor .title .more:hover,
 main #content .personal_careFloor .title .more:hover,
-main #content .clothingFloor .title .more:hover {
+main #content .clothingFloor .title .more:hover,
+main #content .light_luxury_halFloor .title .more:hover,
+main #content .watchFloor .title .more:hover,
+main #content .sportsFloor .title .more:hover,
+main #content .home_lifeFloor .title .more:hover,
+main #content .foodFloor .title .more:hover {
   text-decoration: underline;
 }
 main #content .Beauty_makeupFloor .cont,
@@ -1943,7 +1998,12 @@ main #content .muying_product .cont,
 main #content .healthcareFloor .cont,
 main #content .digitalFloor .cont,
 main #content .personal_careFloor .cont,
-main #content .clothingFloor .cont {
+main #content .clothingFloor .cont,
+main #content .light_luxury_halFloor .cont,
+main #content .watchFloor .cont,
+main #content .sportsFloor .cont,
+main #content .home_lifeFloor .cont,
+main #content .foodFloor .cont {
   background: #fff;
   height: 541px;
   display: flex;
@@ -1965,7 +2025,22 @@ main #content .personal_careFloor .cont .center,
 main #content .personal_careFloor .cont .right,
 main #content .clothingFloor .cont .left,
 main #content .clothingFloor .cont .center,
-main #content .clothingFloor .cont .right {
+main #content .clothingFloor .cont .right,
+main #content .light_luxury_halFloor .cont .left,
+main #content .light_luxury_halFloor .cont .center,
+main #content .light_luxury_halFloor .cont .right,
+main #content .watchFloor .cont .left,
+main #content .watchFloor .cont .center,
+main #content .watchFloor .cont .right,
+main #content .sportsFloor .cont .left,
+main #content .sportsFloor .cont .center,
+main #content .sportsFloor .cont .right,
+main #content .home_lifeFloor .cont .left,
+main #content .home_lifeFloor .cont .center,
+main #content .home_lifeFloor .cont .right,
+main #content .foodFloor .cont .left,
+main #content .foodFloor .cont .center,
+main #content .foodFloor .cont .right {
   position: relative;
 }
 main #content .Beauty_makeupFloor .cont .left .pic img,
@@ -1973,7 +2048,12 @@ main #content .muying_product .cont .left .pic img,
 main #content .healthcareFloor .cont .left .pic img,
 main #content .digitalFloor .cont .left .pic img,
 main #content .personal_careFloor .cont .left .pic img,
-main #content .clothingFloor .cont .left .pic img {
+main #content .clothingFloor .cont .left .pic img,
+main #content .light_luxury_halFloor .cont .left .pic img,
+main #content .watchFloor .cont .left .pic img,
+main #content .sportsFloor .cont .left .pic img,
+main #content .home_lifeFloor .cont .left .pic img,
+main #content .foodFloor .cont .left .pic img {
   width: 330px;
   height: 541px;
 }
@@ -1982,7 +2062,12 @@ main #content .muying_product .cont .left ul,
 main #content .healthcareFloor .cont .left ul,
 main #content .digitalFloor .cont .left ul,
 main #content .personal_careFloor .cont .left ul,
-main #content .clothingFloor .cont .left ul {
+main #content .clothingFloor .cont .left ul,
+main #content .light_luxury_halFloor .cont .left ul,
+main #content .watchFloor .cont .left ul,
+main #content .sportsFloor .cont .left ul,
+main #content .home_lifeFloor .cont .left ul,
+main #content .foodFloor .cont .left ul {
   position: absolute;
   left: 24px;
   bottom: 24px;
@@ -1992,7 +2077,12 @@ main #content .muying_product .cont .left ul li,
 main #content .healthcareFloor .cont .left ul li,
 main #content .digitalFloor .cont .left ul li,
 main #content .personal_careFloor .cont .left ul li,
-main #content .clothingFloor .cont .left ul li {
+main #content .clothingFloor .cont .left ul li,
+main #content .light_luxury_halFloor .cont .left ul li,
+main #content .watchFloor .cont .left ul li,
+main #content .sportsFloor .cont .left ul li,
+main #content .home_lifeFloor .cont .left ul li,
+main #content .foodFloor .cont .left ul li {
   float: left;
   margin: 0 18px 8px 0;
 }
@@ -2001,7 +2091,12 @@ main #content .muying_product .cont .left ul li a,
 main #content .healthcareFloor .cont .left ul li a,
 main #content .digitalFloor .cont .left ul li a,
 main #content .personal_careFloor .cont .left ul li a,
-main #content .clothingFloor .cont .left ul li a {
+main #content .clothingFloor .cont .left ul li a,
+main #content .light_luxury_halFloor .cont .left ul li a,
+main #content .watchFloor .cont .left ul li a,
+main #content .sportsFloor .cont .left ul li a,
+main #content .home_lifeFloor .cont .left ul li a,
+main #content .foodFloor .cont .left ul li a {
   text-align: center;
   display: block;
   height: 18px;
@@ -2020,7 +2115,12 @@ main #content .muying_product .cont .left ul li a:hover,
 main #content .healthcareFloor .cont .left ul li a:hover,
 main #content .digitalFloor .cont .left ul li a:hover,
 main #content .personal_careFloor .cont .left ul li a:hover,
-main #content .clothingFloor .cont .left ul li a:hover {
+main #content .clothingFloor .cont .left ul li a:hover,
+main #content .light_luxury_halFloor .cont .left ul li a:hover,
+main #content .watchFloor .cont .left ul li a:hover,
+main #content .sportsFloor .cont .left ul li a:hover,
+main #content .home_lifeFloor .cont .left ul li a:hover,
+main #content .foodFloor .cont .left ul li a:hover {
   color: #ff1e32;
 }
 main #content .Beauty_makeupFloor .cont .center,
@@ -2028,7 +2128,12 @@ main #content .muying_product .cont .center,
 main #content .healthcareFloor .cont .center,
 main #content .digitalFloor .cont .center,
 main #content .personal_careFloor .cont .center,
-main #content .clothingFloor .cont .center {
+main #content .clothingFloor .cont .center,
+main #content .light_luxury_halFloor .cont .center,
+main #content .watchFloor .cont .center,
+main #content .sportsFloor .cont .center,
+main #content .home_lifeFloor .cont .center,
+main #content .foodFloor .cont .center {
   width: 550px;
   border: 1px solid #e9e9e9;
   border-right: 0;
@@ -2039,7 +2144,12 @@ main #content .muying_product .cont .center .centerList li,
 main #content .healthcareFloor .cont .center .centerList li,
 main #content .digitalFloor .cont .center .centerList li,
 main #content .personal_careFloor .cont .center .centerList li,
-main #content .clothingFloor .cont .center .centerList li {
+main #content .clothingFloor .cont .center .centerList li,
+main #content .light_luxury_halFloor .cont .center .centerList li,
+main #content .watchFloor .cont .center .centerList li,
+main #content .sportsFloor .cont .center .centerList li,
+main #content .home_lifeFloor .cont .center .centerList li,
+main #content .foodFloor .cont .center .centerList li {
   width: 49.8%;
   height: 269px;
   float: left;
@@ -2052,7 +2162,12 @@ main #content .muying_product .cont .center .centerList li a,
 main #content .healthcareFloor .cont .center .centerList li a,
 main #content .digitalFloor .cont .center .centerList li a,
 main #content .personal_careFloor .cont .center .centerList li a,
-main #content .clothingFloor .cont .center .centerList li a {
+main #content .clothingFloor .cont .center .centerList li a,
+main #content .light_luxury_halFloor .cont .center .centerList li a,
+main #content .watchFloor .cont .center .centerList li a,
+main #content .sportsFloor .cont .center .centerList li a,
+main #content .home_lifeFloor .cont .center .centerList li a,
+main #content .foodFloor .cont .center .centerList li a {
   text-decoration: none;
 }
 main #content .Beauty_makeupFloor .cont .center .centerList li a .tit,
@@ -2060,7 +2175,12 @@ main #content .muying_product .cont .center .centerList li a .tit,
 main #content .healthcareFloor .cont .center .centerList li a .tit,
 main #content .digitalFloor .cont .center .centerList li a .tit,
 main #content .personal_careFloor .cont .center .centerList li a .tit,
-main #content .clothingFloor .cont .center .centerList li a .tit {
+main #content .clothingFloor .cont .center .centerList li a .tit,
+main #content .light_luxury_halFloor .cont .center .centerList li a .tit,
+main #content .watchFloor .cont .center .centerList li a .tit,
+main #content .sportsFloor .cont .center .centerList li a .tit,
+main #content .home_lifeFloor .cont .center .centerList li a .tit,
+main #content .foodFloor .cont .center .centerList li a .tit {
   font-size: 24px;
   color: #333;
   font-weight: 400;
@@ -2077,7 +2197,12 @@ main #content .muying_product .cont .center .centerList li a .desc,
 main #content .healthcareFloor .cont .center .centerList li a .desc,
 main #content .digitalFloor .cont .center .centerList li a .desc,
 main #content .personal_careFloor .cont .center .centerList li a .desc,
-main #content .clothingFloor .cont .center .centerList li a .desc {
+main #content .clothingFloor .cont .center .centerList li a .desc,
+main #content .light_luxury_halFloor .cont .center .centerList li a .desc,
+main #content .watchFloor .cont .center .centerList li a .desc,
+main #content .sportsFloor .cont .center .centerList li a .desc,
+main #content .home_lifeFloor .cont .center .centerList li a .desc,
+main #content .foodFloor .cont .center .centerList li a .desc {
   font-size: 14px;
   line-height: 20px;
   margin: 10px 10px 14px;
@@ -2091,7 +2216,12 @@ main #content .muying_product .cont .center .centerList li a img,
 main #content .healthcareFloor .cont .center .centerList li a img,
 main #content .digitalFloor .cont .center .centerList li a img,
 main #content .personal_careFloor .cont .center .centerList li a img,
-main #content .clothingFloor .cont .center .centerList li a img {
+main #content .clothingFloor .cont .center .centerList li a img,
+main #content .light_luxury_halFloor .cont .center .centerList li a img,
+main #content .watchFloor .cont .center .centerList li a img,
+main #content .sportsFloor .cont .center .centerList li a img,
+main #content .home_lifeFloor .cont .center .centerList li a img,
+main #content .foodFloor .cont .center .centerList li a img {
   width: 188px;
   height: 144px;
 }
@@ -2100,7 +2230,12 @@ main #content .muying_product .cont .right,
 main #content .healthcareFloor .cont .right,
 main #content .digitalFloor .cont .right,
 main #content .personal_careFloor .cont .right,
-main #content .clothingFloor .cont .right {
+main #content .clothingFloor .cont .right,
+main #content .light_luxury_halFloor .cont .right,
+main #content .watchFloor .cont .right,
+main #content .sportsFloor .cont .right,
+main #content .home_lifeFloor .cont .right,
+main #content .foodFloor .cont .right {
   width: 219px;
   border: 1px solid #e9e9e9;
   border-width: 0 1px 1px 0;
@@ -2110,7 +2245,12 @@ main #content .muying_product .cont .right .tit,
 main #content .healthcareFloor .cont .right .tit,
 main #content .digitalFloor .cont .right .tit,
 main #content .personal_careFloor .cont .right .tit,
-main #content .clothingFloor .cont .right .tit {
+main #content .clothingFloor .cont .right .tit,
+main #content .light_luxury_halFloor .cont .right .tit,
+main #content .watchFloor .cont .right .tit,
+main #content .sportsFloor .cont .right .tit,
+main #content .home_lifeFloor .cont .right .tit,
+main #content .foodFloor .cont .right .tit {
   font-size: 16px;
   line-height: 58px;
   padding: 0 0 0 10px;
@@ -2126,7 +2266,12 @@ main #content .muying_product .cont .right .loopListBox,
 main #content .healthcareFloor .cont .right .loopListBox,
 main #content .digitalFloor .cont .right .loopListBox,
 main #content .personal_careFloor .cont .right .loopListBox,
-main #content .clothingFloor .cont .right .loopListBox {
+main #content .clothingFloor .cont .right .loopListBox,
+main #content .light_luxury_halFloor .cont .right .loopListBox,
+main #content .watchFloor .cont .right .loopListBox,
+main #content .sportsFloor .cont .right .loopListBox,
+main #content .home_lifeFloor .cont .right .loopListBox,
+main #content .foodFloor .cont .right .loopListBox {
   width: 100%;
   height: 480px;
   overflow: hidden;
@@ -2136,7 +2281,12 @@ main #content .muying_product .cont .right .loopListBox iframe,
 main #content .healthcareFloor .cont .right .loopListBox iframe,
 main #content .digitalFloor .cont .right .loopListBox iframe,
 main #content .personal_careFloor .cont .right .loopListBox iframe,
-main #content .clothingFloor .cont .right .loopListBox iframe {
+main #content .clothingFloor .cont .right .loopListBox iframe,
+main #content .light_luxury_halFloor .cont .right .loopListBox iframe,
+main #content .watchFloor .cont .right .loopListBox iframe,
+main #content .sportsFloor .cont .right .loopListBox iframe,
+main #content .home_lifeFloor .cont .right .loopListBox iframe,
+main #content .foodFloor .cont .right .loopListBox iframe {
   width: 219px;
   height: 480px;
 }
@@ -2145,7 +2295,12 @@ main #content .muying_product .brandList,
 main #content .healthcareFloor .brandList,
 main #content .digitalFloor .brandList,
 main #content .personal_careFloor .brandList,
-main #content .clothingFloor .brandList {
+main #content .clothingFloor .brandList,
+main #content .light_luxury_halFloor .brandList,
+main #content .watchFloor .brandList,
+main #content .sportsFloor .brandList,
+main #content .home_lifeFloor .brandList,
+main #content .foodFloor .brandList {
   margin: 20px 0 40px;
   border: 1px solid #eaeaea;
   line-height: 167px;
@@ -2156,7 +2311,12 @@ main #content .muying_product .brandList .tit,
 main #content .healthcareFloor .brandList .tit,
 main #content .digitalFloor .brandList .tit,
 main #content .personal_careFloor .brandList .tit,
-main #content .clothingFloor .brandList .tit {
+main #content .clothingFloor .brandList .tit,
+main #content .light_luxury_halFloor .brandList .tit,
+main #content .watchFloor .brandList .tit,
+main #content .sportsFloor .brandList .tit,
+main #content .home_lifeFloor .brandList .tit,
+main #content .foodFloor .brandList .tit {
   font-size: 16px;
   color: #000;
   font-weight: 700;
@@ -2171,7 +2331,12 @@ main #content .muying_product .brandList .brand_list,
 main #content .healthcareFloor .brandList .brand_list,
 main #content .digitalFloor .brandList .brand_list,
 main #content .personal_careFloor .brandList .brand_list,
-main #content .clothingFloor .brandList .brand_list {
+main #content .clothingFloor .brandList .brand_list,
+main #content .light_luxury_halFloor .brandList .brand_list,
+main #content .watchFloor .brandList .brand_list,
+main #content .sportsFloor .brandList .brand_list,
+main #content .home_lifeFloor .brandList .brand_list,
+main #content .foodFloor .brandList .brand_list {
   display: flex;
 }
 main #content .Beauty_makeupFloor .brandList .brand_list li,
@@ -2179,7 +2344,12 @@ main #content .muying_product .brandList .brand_list li,
 main #content .healthcareFloor .brandList .brand_list li,
 main #content .digitalFloor .brandList .brand_list li,
 main #content .personal_careFloor .brandList .brand_list li,
-main #content .clothingFloor .brandList .brand_list li {
+main #content .clothingFloor .brandList .brand_list li,
+main #content .light_luxury_halFloor .brandList .brand_list li,
+main #content .watchFloor .brandList .brand_list li,
+main #content .sportsFloor .brandList .brand_list li,
+main #content .home_lifeFloor .brandList .brand_list li,
+main #content .foodFloor .brandList .brand_list li {
   width: 25%;
   text-align: center;
   border-right: 1px solid #eaeaea;
@@ -2190,7 +2360,12 @@ main #content .muying_product .brandList .brand_list li a span,
 main #content .healthcareFloor .brandList .brand_list li a span,
 main #content .digitalFloor .brandList .brand_list li a span,
 main #content .personal_careFloor .brandList .brand_list li a span,
-main #content .clothingFloor .brandList .brand_list li a span {
+main #content .clothingFloor .brandList .brand_list li a span,
+main #content .light_luxury_halFloor .brandList .brand_list li a span,
+main #content .watchFloor .brandList .brand_list li a span,
+main #content .sportsFloor .brandList .brand_list li a span,
+main #content .home_lifeFloor .brandList .brand_list li a span,
+main #content .foodFloor .brandList .brand_list li a span {
   background: url(../images/heart.png) no-repeat;
   display: none;
   position: absolute;
@@ -2205,7 +2380,12 @@ main #content .muying_product .brandList .brand_list li:hover a span,
 main #content .healthcareFloor .brandList .brand_list li:hover a span,
 main #content .digitalFloor .brandList .brand_list li:hover a span,
 main #content .personal_careFloor .brandList .brand_list li:hover a span,
-main #content .clothingFloor .brandList .brand_list li:hover a span {
+main #content .clothingFloor .brandList .brand_list li:hover a span,
+main #content .light_luxury_halFloor .brandList .brand_list li:hover a span,
+main #content .watchFloor .brandList .brand_list li:hover a span,
+main #content .sportsFloor .brandList .brand_list li:hover a span,
+main #content .home_lifeFloor .brandList .brand_list li:hover a span,
+main #content .foodFloor .brandList .brand_list li:hover a span {
   display: block;
 }
 
