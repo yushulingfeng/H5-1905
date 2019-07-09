@@ -15,5 +15,235 @@ main #content .cont {
 main #content .cont .listBox {
   margin-bottom: 6px;
 }
+main #content .cont .listBox .options {
+  width: 1090px;
+  margin: 0 auto;
+}
+main #content .cont .listBox .options a {
+  color: #333;
+}
+main #content .cont .listBox .options .result_info {
+  margin-bottom: 10px;
+  line-height: 22px;
+}
+main #content .cont .listBox .options .result_info .all {
+  float: left;
+  line-height: 22px;
+  font-size: 12px;
+}
+main #content .cont .listBox .options .result_info .gap {
+  margin: 0 8px;
+  display: inline-block;
+  width: 10px;
+  color: #999;
+  font-weight: 700;
+  line-height: 22px;
+  float: left;
+}
+main #content .cont .listBox .options .result_info .phone {
+  line-height: 22px;
+  font-size: 12px;
+  float: left;
+}
+main #content .cont .listBox .options .result_info .detail_search {
+  position: relative;
+  font-size: 12px;
+  float: left;
+  margin-right: 10px;
+}
+main #content .cont .listBox .options .result_info .detail_search input {
+  width: 105px;
+  padding: 5px 24px 5px 5px;
+  height: 12px;
+  border: 1px solid #ccc;
+  margin-top: -1px;
+}
+main #content .cont .listBox .options .result_info .detail_search .searchBtn {
+  position: absolute;
+  right: 8px;
+  top: 4px;
+  cursor: pointer;
+  width: 14px;
+  background: url(http://www.kl.com/src/images/icon1.png) no-repeat;
+  height: 14px;
+  background-position: -468px -666px;
+  display: block;
+}
+main #content .cont .listBox .options .gnum {
+  height: 22px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 24px;
+  color: #999;
+}
+main #content .cont .listBox .options .gnum i {
+  color: #e31436;
+}
+main #content .cont .opertaion {
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+}
+main #content .cont .opertaion .classify {
+  border-bottom: 1px dotted #eaeaea;
+  position: relative;
+  background: #f8f8f8;
+}
+main #content .cont .opertaion .brandWrap .name,
+main #content .cont .opertaion .country .name,
+main #content .cont .opertaion .sort .name,
+main #content .cont .opertaion .property .name {
+  font-size: 12px;
+  line-height: 12px;
+  padding-top: 12px;
+  width: 85px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  float: left;
+  height: 100%;
+  padding-left: 15px;
+  color: #666;
+  background: #f8f8f8;
+}
+main #content .cont .opertaion .brandWrap .hdbrands,
+main #content .cont .opertaion .country .hdbrands,
+main #content .cont .opertaion .sort .hdbrands,
+main #content .cont .opertaion .property .hdbrands {
+  margin-left: 110px;
+  padding: 8px 10px 4px 0;
+  background-color: #fff;
+}
+main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2,
+main #content .cont .opertaion .country .hdbrands .hdbrands2,
+main #content .cont .opertaion .sort .hdbrands .hdbrands2,
+main #content .cont .opertaion .property .hdbrands .hdbrands2 {
+  height: 45px;
+  position: relative;
+  overflow: hidden;
+}
+main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .brand,
+main #content .cont .opertaion .country .hdbrands .hdbrands2 .brand,
+main #content .cont .opertaion .sort .hdbrands .hdbrands2 .brand,
+main #content .cont .opertaion .property .hdbrands .hdbrands2 .brand {
+  margin-left: 15px;
+  line-height: 14px;
+  overflow: auto;
+  font-size: 12px;
+  float: left;
+}
+main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .brand a,
+main #content .cont .opertaion .country .hdbrands .hdbrands2 .brand a,
+main #content .cont .opertaion .sort .hdbrands .hdbrands2 .brand a,
+main #content .cont .opertaion .property .hdbrands .hdbrands2 .brand a {
+  position: relative;
+  box-sizing: border-box;
+  margin-right: 18px;
+  margin-bottom: 4px;
+  padding: 3px 5px;
+  width: 120px;
+  border: 1px solid transparent;
+  font-size: 12px;
+  line-height: 12px;
+  text-decoration: none;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  float: left;
+  display: inline-block;
+  cursor: pointer;
+}
+main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .brand a:hover,
+main #content .cont .opertaion .country .hdbrands .hdbrands2 .brand a:hover,
+main #content .cont .opertaion .sort .hdbrands .hdbrands2 .brand a:hover,
+main #content .cont .opertaion .property .hdbrands .hdbrands2 .brand a:hover {
+  color: #e31436;
+}
+main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap,
+main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap,
+main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap,
+main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap {
+  position: absolute;
+  top: 4px;
+  right: -11px;
+}
+main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .more,
+main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .more,
+main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .more,
+main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .more {
+  margin-left: 0;
+  font-size: 12px;
+  position: relative;
+  float: right;
+  width: 42px;
+  margin: auto 15px;
+  line-height: 13px;
+  cursor: pointer;
+}
+main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .more span,
+main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .more span,
+main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .more span,
+main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .more span {
+  position: absolute;
+  top: 3px;
+  left: 30px;
+  width: 9px;
+  height: 6px;
+  background-position: 0 0;
+  background: url(http://www.kl.com/src/images/icon4.png) no-repeat;
+}
+main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .more:hover,
+main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .more:hover,
+main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .more:hover,
+main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .more:hover {
+  color: #e31436;
+}
+main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .more:hover span,
+main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .more:hover span,
+main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .more:hover span,
+main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .more:hover span {
+  background-position: -50px 0;
+}
+main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .item-multiple,
+main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .item-multiple,
+main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .item-multiple,
+main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .item-multiple {
+  float: right;
+  margin: -4px 15px 0 0;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 5px;
+  height: 20px;
+  line-height: 20px;
+  color: #333;
+  font-size: 12px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .item-multiple:hover,
+main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .item-multiple:hover,
+main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .item-multiple:hover,
+main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .item-multiple:hover {
+  color: #e31436;
+  border: 1px solid #e31436;
+}
+main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .item-multiple .iconfont,
+main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .item-multiple .iconfont,
+main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .item-multiple .iconfont,
+main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .item-multiple .iconfont {
+  font-size: 12px;
+  color: #333;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+}
+main #content .cont .country #countyrBrands,
+main #content .cont .sort #countyrBrands,
+main #content .cont .property #countyrBrands {
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
 
 /*# sourceMappingURL=goodList.css.map */

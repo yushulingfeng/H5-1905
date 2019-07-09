@@ -19,6 +19,201 @@ main {
             position: relative;
             .listBox {
                 margin-bottom: 6px;
+                .options {
+                    width: 1090px;
+                    margin: 0 auto;
+                    a {
+                        color: #333;
+                    }
+                    .result_info {
+                        margin-bottom: 10px;
+                        line-height: 22px;
+                        .all {
+                            float: left;
+                            line-height: 22px;
+                            font-size: 12px;
+                        }
+                        .gap {
+                            margin: 0 8px;
+                            display: inline-block;
+                            width: 10px;
+                            color: #999;
+                            font-weight: 700;
+                            line-height: 22px;
+                            float: left;
+                        }
+                        .phone {
+                            line-height: 22px;
+                            font-size: 12px;
+                            float: left;
+                        }
+                        .detail_search {
+                            position: relative;
+                            font-size: 12px;
+                            float: left;
+                            margin-right: 10px;
+                            input {
+                                width: 105px;
+                                padding: 5px 24px 5px 5px;
+                                height: 12px;
+                                border: 1px solid #ccc;
+                                margin-top: -1px;
+                            }
+                            .searchBtn {
+                                position: absolute;
+                                right: 8px;
+                                top: 4px;
+                                cursor: pointer;
+                                width: 14px;
+                                background: url(http://www.kl.com/src/images/icon1.png) no-repeat;
+                                height: 14px;
+                                background-position: -468px -666px;
+                                display: block;
+                            }
+                        }
+                    }
+                    .gnum {
+                        height: 22px;
+                        display: inline-block;
+                        font-size: 12px;
+                        line-height: 24px;
+                        color: #999;
+                        i {
+                            color: #e31436;
+                        }
+                    }
+                }
+            }
+            .opertaion {
+                margin-bottom: 10px;
+                background-color: #fff;
+                border: 1px solid #eaeaea;
+                .classify {
+                    border-bottom: 1px dotted #eaeaea;
+                    position: relative;
+                    background: #f8f8f8;
+                }
+                .brandWrap,
+                .country,
+                .sort,
+                .property {
+                    .name {
+                        font-size: 12px;
+                        line-height: 12px;
+                        padding-top: 12px;
+                        width: 85px;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        float: left;
+                        height: 100%;
+                        padding-left: 15px;
+                        color: #666;
+                        background: #f8f8f8;
+                    }
+                    .hdbrands {
+                        margin-left: 110px;
+                        padding: 8px 10px 4px 0;
+                        background-color: #fff;
+                        .hdbrands2 {
+                            height: 45px;
+                            position: relative;
+                            overflow: hidden;
+                            .brand {
+                                margin-left: 15px;
+                                line-height: 14px;
+                                overflow: auto;
+                                font-size: 12px;
+                                float: left;
+                                a {
+                                    position: relative;
+                                    box-sizing: border-box;
+                                    margin-right: 18px;
+                                    margin-bottom: 4px;
+                                    padding: 3px 5px;
+                                    width: 120px;
+                                    border: 1px solid transparent;
+                                    font-size: 12px;
+                                    line-height: 12px;
+                                    text-decoration: none;
+                                    color: #333;
+                                    text-overflow: ellipsis;
+                                    overflow: hidden;
+                                    white-space: nowrap;
+                                    float: left;
+                                    display: inline-block;
+                                    cursor: pointer;
+                                    &:hover {
+                                        color: #e31436;
+                                    }
+                                }
+                            }
+                            .morewrap {
+                                position: absolute;
+                                top: 4px;
+                                right: -11px;
+                                .more {
+                                    margin-left: 0;
+                                    font-size: 12px;
+                                    position: relative;
+                                    float: right;
+                                    width: 42px;
+                                    margin: auto 15px;
+                                    line-height: 13px;
+                                    cursor: pointer;
+                                    span {
+                                        position: absolute;
+                                        top: 3px;
+                                        left: 30px;
+                                        width: 9px;
+                                        height: 6px;
+                                        background-position: 0 0;
+                                        background: url(http://www.kl.com/src/images/icon4.png) no-repeat;
+                                    }
+                                    &:hover {
+                                        color: #e31436;
+                                        span {
+                                            background-position: -50px 0;
+                                        }
+                                    }
+                                }
+                                .item-multiple {
+                                    float: right;
+                                    margin: -4px 15px 0 0;
+                                    display: inline-block;
+                                    box-sizing: border-box;
+                                    padding: 0 5px;
+                                    height: 20px;
+                                    line-height: 20px;
+                                    color: #333;
+                                    font-size: 12px;
+                                    border: 1px solid #ddd;
+                                    cursor: pointer;
+                                    &:hover {
+                                        color: #e31436;
+                                        border: 1px solid #e31436;
+                                    }
+                                    .iconfont {
+                                        font-size: 12px;
+                                        color: #333;
+                                        height: 20px;
+                                        line-height: 20px;
+                                        position: relative;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .country,
+            .sort,
+            .property {
+                #countyrBrands {
+                    height: 24px;
+                    position: relative;
+                    overflow: hidden;
+                }
             }
         }
     }
