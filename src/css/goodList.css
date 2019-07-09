@@ -7,5 +7,13 @@ main #navBox .nav_carts .carMenuBox {
 main #navBox .nav_carts:hover .carMenuBox {
   display: block;
 }
+main #content .cont {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+main #content .cont .listBox {
+  margin-bottom: 6px;
+}
 
 /*# sourceMappingURL=goodList.css.map */

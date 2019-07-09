@@ -1380,7 +1380,8 @@ main #content {
   padding-top: 15px;
   border-bottom: 1px solid #eaeaea;
 }
-main #content .suspension_right {
+main #content .suspension_right,
+main #content .suspension_list {
   display: block;
   right: 80px;
   position: absolute;
@@ -1391,7 +1392,8 @@ main #content .suspension_right {
   border: 1px solid #eaeaea;
   background: #fff;
 }
-main #content .suspension_right li a {
+main #content .suspension_right li a,
+main #content .suspension_list li a {
   display: block;
   width: 62px;
   height: 49px;
@@ -1403,28 +1405,36 @@ main #content .suspension_right li a {
   text-align: center;
   color: #333;
 }
-main #content .suspension_right li a:hover {
+main #content .suspension_right li a:hover,
+main #content .suspension_list li a:hover {
   color: #ff1e32;
   background: #f6f6f6;
 }
-main #content .suspension_right li a:hover .sign {
+main #content .suspension_right li a:hover .sign,
+main #content .suspension_list li a:hover .sign {
   background: url(../images/sign_hover.png);
 }
-main #content .suspension_right li a:hover .cart {
+main #content .suspension_right li a:hover .cart,
+main #content .suspension_list li a:hover .cart {
   background: url(../images/cart_right_hover.png);
 }
-main #content .suspension_right li a:hover .app {
+main #content .suspension_right li a:hover .app,
+main #content .suspension_list li a:hover .app {
   background: url(../images/app_hover.png);
   background-size: 20px 20px;
 }
-main #content .suspension_right li a:hover .top {
+main #content .suspension_right li a:hover .top,
+main #content .suspension_list li a:hover .top {
   background: url(../images/top_hover.png);
 }
 main #content .suspension_right li a:hover .hover,
-main #content .suspension_right li a:hover .qr_code {
+main #content .suspension_right li a:hover .qr_code,
+main #content .suspension_list li a:hover .hover,
+main #content .suspension_list li a:hover .qr_code {
   display: block;
 }
-main #content .suspension_right li a i {
+main #content .suspension_right li a i,
+main #content .suspension_list li a i {
   display: block;
   width: 20px;
   height: 20px;
@@ -1432,19 +1442,24 @@ main #content .suspension_right li a i {
   background-repeat: no-repeat;
   background-position: 50%;
 }
-main #content .suspension_right li a .sign {
+main #content .suspension_right li a .sign,
+main #content .suspension_list li a .sign {
   background: url(../images/sign.png);
 }
-main #content .suspension_right li a .cart {
+main #content .suspension_right li a .cart,
+main #content .suspension_list li a .cart {
   background: url(../images/cart_right.png);
 }
-main #content .suspension_right li a .app {
+main #content .suspension_right li a .app,
+main #content .suspension_list li a .app {
   background: url(../images/app.png);
 }
-main #content .suspension_right li a .top {
+main #content .suspension_right li a .top,
+main #content .suspension_list li a .top {
   background: url(../images/top.png);
 }
-main #content .suspension_right li a .hover {
+main #content .suspension_right li a .hover,
+main #content .suspension_list li a .hover {
   display: none;
   position: absolute;
   left: -100px;
@@ -1456,32 +1471,37 @@ main #content .suspension_right li a .hover {
   border: 1px solid #ededee;
   padding: 10px;
 }
-main #content .suspension_right li a .hover .txt {
+main #content .suspension_right li a .hover .txt,
+main #content .suspension_list li a .hover .txt {
   font-size: 12px;
   display: block;
   line-height: 16px;
   color: #333;
 }
-main #content .suspension_right li a .hover .arrow {
+main #content .suspension_right li a .hover .arrow,
+main #content .suspension_list li a .hover .arrow {
   position: absolute;
   top: 10px;
   right: 0;
 }
-main #content .suspension_right li a .hover .arrow .arr {
+main #content .suspension_right li a .hover .arrow .arr,
+main #content .suspension_list li a .hover .arrow .arr {
   position: absolute;
   right: -18px;
   border-width: 9px;
   border-style: dashed dashed dashed solid;
   border-color: transparent transparent transparent #e4e4e4;
 }
-main #content .suspension_right li a .hover .arrow .arr2 {
+main #content .suspension_right li a .hover .arrow .arr2,
+main #content .suspension_list li a .hover .arrow .arr2 {
   position: absolute;
   right: -17px;
   border-width: 9px;
   border-style: dashed dashed dashed solid;
   border-color: transparent transparent transparent #fff;
 }
-main #content .suspension_right li a .qr_code {
+main #content .suspension_right li a .qr_code,
+main #content .suspension_list li a .qr_code {
   display: none;
   position: absolute;
   left: -110px;

@@ -2,7 +2,11 @@
     //头部
     $('header').load('html/component/header.html');
     //导航栏
-    $('#navBox').load('html/component/nav.html');
+    $('#navBox').load('html/component/nav.html', () => {
+        let nav = document.querySelector('#navBox #topTabBox .topTab .nav');
+        // console.log(nav);
+        nav.children[0].children[0].className = 'active';
+    });
     //轮播图
     $('#banner').load('html/page/index/banner.html');
     //右侧悬挂
@@ -39,6 +43,7 @@
     $('.youLike').load('html/page/index/youLike.html');
     //尾部
     $('footer').load('html/component/footer.html');
+
 
 
     //吸顶搜索栏
@@ -141,6 +146,10 @@
     $('.floor_jump').on('click', '.item11', function() {
         window.scrollTo(0, 10045);
     });
+
+
+
+
 
 
 })();

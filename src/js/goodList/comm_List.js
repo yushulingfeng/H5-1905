@@ -6,5 +6,6 @@
 
     $('footer').load('http://www.kl.com/src/html/component/footer.html');
 
+    $('.suspension_list').load('http://www.kl.com/src/html/page/index/suspension.html');
 
 })();
