@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEQ,uBAAW;EACP,MAAM,EAAE,OAAO;;AACf,mCAAY;EACR,OAAO,EAAE,IAAI;;AAGb,yCAAY;EACR,OAAO,EAAE,KAAK",
+"sources": ["../sass/goodList/goodList.scss"],
+"names": [],
+"file": "goodList.css"
+}

@@ -1,0 +1,11 @@
+main #navBox .nav_carts {
+  cursor: pointer;
+}
+main #navBox .nav_carts .carMenuBox {
+  display: none;
+}
+main #navBox .nav_carts:hover .carMenuBox {
+  display: block;
+}
+
+/*# sourceMappingURL=goodList.css.map */

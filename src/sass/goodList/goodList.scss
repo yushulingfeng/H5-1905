@@ -1,0 +1,15 @@
+main {
+    #navBox {
+        .nav_carts {
+            cursor: pointer;
+            .carMenuBox {
+                display: none;
+            }
+            &:hover {
+                .carMenuBox {
+                    display: block;
+                }
+            }
+        }
+    }
+}
