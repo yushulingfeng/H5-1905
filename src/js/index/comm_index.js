@@ -35,9 +35,10 @@
     $('.home_lifeFloor').load('html/page/index/home_lifeFloor.html');
     //美食生鲜
     $('.foodFloor').load('html/page/index/foodFloor.html');
-    //美食生鲜
+    //猜你喜欢
     $('.youLike').load('html/page/index/youLike.html');
-
+    //尾部
+    $('footer').load('html/component/footer.html');
 
 
     //吸顶搜索栏

@@ -1,0 +1,214 @@
+footer {
+    padding-bottom: 0;
+    .footBgWrap {
+        background: #fff;
+        .box {
+            width: 1090px;
+            margin: auto;
+            background-color: transparent;
+            text-align: left;
+            font-size: inherit;
+            color: inherit;
+            cursor: default;
+            display: block;
+            .btmlist {
+                padding: 49px 0;
+                border-bottom: 1px solid #eaeaea;
+                ul {
+                    height: 48px;
+                    li {
+                        float: left;
+                        width: 230px;
+                        margin-left: 42px;
+                        .icon {
+                            width: 44px;
+                            height: 44px;
+                            border-radius: 50%;
+                            border: 2px solid #d6d6d6;
+                            text-align: center;
+                            line-height: 44px;
+                            font-size: 20px;
+                            font-weight: 700;
+                            display: inline-block;
+                            margin-right: 12px;
+                            float: left;
+                            color: #000;
+                        }
+                        strong {
+                            font-size: 18px;
+                            font-weight: 700;
+                            display: block;
+                            line-height: 22px;
+                            color: #000;
+                        }
+                        span {
+                            font-size: 14px;
+                            line-height: 22px;
+                            color: #333;
+                        }
+                    }
+                }
+            }
+            .guideList {
+                padding: 45px 0 90px;
+                ul {
+                    .foot_logo {
+                        width: 218px;
+                        padding-right: 40px;
+                        padding-left: 0;
+                        .ft-logo {
+                            display: block;
+                            width: 220px;
+                            height: 43px;
+                            line-height: 45px;
+                            margin-bottom: 20px;
+                            outline: none;
+                            cursor: pointer;
+                            background: url(../images/foot_logo.png) no-repeat;
+                        }
+                        .focuson {
+                            height: 32px;
+                            .label {
+                                display: inline-block;
+                                vertical-align: middle;
+                            }
+                            .itemIcon {
+                                position: relative;
+                                margin-left: 10px;
+                                cursor: pointer;
+                                display: inline-block;
+                                vertical-align: middle;
+                                &:hover {
+                                    .notice {
+                                        display: block;
+                                    }
+                                }
+                                i {
+                                    width: 32px;
+                                    height: 32px;
+                                    background-position: 50%;
+                                    background-repeat: no-repeat;
+                                    display: inline-block;
+                                }
+                                .weibo-icon {
+                                    background: url(../images/foot_icon1.png) no-repeat;
+                                }
+                                .weixin-icon {
+                                    background: url(../images/foot_icon2.png) no-repeat;
+                                }
+                                .yixin-icon {
+                                    background: url(../images/foot_icon3.png) no-repeat;
+                                }
+                                .notice {
+                                    display: none;
+                                    position: absolute;
+                                    left: -44px;
+                                    top: 42px;
+                                    z-index: 10;
+                                    background: #fff;
+                                    text-align: center;
+                                    color: #333;
+                                    border: 1px solid #ededee;
+                                    padding: 10px;
+                                    img {
+                                        width: 100px;
+                                        height: 100px;
+                                    }
+                                    .arrow {
+                                        position: absolute;
+                                        left: 52px;
+                                        top: 0;
+                                        right: auto;
+                                        .arr {
+                                            position: absolute;
+                                            border-width: 8px;
+                                            border-style: dashed dashed solid;
+                                            right: -18px;
+                                            top: -16px;
+                                            border-color: transparent transparent #ededee;
+                                        }
+                                        .arr1 {
+                                            position: absolute;
+                                            border-width: 8px;
+                                            border-style: dashed dashed solid;
+                                            top: -15px;
+                                            right: -18px;
+                                            border-color: transparent transparent #fff;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    li {
+                        float: left;
+                        width: 110px;
+                        padding: 0 0 0 21px;
+                        height: 128px;
+                        dt {
+                            margin: -4px 0 10px;
+                            font-size: 18px;
+                            font-weight: 400;
+                            color: #222
+                        }
+                        dd {
+                            line-height: 29px;
+                            a {
+                                color: #333;
+                                cursor: pointer;
+                                font-size: 12px;
+                                &:hover {
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                    }
+                    .last {
+                        margin-left: 10px;
+                        width: 108px;
+                        height: 128px;
+                        text-align: center;
+                        img {
+                            margin: 0 0 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .about {
+        position: relative;
+        padding: 20px 0;
+        background: #333;
+        line-height: 26px;
+        text-align: center;
+        color: #c2c2c2;
+        a {
+            color: #c2c2c2;
+            font-size: 12px;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .license {
+            font-size: 12px;
+            margin-left: 20px;
+        }
+        .license-1 {
+            margin-left: 0px;
+        }
+        .f-tac {
+            text-align: center;
+            #KXYZ img {
+                margin-top: 5px;
+                border-radius: 5px;
+                width: 80px;
+                height: 30px;
+            }
+            .shield img {
+                height: 30px;
+                margin: 5px 0 0 10px;
+            }
+        }
+    }
+}

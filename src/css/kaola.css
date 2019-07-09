@@ -2496,6 +2496,9 @@ main #content .youLike .guess_list li .item_price .comment:hover {
   text-decoration: underline;
 }
 
+footer {
+  padding-bottom: 0;
+}
 footer .footBgWrap {
   background: #fff;
 }
@@ -2655,6 +2658,53 @@ footer .footBgWrap .box .guideList ul li dd a {
   color: #333;
   cursor: pointer;
   font-size: 12px;
+}
+footer .footBgWrap .box .guideList ul li dd a:hover {
+  text-decoration: underline;
+}
+footer .footBgWrap .box .guideList ul .last {
+  margin-left: 10px;
+  width: 108px;
+  height: 128px;
+  text-align: center;
+}
+footer .footBgWrap .box .guideList ul .last img {
+  margin: 0 0 6px;
+}
+footer .about {
+  position: relative;
+  padding: 20px 0;
+  background: #333;
+  line-height: 26px;
+  text-align: center;
+  color: #c2c2c2;
+}
+footer .about a {
+  color: #c2c2c2;
+  font-size: 12px;
+}
+footer .about a:hover {
+  text-decoration: underline;
+}
+footer .about .license {
+  font-size: 12px;
+  margin-left: 20px;
+}
+footer .about .license-1 {
+  margin-left: 0px;
+}
+footer .about .f-tac {
+  text-align: center;
+}
+footer .about .f-tac #KXYZ img {
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+}
+footer .about .f-tac .shield img {
+  height: 30px;
+  margin: 5px 0 0 10px;
 }
 
 /*# sourceMappingURL=kaola.css.map */
