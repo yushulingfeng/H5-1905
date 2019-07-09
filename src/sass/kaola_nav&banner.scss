@@ -481,17 +481,30 @@ main {
                                 }
                             }
                             .brandBox {
-                                height: 280px;
+                                height: 320px;
                                 overflow: hidden;
                                 width: 218px;
                                 padding: 9px 8px 0 11px;
                                 background: #f6f6f6;
+                                .brandList a {
+                                    float: left;
+                                    padding: 0;
+                                    img {
+                                        width: 104px;
+                                        height: 104px;
+                                        border: 1px solid #eaeaea;
+                                        margin: 0 3px 2px 0;
+                                    }
+                                }
                             }
                             .imgBox {
                                 width: 237px;
                                 box-sizing: border-box;
                                 padding: 20px 18px 20px 11px;
                                 background: #f6f6f6;
+                                img {
+                                    height: 70px;
+                                }
                             }
                         }
                     }

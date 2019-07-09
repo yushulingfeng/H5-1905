@@ -1267,17 +1267,30 @@ main #topTabBox .topTab .nav_carts .catMenu li .catCard .ctList .litd .item .lis
   color: #666;
 }
 main #topTabBox .topTab .nav_carts .catMenu li .catCard .brandBox {
-  height: 280px;
+  height: 320px;
   overflow: hidden;
   width: 218px;
   padding: 9px 8px 0 11px;
   background: #f6f6f6;
+}
+main #topTabBox .topTab .nav_carts .catMenu li .catCard .brandBox .brandList a {
+  float: left;
+  padding: 0;
+}
+main #topTabBox .topTab .nav_carts .catMenu li .catCard .brandBox .brandList a img {
+  width: 104px;
+  height: 104px;
+  border: 1px solid #eaeaea;
+  margin: 0 3px 2px 0;
 }
 main #topTabBox .topTab .nav_carts .catMenu li .catCard .imgBox {
   width: 237px;
   box-sizing: border-box;
   padding: 20px 18px 20px 11px;
   background: #f6f6f6;
+}
+main #topTabBox .topTab .nav_carts .catMenu li .catCard .imgBox img {
+  height: 70px;
 }
 main #topTabBox .topTab .nav {
   float: left;
