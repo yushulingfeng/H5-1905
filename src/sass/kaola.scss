@@ -1,5 +1,14 @@
 @import './login.scss';
 @import '../css/base.css';
+.clearfix::after {
+    content: "";
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+
 header {
     background: #000;
     border-bottom: 0;

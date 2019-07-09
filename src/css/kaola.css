@@ -539,6 +539,15 @@ footer #aboutNEST .tac a img {
   margin-left: 10px;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  overflow: hidden;
+  height: 0;
+  visibility: hidden;
+  display: block;
+}
+
 header {
   background: #000;
   border-bottom: 0;
@@ -1356,6 +1365,7 @@ main #content {
   width: 100%;
   min-height: 100%;
   padding-top: 15px;
+  border-bottom: 1px solid #eaeaea;
 }
 main #content .suspension_right {
   display: block;
@@ -2387,6 +2397,264 @@ main #content .sportsFloor .brandList .brand_list li:hover a span,
 main #content .home_lifeFloor .brandList .brand_list li:hover a span,
 main #content .foodFloor .brandList .brand_list li:hover a span {
   display: block;
+}
+main #content .youLike {
+  width: 1090px;
+  height: 445px;
+  margin: 40px auto;
+  padding-bottom: 90px;
+}
+main #content .youLike .title {
+  padding: 20px 0 5px;
+  font-weight: 700;
+  height: 38px;
+  line-height: 38px;
+  color: #333;
+  font-size: 22px;
+}
+main #content .youLike .title span {
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+  padding-left: 12px;
+}
+main #content .youLike .guess_list {
+  width: 100%;
+  height: 382px;
+  margin: 0 -10px;
+}
+main #content .youLike .guess_list li {
+  margin: 0 10px;
+  width: 252px;
+  height: 382px;
+  float: left;
+}
+main #content .youLike .guess_list li .itemImg {
+  width: 180px;
+  height: 180px;
+  border: 1px solid #e9e9e9;
+  background-color: #fff;
+  padding: 39px;
+  display: block;
+  cursor: pointer;
+}
+main #content .youLike .guess_list li .itemImg img {
+  width: 180px;
+  height: 180px;
+}
+main #content .youLike .guess_list li .tit {
+  white-space: normal;
+  word-wrap: break-word;
+  height: 45px;
+  margin: 7px 0 14px;
+  display: -webkit-box;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  border: 0;
+}
+main #content .youLike .guess_list li .tit a {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+}
+main #content .youLike .guess_list li .tit a:hover {
+  text-decoration: underline;
+}
+main #content .youLike .guess_list li .item_price {
+  padding: 0 15px 0 0;
+}
+main #content .youLike .guess_list li .item_price .price {
+  float: left;
+  color: #ff1e32;
+  font-size: 20px;
+}
+main #content .youLike .guess_list li .item_price .price .symbol {
+  font-size: 14px;
+  font-weight: 400;
+}
+main #content .youLike .guess_list li .item_price .price .delPrice,
+main #content .youLike .guess_list li .item_price .price del {
+  color: #999;
+  font-size: 12px;
+  font-weight: 400;
+}
+main #content .youLike .guess_list li .item_price .comment {
+  float: right;
+  display: block;
+  height: 24px;
+  line-height: 20px;
+  color: #999;
+  font-size: 12px;
+}
+main #content .youLike .guess_list li .item_price .comment:hover {
+  text-decoration: underline;
+}
+
+footer .footBgWrap {
+  background: #fff;
+}
+footer .footBgWrap .box {
+  width: 1090px;
+  margin: auto;
+  background-color: transparent;
+  text-align: left;
+  font-size: inherit;
+  color: inherit;
+  cursor: default;
+  display: block;
+}
+footer .footBgWrap .box .btmlist {
+  padding: 49px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+footer .footBgWrap .box .btmlist ul {
+  height: 48px;
+}
+footer .footBgWrap .box .btmlist ul li {
+  float: left;
+  width: 230px;
+  margin-left: 42px;
+}
+footer .footBgWrap .box .btmlist ul li .icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid #d6d6d6;
+  text-align: center;
+  line-height: 44px;
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  margin-right: 12px;
+  float: left;
+  color: #000;
+}
+footer .footBgWrap .box .btmlist ul li strong {
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  line-height: 22px;
+  color: #000;
+}
+footer .footBgWrap .box .btmlist ul li span {
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+}
+footer .footBgWrap .box .guideList {
+  padding: 45px 0 90px;
+}
+footer .footBgWrap .box .guideList ul .foot_logo {
+  width: 218px;
+  padding-right: 40px;
+  padding-left: 0;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .ft-logo {
+  display: block;
+  width: 220px;
+  height: 43px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  outline: none;
+  cursor: pointer;
+  background: url(../images/foot_logo.png) no-repeat;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson {
+  height: 32px;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .label {
+  display: inline-block;
+  vertical-align: middle;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon {
+  position: relative;
+  margin-left: 10px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon:hover .notice {
+  display: block;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon i {
+  width: 32px;
+  height: 32px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .weibo-icon {
+  background: url(../images/foot_icon1.png) no-repeat;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .weixin-icon {
+  background: url(../images/foot_icon2.png) no-repeat;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .yixin-icon {
+  background: url(../images/foot_icon3.png) no-repeat;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .notice {
+  display: none;
+  position: absolute;
+  left: -44px;
+  top: 42px;
+  z-index: 10;
+  background: #fff;
+  text-align: center;
+  color: #333;
+  border: 1px solid #ededee;
+  padding: 10px;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .notice img {
+  width: 100px;
+  height: 100px;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .notice .arrow {
+  position: absolute;
+  left: 52px;
+  top: 0;
+  right: auto;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .notice .arrow .arr {
+  position: absolute;
+  border-width: 8px;
+  border-style: dashed dashed solid;
+  right: -18px;
+  top: -16px;
+  border-color: transparent transparent #ededee;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .notice .arrow .arr1 {
+  position: absolute;
+  border-width: 8px;
+  border-style: dashed dashed solid;
+  top: -15px;
+  right: -18px;
+  border-color: transparent transparent #fff;
+}
+footer .footBgWrap .box .guideList ul li {
+  float: left;
+  width: 110px;
+  padding: 0 0 0 21px;
+  height: 128px;
+}
+footer .footBgWrap .box .guideList ul li dt {
+  margin: -4px 0 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #222;
+}
+footer .footBgWrap .box .guideList ul li dd {
+  line-height: 29px;
+}
+footer .footBgWrap .box .guideList ul li dd a {
+  color: #333;
+  cursor: pointer;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=kaola.css.map */

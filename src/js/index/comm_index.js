@@ -35,8 +35,8 @@
     $('.home_lifeFloor').load('html/page/index/home_lifeFloor.html');
     //美食生鲜
     $('.foodFloor').load('html/page/index/foodFloor.html');
-
-
+    //美食生鲜
+    $('.youLike').load('html/page/index/youLike.html');
 
 
 
