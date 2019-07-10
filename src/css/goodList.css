@@ -459,15 +459,6 @@ main #content .cont .searchPrice .priceInput .inp:hover {
   border: 1px solid #739ecc;
   box-shadow: 0 0 6px 1px #739ecc;
 }
-main #content .cont .searchPrice:hover {
-  height: 72px;
-  background: #fff;
-  box-shadow: 1px 1px 1px 1px #ddd;
-}
-main #content .cont .searchPrice:hover #clearBtn,
-main #content .cont .searchPrice:hover .sure {
-  display: block;
-}
 main #content .cont .addrBox {
   float: left;
   height: 36px;
@@ -519,6 +510,239 @@ main #content .cont .checkedBox a .box {
 }
 main #content .cont .checkedBox a span {
   vertical-align: middle;
+}
+main #content .cont .simplePage {
+  float: right;
+  margin-right: 13px;
+  margin-top: 12px;
+  line-height: 12px;
+}
+main #content .cont .simplePage .num {
+  float: left;
+}
+main #content .cont .simplePage .num i {
+  color: #e31436;
+}
+main #content .cont .simplePage .arrow-left {
+  background-position: 0 -188px;
+  cursor: default;
+  width: 8px;
+  height: 13px;
+  display: inline-block;
+  float: left;
+  margin-left: 13px;
+  background: url(http://www.kl.com/src/images/icon4.png) no-repeat;
+}
+main #content .cont .simplePage .arrow-right {
+  background-position: -21px -210px;
+  width: 8px;
+  height: 13px;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin-left: 13px;
+  background: url(http://www.kl.com/src/images/icon4.png) no-repeat;
+}
+main #content #result {
+  display: flex;
+  flex-wrap: wrap;
+}
+main #content #result li {
+  position: relative;
+  width: 23.728%;
+  height: 431px;
+  margin: 0 7px 14px;
+  background-color: #fff;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+main #content #result li .goodsWrap {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
+  border-bottom: none;
+  box-sizing: border-box;
+}
+main #content #result li .goodsWrap a {
+  display: block;
+}
+main #content #result li .goodsWrap a .img {
+  position: relative;
+}
+main #content #result li .goodsWrap a .img img {
+  display: block;
+  width: 232px;
+  height: 232px;
+  padding: 15px 15px 10px;
+}
+main #content #result li .goodsWrap a .img .hotSale {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 42px;
+}
+main #content #result li .goodsWrap a .img .hotSale .hot {
+  display: inline-block;
+  width: 36px;
+  height: 18px;
+  line-height: 18px;
+  margin-left: 4px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  background: #ff8385;
+}
+main #content #result li .goodsWrap .imgList {
+  position: relative;
+  width: 234px;
+  padding: 0 14px 11px;
+}
+main #content #result li .goodsWrap .imgList .imgGroup {
+  height: 32px;
+}
+main #content #result li .goodsWrap .imgList .imgGroup .imgTag {
+  float: left;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+main #content #result li .goodsWrap .imgList .imgGroup .imgTag img {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+main #content #result li .goodsWrap .desc {
+  width: 234px;
+  padding: 0 14px 11px;
+}
+main #content #result li .goodsWrap .desc .price {
+  height: 24px;
+  color: #e31436;
+  overflow: hidden;
+  width: 100%;
+}
+main #content #result li .goodsWrap .desc .price .cur_price {
+  display: inline-block;
+  margin-right: 2px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+}
+main #content #result li .goodsWrap .desc .price .cur_price i {
+  font-size: 12px;
+  font-weight: 700;
+  position: relative;
+  left: 7px;
+}
+main #content #result li .goodsWrap .desc .price .market_price {
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: 2px;
+  color: #999;
+  font-size: 12px;
+}
+main #content #result li .goodsWrap .desc .price .market_price del {
+  position: relative;
+  left: -6px;
+}
+main #content #result li .goodsWrap .desc .goods_tit a {
+  height: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 234px;
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+  color: #333;
+}
+main #content #result li .goodsWrap .desc .goods_tit a h2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+main #content #result li .goodsWrap .desc .sale_info {
+  height: auto;
+  min-height: 20px;
+  white-space: normal;
+  position: relative;
+  width: 234px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 20px;
+  font-size: 13px;
+  color: #e31436;
+}
+main #content #result li .goodsWrap .desc .sale_info .activity {
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  padding: 0 3px;
+  margin-right: 4px;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 2px;
+}
+main #content #result li .goodsWrap .desc .sale_info .self {
+  height: 14px;
+  line-height: 14px;
+  background-color: #fff;
+  border: 1px solid #e31436;
+  color: #e31436;
+}
+main #content #result li .goodsWrap .desc .sale_info .fit {
+  background-color: #e31436;
+}
+main #content #result li .goodsWrap .desc .goods_info {
+  margin-top: 10px;
+}
+main #content #result li .goodsWrap .desc .goods_info .comments {
+  float: left;
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  color: #333;
+  font-weight: 700;
+}
+main #content #result li .goodsWrap .desc .goods_info .comments .icon {
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 12px;
+  height: 14px;
+  background: url("http://www.kl.com/src/images/icon4.png") no-repeat;
+  background-position: 0 -230px;
+}
+main #content #result li .goodsWrap .desc .goods_info .proPlace {
+  float: right;
+  max-width: 110px;
+  color: #999;
+}
+main #content #result li .goodsWrap .desc .self_flag {
+  margin-top: 4px;
+}
+main #content #result li .goodsWrap .desc .self_flag span {
+  color: #999;
+}
+main #content #result li:hover .goodsWrap {
+  z-index: 99;
+  border: 1px solid #e31436;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+main #content #result li:hover .goods_tit #goods_title {
+  height: auto;
+  min-height: 20px;
+  white-space: normal;
 }
 
 ._citys {

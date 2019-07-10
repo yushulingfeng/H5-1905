@@ -398,15 +398,17 @@ main {
                         }
                     }
                 }
-                &:hover {
-                    height: 72px;
-                    background: #fff;
-                    box-shadow: 1px 1px 1px 1px #ddd;
-                    #clearBtn,
-                    .sure {
-                        display: block;
-                    }
-                }
+                // &:hover {
+                //     height: 72px;
+                //     background: #fff;
+                //     box-shadow: 1px 1px 1px 1px #ddd;
+                //     z-index: 1;
+                //     #clearBtn,
+                //     .sure {
+                //         display: block;
+                //         z-index: 9;
+                //     }
+                // }
             }
             .addrBox {
                 float: left;
@@ -458,6 +460,38 @@ main {
                     span {
                         vertical-align: middle;
                     }
+                }
+            }
+            .simplePage {
+                float: right;
+                margin-right: 13px;
+                margin-top: 12px;
+                line-height: 12px;
+                .num {
+                    float: left;
+                    i {
+                        color: #e31436;
+                    }
+                }
+                .arrow-left {
+                    background-position: 0 -188px;
+                    cursor: default;
+                    width: 8px;
+                    height: 13px;
+                    display: inline-block;
+                    float: left;
+                    margin-left: 13px;
+                    background: url(http://www.kl.com/src/images/icon4.png) no-repeat;
+                }
+                .arrow-right {
+                    background-position: -21px -210px;
+                    width: 8px;
+                    height: 13px;
+                    cursor: pointer;
+                    display: inline-block;
+                    float: left;
+                    margin-left: 13px;
+                    background: url(http://www.kl.com/src/images/icon4.png) no-repeat;
                 }
             }
         }
