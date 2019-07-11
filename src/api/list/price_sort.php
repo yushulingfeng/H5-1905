@@ -1,8 +1,10 @@
 <?php
 
+    $sort = isset($_GET['sort']) ? $_GET['sort'] : '';
+
     include 'conn.php';
 
-    $sql = "SELECT * FROM `data` ORDER BY `cur` ASC";
+    $sql = "SELECT * FROM `data` ORDER BY `cur` $sort";
 
     $res = $conn->query($sql);
 

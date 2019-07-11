@@ -149,11 +149,25 @@
 
         });
 
+        let isok = true;
         $('.order').on('click', '#price_sort', function() {
             // console.log('ok')
+            let sort = '';
+            if (isok) {
+                $('#price_sort').html('价格 ↑');
+                isok = !isok;
+                sort = 'ASC';
+            } else {
+                $('#price_sort').html('价格 ↓');
+                isok = !isok;
+                sort = 'DESC';
+            }
+
+
             $.ajax({
                 type: 'get',
                 url: 'http://www.kl.com/src/api/list/price_sort.php',
+                data: 'sort=' + sort,
                 success: str => {
 
                     let arr = JSON.parse(str);
