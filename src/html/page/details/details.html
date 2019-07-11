@@ -67,6 +67,66 @@
                         </div>
 
                         <dl class="info">
+                            <dt class="ptags">
+                                <i class="tag">自营</i>
+                            </dt>
+                            <dt class="country">
+                                <img src="http://www.kl.com/src/images/USA.png" alt="">
+                                <span>美国</span>
+                                <span class="split">|</span>
+                                <a href="" class="brand">Apple 苹果</a>
+                            </dt>
+                            <dt class="title">
+                                <span>Apple 苹果 iPhone XR (A2108) 128GB 移动联通电信4G手机 双卡双待</span>
+                            </dt>
+                            <dt class="desc">
+                                    【国行正品可开票】A12仿生芯片，6.1英寸大屏，面容ID，原深感摄像头！iPhone终于双卡双待了，商务、生活轻松切换！【下方服务可选购价值189元延保服务一年】
+                            </dt>
+                            <dd class="priceBox">
+                                <div class="price">
+                                    <span class="line_title pri_title">售价</span>
+                                    <div class="price_cnt">
+                                        <span class="pri_info">
+                                            ￥
+                                            <span class="cur">5488.00</span>
+                                        <span class="cur_pritxt">起</span>
+                                        </span>
+                                        <span class="spe_pri">特价</span>
+                                        <span class="market_pri">
+                                            参考价&nbsp;￥
+                                            <span>6699.00</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </dd>
+                            <dd class="postage">
+                                <span class="line_title">运费</span>
+                                <div class="msg">
+                                    <span>
+                                        <span class="from">至</span>
+
+                                    <span class="address">
+                                            <input type="text" id="city" placeholder=" 广东省-广州市-天河区">
+                                            <label for="city" class="triangle"></label>
+                                        </span>
+
+                                    </span>
+
+                                    <span class="feeinfo">
+                                        <i>满88元包邮
+                                            <span class="arrow"></span>
+                                    </i>
+
+                                    <span class="desc">
+                                            <i>自营订单满88元包邮，不足金额的订单收取10元运费。<br>88元以商品活动后的总金额为准，不含税费，使用虚拟资产(优惠券、红包、考拉豆等)不影响包邮的计算。<br>特殊商品、自营店铺及入驻商家商品单独计算运费。</i>
+                                        </span>
+
+                                    </span>
+
+                                </div>
+                            </dd>
+
+
 
                         </dl>
                     </div>
@@ -87,5 +147,15 @@
 <script src="http://www.kl.com/src/lib/jquery-1.10.1.min.js "></script>
 <script src="http://www.kl.com/src/js/details/details_comm.js"></script>
 <script src="http://www.kl.com/src/js/details/magnifier.js"></script>
+<script src="http://www.kl.com/src/js/goodList/settingAddress/Popt.js"></script>
+<script src="http://www.kl.com/src/js/goodList/settingAddress/cityJson.js"></script>
+<script src="http://www.kl.com/src/js/goodList/settingAddress/citySet.js"></script>
 <script>
+    (() => {
+        $("#city").click(function(e) {
+            SelCity(this, e);
+            console.log("inout", $(this).val(), new Date())
+        });
+
+    })();
 </script>

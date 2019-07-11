@@ -110,8 +110,286 @@ main #content #cont .infoWrap .imgBox {
 main #content #cont .infoWrap .info {
   position: relative;
   float: left;
+  width: 658px;
   margin-left: 30px;
   font-size: 12px;
+}
+main #content #cont .infoWrap .info dt {
+  color: #333;
+  word-wrap: break-word;
+}
+main #content #cont .infoWrap .info .ptags {
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  margin-left: -6px;
+}
+main #content #cont .infoWrap .info .ptags .tag {
+  display: inline-block;
+  width: 54px;
+  height: 22px;
+  margin-left: 6px;
+  padding-right: 6px;
+  line-height: 22px;
+  text-align: right;
+  font-size: 13px;
+  font-weight: bold;
+  background: url(http://www.kl.com/src/images/icon5.png) no-repeat;
+  background-position: -94px 0;
+  color: #cf2c48;
+}
+main #content #cont .infoWrap .info .country span,
+main #content #cont .infoWrap .info .country a {
+  font-size: 13px;
+  margin-left: 6px;
+  color: #999;
+  font-weight: 400;
+  vertical-align: middle;
+}
+main #content #cont .infoWrap .info .country img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+main #content #cont .infoWrap .info .country .split {
+  font-size: 12px;
+}
+main #content #cont .infoWrap .info .country .brand:hover {
+  text-decoration: underline;
+}
+main #content #cont .infoWrap .info .title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+main #content #cont .infoWrap .info .desc {
+  margin-bottom: 11px;
+  color: #333;
+  line-height: 20px;
+  font-size: 13px;
+}
+main #content #cont .infoWrap .info .line_title {
+  padding-left: 15px;
+  box-sizing: border-box;
+  font-size: 12px;
+  width: 75px;
+  color: #666;
+  display: inline-block;
+  float: left;
+  line-height: 26px;
+  margin: 10px 0;
+  vertical-align: 4px;
+}
+main #content #cont .infoWrap .info .priceBox {
+  background: #f9f9f9;
+  z-index: 22;
+  margin-bottom: 12px;
+  border-bottom: 1px dotted #ddd;
+  padding-bottom: 4px;
+}
+main #content #cont .infoWrap .info .priceBox .price {
+  overflow: hidden;
+  position: relative;
+  padding-top: 5px;
+  border-top: 1px dotted #ddd;
+  z-index: 99;
+}
+main #content #cont .infoWrap .info .priceBox .price .pri_title {
+  padding-left: 15px;
+  box-sizing: border-box;
+  font-size: 12px;
+  float: left;
+  line-height: 26px;
+  margin: 10px 0;
+  vertical-align: 4px;
+}
+main #content #cont .infoWrap .info .priceBox .price .price_cnt {
+  margin-left: 71px;
+}
+main #content #cont .infoWrap .info .priceBox .price .price_cnt .cur_pritxt {
+  font-size: 16px;
+  position: relative;
+  left: -7px;
+}
+main #content #cont .infoWrap .info .priceBox .price .price_cnt .pri_info {
+  font-size: 26px;
+  color: #e31436;
+  font-weight: bold;
+  vertical-align: baseline;
+  margin: 8px 0;
+  display: inline-block;
+}
+main #content #cont .infoWrap .info .priceBox .price .price_cnt .pri_info .cur {
+  position: relative;
+  left: -10px;
+}
+main #content #cont .infoWrap .info .priceBox .price .price_cnt .spe_pri {
+  display: inline-block;
+  margin-left: 5px;
+  background-color: #f68587;
+  height: 18px;
+  line-height: 18px;
+  padding: 0 5px;
+  color: #fff;
+  font-size: 12px;
+  vertical-align: 5px;
+  border-radius: 2px;
+}
+main #content #cont .infoWrap .info .priceBox .price .price_cnt .market_pri {
+  vertical-align: 4px;
+  font-size: 12px;
+  color: #999;
+  margin-left: 14px;
+  margin-bottom: 8px;
+}
+main #content #cont .infoWrap .info .postage {
+  margin-top: 7px;
+  position: relative;
+}
+main #content #cont .infoWrap .info .postage .msg {
+  margin-left: 85px;
+}
+main #content #cont .infoWrap .info .postage .msg .feeinfo {
+  display: inline;
+  line-height: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+main #content #cont .infoWrap .info .postage .msg .feeinfo i {
+  position: relative;
+  z-index: 3;
+  padding: 1px 15px;
+  display: block;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #fff;
+  cursor: default;
+}
+main #content #cont .infoWrap .info .postage .msg .feeinfo i .arrow {
+  border: 5px solid transparent;
+  border-top-color: #333;
+  position: absolute;
+  top: 13px;
+  right: 478px;
+}
+main #content #cont .infoWrap .info .postage .msg .desc {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 335px;
+  padding: 10px 15px;
+  line-height: 22px;
+  border: 1px solid #d5d5d5;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+}
+main #content #cont .infoWrap .info .postage .msg .from {
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+main #content #cont .infoWrap .info .postage .msg .address {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+main #content #cont .infoWrap .info .postage .msg .address #city {
+  border: 1px solid #ddd;
+  height: 20px;
+  width: 160px;
+  position: absolute;
+  top: -1px;
+}
+main #content #cont .infoWrap .info .postage .msg .address label {
+  display: block;
+  border: 5px solid transparent;
+  border-top-color: #666;
+  position: absolute;
+  left: 253px;
+  top: 8px;
+}
+
+._citys {
+  width: 450px;
+  display: inline-block;
+  border: 2px solid #eee;
+  padding: 5px;
+  position: relative;
+  background: #fff;
+}
+
+._citys span {
+  color: #56b4f8;
+  height: 15px;
+  width: 15px;
+  line-height: 15px;
+  text-align: center;
+  border-radius: 3px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 1px solid #56b4f8;
+  cursor: pointer;
+}
+
+._citys0 {
+  width: 100%;
+  height: 34px;
+  display: inline-block;
+  border-bottom: 2px solid #56b4f8;
+  padding: 0;
+  margin: 0;
+}
+
+._citys0 li {
+  display: inline-block;
+  line-height: 34px;
+  font-size: 15px;
+  color: #888;
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.citySel {
+  background-color: #56b4f8;
+  color: #fff !important;
+}
+
+._citys1 {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+._citys1 a {
+  width: 83px;
+  height: 35px;
+  display: inline-block;
+  background-color: #f5f5f5;
+  color: #666;
+  margin-left: 6px;
+  margin-top: 3px;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+._citys1 a:hover {
+  color: #fff;
+  background-color: #56b4f8;
+}
+
+.AreaS {
+  background-color: #56b4f8 !important;
+  color: #fff !important;
 }
 
 /*# sourceMappingURL=details.css.map */
