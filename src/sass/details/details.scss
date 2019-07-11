@@ -185,7 +185,6 @@ main {
                         display: inline-block;
                         float: left;
                         line-height: 26px;
-                        margin: 10px 0;
                         vertical-align: 4px;
                     }
                     .priceBox {
@@ -255,40 +254,56 @@ main {
                         position: relative;
                         .msg {
                             margin-left: 85px;
+                            position: relative;
+                            top: 10px;
                             .feeinfo {
                                 display: inline;
                                 line-height: 24px;
                                 height: 24px;
                                 vertical-align: middle;
-                                i {
-                                    position: relative;
+                                position: absolute;
+                                left: 205px;
+                                top: -2px;
+                                .freeShop {
                                     z-index: 3;
-                                    padding: 1px 15px;
-                                    display: block;
+                                    padding: 1px 20px;
+                                    display: inline-block;
                                     height: 28px;
                                     line-height: 28px;
-                                    border: 1px solid #fff;
                                     cursor: default;
+                                    box-sizing: border-box;
+                                    width: 105px;
+                                    position: absolute;
                                     .arrow {
                                         border: 5px solid transparent;
                                         border-top-color: #333;
                                         position: absolute;
                                         top: 13px;
-                                        right: 478px;
+                                        right: 8px;
                                     }
                                 }
-                            }
-                            .desc {
-                                display: none;
-                                position: absolute;
-                                left: 0;
-                                top: 30px;
-                                width: 335px;
-                                padding: 10px 15px;
-                                line-height: 22px;
-                                border: 1px solid #d5d5d5;
-                                background-color: #fff;
-                                box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+                                .desc {
+                                    display: none;
+                                    position: absolute;
+                                    left: 0;
+                                    top: 27px;
+                                    width: 335px;
+                                    padding: 10px 15px;
+                                    line-height: 22px;
+                                    border: 1px solid #d5d5d5;
+                                    background-color: #fff;
+                                    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+                                }
+                                &:hover {
+                                    .desc {
+                                        display: block;
+                                    }
+                                    .freeShop {
+                                        border: 1px solid #ddd;
+                                        border-bottom: 0;
+                                        background: #fff;
+                                    }
+                                }
                             }
                             .from {
                                 line-height: 24px;
@@ -312,8 +327,277 @@ main {
                                     border: 5px solid transparent;
                                     border-top-color: #666;
                                     position: absolute;
-                                    left: 253px;
+                                    left: 170px;
                                     top: 8px;
+                                }
+                            }
+                        }
+                    }
+                    .service {
+                        margin-top: 15px;
+                        .send {
+                            position: relative;
+                            top: 5px;
+                        }
+                        .sendBox {
+                            padding-left: 77px;
+                            padding-top: 12px;
+                            .postage_list {
+                                margin: 10px 0 0 -27px;
+                                .item {
+                                    position: relative;
+                                    display: inline-block;
+                                    text-align: center;
+                                    width: 100px;
+                                    img {
+                                        display: block;
+                                        width: 28px;
+                                        height: 28px;
+                                        border-radius: 14px;
+                                        margin: 0 auto;
+                                    }
+                                    p {
+                                        display: inline-block;
+                                        white-space: nowrap;
+                                        padding-top: 7px;
+                                        span {
+                                            max-width: 100px;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
+                                        }
+                                    }
+                                    .line {
+                                        position: absolute;
+                                        display: block;
+                                        background: #dcdcdc;
+                                        right: -30px;
+                                        top: 13px;
+                                        width: 60px;
+                                        height: 1px;
+                                    }
+                                    .active {
+                                        background: #7f7f7f;
+                                    }
+                                }
+                            }
+                        }
+                        .tomorrow_arrival {
+                            margin-top: 8px;
+                            .bold {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    #colorBox {
+                        margin-top: 9px;
+                        .color_wrap {
+                            position: relative;
+                            width: 581px;
+                            left: -15px;
+                            border: 2px solid #fff;
+                            padding-bottom: 13px;
+                            margin-bottom: 6px;
+                            .color_box {
+                                margin: 1px 0 2px 0;
+                                .line_title {
+                                    height: 54px;
+                                    line-height: 54px;
+                                }
+                                .valBox {
+                                    vertical-align: middle;
+                                    float: left;
+                                    width: 480px;
+                                    .img_box {
+                                        height: 58px;
+                                        float: left;
+                                        display: inline;
+                                        background-color: #fff;
+                                        margin-right: 7px;
+                                        position: relative;
+                                        white-space: nowrap;
+                                        a {
+                                            height: 50px;
+                                            width: 50px;
+                                            border: 2px solid #ccc;
+                                            display: block;
+                                            margin: 1px 1px 1px 1px;
+                                            line-height: 18px;
+                                            text-align: center;
+                                            cursor: pointer;
+                                            img {
+                                                width: 50px;
+                                                height: 50px;
+                                                vertical-align: top;
+                                                cursor: pointer;
+                                            }
+                                            &:hover {
+                                                border-color: #d41c44;
+                                                color: #d41c44;
+                                                border-width: 2px;
+                                            }
+                                        }
+                                        i {
+                                            display: none;
+                                            .checked {
+                                                position: absolute;
+                                                font-size: 10px;
+                                                color: #fff;
+                                                line-height: 0px;
+                                                height: 5px;
+                                                width: 7px;
+                                                right: -6px;
+                                                bottom: -6px;
+                                                background: url(http://www.kl.com/src/images/goods/images/icon6.png) no-repeat;
+                                                background-position: left -20px;
+                                                overflow: hidden;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .tip {
+                            // visibility: visible;
+                            // margin: 0 0 10px 10px;
+                            // height: 24px;
+                            visibility: hidden;
+                            height: 0px;
+                            overflow: hidden;
+                            -webkit-transition: all 0.2s ease-in-out 0.3s;
+                            .tip_box {
+                                color: #d31b44;
+                                vertical-align: middle;
+                                i {
+                                    color: #d12147;
+                                    font-size: 17px;
+                                    margin-right: 5px;
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                    }
+                }
+                .buy_numBox {
+                    margin-top: 6px;
+                    .buy_box {
+                        position: relative;
+                        .ctrNum {
+                            display: inline-block;
+                            border: 1px solid #ccc;
+                            text-align: center;
+                            vertical-align: middle;
+                            .icon_minus,
+                            .icon_plus {
+                                color: #777 !important;
+                                background-color: #f3f3f3;
+                                cursor: default;
+                                border-right: 1px solid #ccc;
+                                display: inline-block;
+                                width: 22px;
+                                height: 22px;
+                                line-height: 22px;
+                                text-decoration: none;
+                                vertical-align: top;
+                                user-select: none;
+                                font-size: 20px;
+                            }
+                            .ctrnum {
+                                width: 38px;
+                                padding: 4px 5px;
+                                margin: 0;
+                                line-height: 1;
+                                height: 14px;
+                                font-size: 14px;
+                                vertical-align: top;
+                                text-align: center;
+                                color: #333;
+                                border: none;
+                                outline: none;
+                                box-sizing: content-box;
+                            }
+                        }
+                        .dome_tip {
+                            font-weight: 300;
+                            margin-left: 5px;
+                            vertical-align: middle;
+                            color: #e31436;
+                        }
+                    }
+                }
+                .guarantee {
+                    position: relative;
+                    color: #333;
+                    font-size: 0;
+                    padding: 20px 0 15px;
+                    z-index: 9;
+                    .line_title {
+                        float: left;
+                        height: 24px;
+                        line-height: 24px;
+                    }
+                    .guarantee_cnt {
+                        float: left;
+                        font-size: 12px;
+                        .guali {
+                            float: left;
+                            position: relative;
+                            height: 24px;
+                            line-height: 24px;
+                            margin-right: 10px;
+                            color: #333;
+                            .ctt {
+                                display: none;
+                                position: absolute;
+                                top: 23px;
+                                left: 0;
+                                background: #fff;
+                                width: 300px;
+                                padding: 11px 10px;
+                                overflow: hidden;
+                                border: 1px solid #ccc;
+                                z-index: 1;
+                            }
+                            .tit {
+                                position: relative;
+                                padding: 0 27px 0 10px;
+                                height: 22px;
+                                line-height: 22px;
+                                max-width: 230px;
+                                overflow: hidden;
+                                word-wrap: normal;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                                border: 1px solid #ccc;
+                                cursor: pointer;
+                                z-index: 2;
+                                font-size: 12px;
+                                .up,
+                                .down {
+                                    position: absolute;
+                                    width: 12px;
+                                    height: 22px;
+                                    right: 8px;
+                                    top: 0;
+                                    font-size: 10px;
+                                    line-height: 20px;
+                                    color: #999;
+                                }
+                                .up {
+                                    display: none;
+                                }
+                                .down {
+                                    display: block;
+                                }
+                            }
+                            &:hover {
+                                .ctt {
+                                    display: block;
+                                }
+                                .up {
+                                    display: block;
+                                }
+                                .down {
+                                    display: none;
                                 }
                             }
                         }

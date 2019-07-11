@@ -180,7 +180,6 @@ main #content #cont .infoWrap .info .line_title {
   display: inline-block;
   float: left;
   line-height: 26px;
-  margin: 10px 0;
   vertical-align: 4px;
 }
 main #content #cont .infoWrap .info .priceBox {
@@ -251,41 +250,55 @@ main #content #cont .infoWrap .info .postage {
 }
 main #content #cont .infoWrap .info .postage .msg {
   margin-left: 85px;
+  position: relative;
+  top: 10px;
 }
 main #content #cont .infoWrap .info .postage .msg .feeinfo {
   display: inline;
   line-height: 24px;
   height: 24px;
   vertical-align: middle;
+  position: absolute;
+  left: 205px;
+  top: -2px;
 }
-main #content #cont .infoWrap .info .postage .msg .feeinfo i {
-  position: relative;
+main #content #cont .infoWrap .info .postage .msg .feeinfo .freeShop {
   z-index: 3;
-  padding: 1px 15px;
-  display: block;
+  padding: 1px 20px;
+  display: inline-block;
   height: 28px;
   line-height: 28px;
-  border: 1px solid #fff;
   cursor: default;
+  box-sizing: border-box;
+  width: 105px;
+  position: absolute;
 }
-main #content #cont .infoWrap .info .postage .msg .feeinfo i .arrow {
+main #content #cont .infoWrap .info .postage .msg .feeinfo .freeShop .arrow {
   border: 5px solid transparent;
   border-top-color: #333;
   position: absolute;
   top: 13px;
-  right: 478px;
+  right: 8px;
 }
-main #content #cont .infoWrap .info .postage .msg .desc {
+main #content #cont .infoWrap .info .postage .msg .feeinfo .desc {
   display: none;
   position: absolute;
   left: 0;
-  top: 30px;
+  top: 27px;
   width: 335px;
   padding: 10px 15px;
   line-height: 22px;
   border: 1px solid #d5d5d5;
   background-color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+}
+main #content #cont .infoWrap .info .postage .msg .feeinfo:hover .desc {
+  display: block;
+}
+main #content #cont .infoWrap .info .postage .msg .feeinfo:hover .freeShop {
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  background: #fff;
 }
 main #content #cont .infoWrap .info .postage .msg .from {
   line-height: 24px;
@@ -310,8 +323,272 @@ main #content #cont .infoWrap .info .postage .msg .address label {
   border: 5px solid transparent;
   border-top-color: #666;
   position: absolute;
-  left: 253px;
+  left: 170px;
   top: 8px;
+}
+main #content #cont .infoWrap .info .service {
+  margin-top: 15px;
+}
+main #content #cont .infoWrap .info .service .send {
+  position: relative;
+  top: 5px;
+}
+main #content #cont .infoWrap .info .service .sendBox {
+  padding-left: 77px;
+  padding-top: 12px;
+}
+main #content #cont .infoWrap .info .service .sendBox .postage_list {
+  margin: 10px 0 0 -27px;
+}
+main #content #cont .infoWrap .info .service .sendBox .postage_list .item {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+}
+main #content #cont .infoWrap .info .service .sendBox .postage_list .item img {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  margin: 0 auto;
+}
+main #content #cont .infoWrap .info .service .sendBox .postage_list .item p {
+  display: inline-block;
+  white-space: nowrap;
+  padding-top: 7px;
+}
+main #content #cont .infoWrap .info .service .sendBox .postage_list .item p span {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+main #content #cont .infoWrap .info .service .sendBox .postage_list .item .line {
+  position: absolute;
+  display: block;
+  background: #dcdcdc;
+  right: -30px;
+  top: 13px;
+  width: 60px;
+  height: 1px;
+}
+main #content #cont .infoWrap .info .service .sendBox .postage_list .item .active {
+  background: #7f7f7f;
+}
+main #content #cont .infoWrap .info .service .tomorrow_arrival {
+  margin-top: 8px;
+}
+main #content #cont .infoWrap .info .service .tomorrow_arrival .bold {
+  font-weight: bold;
+}
+main #content #cont .infoWrap .info #colorBox {
+  margin-top: 9px;
+}
+main #content #cont .infoWrap .info #colorBox .color_wrap {
+  position: relative;
+  width: 581px;
+  left: -15px;
+  border: 2px solid #fff;
+  padding-bottom: 13px;
+  margin-bottom: 6px;
+}
+main #content #cont .infoWrap .info #colorBox .color_wrap .color_box {
+  margin: 1px 0 2px 0;
+}
+main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .line_title {
+  height: 54px;
+  line-height: 54px;
+}
+main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox {
+  vertical-align: middle;
+  float: left;
+  width: 480px;
+}
+main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox .img_box {
+  height: 58px;
+  float: left;
+  display: inline;
+  background-color: #fff;
+  margin-right: 7px;
+  position: relative;
+  white-space: nowrap;
+}
+main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox .img_box a {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #ccc;
+  display: block;
+  margin: 1px 1px 1px 1px;
+  line-height: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox .img_box a img {
+  width: 50px;
+  height: 50px;
+  vertical-align: top;
+  cursor: pointer;
+}
+main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox .img_box a:hover {
+  border-color: #d41c44;
+  color: #d41c44;
+  border-width: 2px;
+}
+main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox .img_box i {
+  display: none;
+}
+main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox .img_box i .checked {
+  position: absolute;
+  font-size: 10px;
+  color: #fff;
+  line-height: 0px;
+  height: 5px;
+  width: 7px;
+  right: -6px;
+  bottom: -6px;
+  background: url(http://www.kl.com/src/images/goods/images/icon6.png) no-repeat;
+  background-position: left -20px;
+  overflow: hidden;
+}
+main #content #cont .infoWrap .info #colorBox .tip {
+  visibility: hidden;
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease-in-out 0.3s;
+}
+main #content #cont .infoWrap .info #colorBox .tip .tip_box {
+  color: #d31b44;
+  vertical-align: middle;
+}
+main #content #cont .infoWrap .info #colorBox .tip .tip_box i {
+  color: #d12147;
+  font-size: 17px;
+  margin-right: 5px;
+  display: inline-block;
+}
+main #content #cont .infoWrap .buy_numBox {
+  margin-top: 6px;
+}
+main #content #cont .infoWrap .buy_numBox .buy_box {
+  position: relative;
+}
+main #content #cont .infoWrap .buy_numBox .buy_box .ctrNum {
+  display: inline-block;
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+}
+main #content #cont .infoWrap .buy_numBox .buy_box .ctrNum .icon_minus,
+main #content #cont .infoWrap .buy_numBox .buy_box .ctrNum .icon_plus {
+  color: #777 !important;
+  background-color: #f3f3f3;
+  cursor: default;
+  border-right: 1px solid #ccc;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-decoration: none;
+  vertical-align: top;
+  user-select: none;
+  font-size: 20px;
+}
+main #content #cont .infoWrap .buy_numBox .buy_box .ctrNum .ctrnum {
+  width: 38px;
+  padding: 4px 5px;
+  margin: 0;
+  line-height: 1;
+  height: 14px;
+  font-size: 14px;
+  vertical-align: top;
+  text-align: center;
+  color: #333;
+  border: none;
+  outline: none;
+  box-sizing: content-box;
+}
+main #content #cont .infoWrap .buy_numBox .buy_box .dome_tip {
+  font-weight: 300;
+  margin-left: 5px;
+  vertical-align: middle;
+  color: #e31436;
+}
+main #content #cont .infoWrap .guarantee {
+  position: relative;
+  color: #333;
+  font-size: 0;
+  padding: 20px 0 15px;
+  z-index: 9;
+}
+main #content #cont .infoWrap .guarantee .line_title {
+  float: left;
+  height: 24px;
+  line-height: 24px;
+}
+main #content #cont .infoWrap .guarantee .guarantee_cnt {
+  float: left;
+  font-size: 12px;
+}
+main #content #cont .infoWrap .guarantee .guarantee_cnt .guali {
+  float: left;
+  position: relative;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 10px;
+  color: #333;
+}
+main #content #cont .infoWrap .guarantee .guarantee_cnt .guali .ctt {
+  display: none;
+  position: absolute;
+  top: 23px;
+  left: 0;
+  background: #fff;
+  width: 300px;
+  padding: 11px 10px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+main #content #cont .infoWrap .guarantee .guarantee_cnt .guali .tit {
+  position: relative;
+  padding: 0 27px 0 10px;
+  height: 22px;
+  line-height: 22px;
+  max-width: 230px;
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 12px;
+}
+main #content #cont .infoWrap .guarantee .guarantee_cnt .guali .tit .up,
+main #content #cont .infoWrap .guarantee .guarantee_cnt .guali .tit .down {
+  position: absolute;
+  width: 12px;
+  height: 22px;
+  right: 8px;
+  top: 0;
+  font-size: 10px;
+  line-height: 20px;
+  color: #999;
+}
+main #content #cont .infoWrap .guarantee .guarantee_cnt .guali .tit .up {
+  display: none;
+}
+main #content #cont .infoWrap .guarantee .guarantee_cnt .guali .tit .down {
+  display: block;
+}
+main #content #cont .infoWrap .guarantee .guarantee_cnt .guali:hover .ctt {
+  display: block;
+}
+main #content #cont .infoWrap .guarantee .guarantee_cnt .guali:hover .up {
+  display: block;
+}
+main #content #cont .infoWrap .guarantee .guarantee_cnt .guali:hover .down {
+  display: none;
 }
 
 ._citys {
