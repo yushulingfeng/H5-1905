@@ -60,11 +60,15 @@
                         margin-right: 4px;
                         overflow: hidden;
                         border: 1px solid #ddd;
+                        box-sizing: border-box;
                         cursor: pointer;
                         img {
                             display: block;
                             width: 30px;
                             height: 30px;
+                        }
+                        &:hover {
+                            border: 1px solid #e31436;
                         }
                     }
                 }

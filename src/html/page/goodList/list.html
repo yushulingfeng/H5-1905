@@ -107,9 +107,9 @@
 
 </html>
 <script src="http://www.kl.com/src/lib/jquery-1.10.1.min.js "></script>
+<script src="http://www.kl.com/src/js/goodList/goodList.js "></script>
 <script src="http://www.kl.com/src/js/goodList/comm_List.js "></script>
 <script src="http://www.kl.com/dist/index.js "></script>
-<script src="http://www.kl.com/src/js/goodList/goodList.js "></script>
 <script src="http://www.kl.com/src/js/goodList/settingAddress/Popt.js"></script>
 <script src="http://www.kl.com/src/js/goodList/settingAddress/cityJson.js"></script>
 <script src="http://www.kl.com/src/js/goodList/settingAddress/citySet.js"></script>
@@ -117,83 +117,8 @@
 <script>
     (() => {
 
-        function updata() {
-            $.ajax({
-                type: 'get',
-                url: 'http://www.kl.com/src/api/list/goods.php',
-                data: '',
-                success: str => {
-                    // console.log(str);
-                    let arr = JSON.parse(str);
-                    console.log(arr);
-                    let html = arr.map(item => {
-                        return `<li data-id=${item.gid}>
-                                    <div class="goodsWrap">
-                                        <a href="" title="${item.title}">
-                                            <div class="img">
-                                                <img src="${item.bigImg}" alt="">
-                                                <div class="hotSale">
-                                                    <span class="hot">${item.hot_sale}</span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <div class="imgList">
-                                            <ul class="imgGroup">
-                                                <li class="imgTag">
-                                                    <img src="${item.bigImg}" alt="">
-                                                </li>
-                                                <li class="imgTag">
-                                                    <img src="${item.bigImg}" alt="">
-                                                </li>
-                                                <li class="imgTag">
-                                                    <img src="${item.bigImg}" alt="">
-                                                </li>
-                                                <li class="imgTag">
-                                                    <img src="${item.bigImg}" alt="">
-                                                </li>
-                                                <li class="imgTag">
-                                                    <img src="${item.bigImg}" alt="">
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="desc">
-                                            <p class="price">
-                                                <span class="cur_price">
-                                                    <i>￥</i>
-                                                    ${item.cur}
-                                                </span>
-                                                <span class="market_price">
-                                                    ￥
-                                                    <del>${item.market_price}</del>
-                                                </span>
-                                            </p>
-                                            <div class="goods_tit">
-                                                <a id="goods_title" href="">
-                                                    <h2>${item.title}</h2>
-                                                </a>
-                                            </div>
-                                            <p class="sale_info">
-                                                <span class="activity self">${item.activity}</span>
-                                                <span class="activity fit">${item.col5}</span>
-                                            </p>
-                                            <p class="goods_info clearfix">
-                                                <a href="" class="comments">
-                                                    <i class="icon"></i> ${item.comment}
-                                                </a>
-                                                <span class="proPlace">${item.proPlace}</span>
-                                            </p>
-                                            <p class="self_flag">
-                                                <span>${item.selfflag}</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>`;
-                    }).join('');
-                    $('#result').html(html);
-                }
-            });
-        }
-        updata();
+
+
 
     })();
 </script>

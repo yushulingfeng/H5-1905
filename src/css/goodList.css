@@ -459,6 +459,18 @@ main #content .cont .searchPrice .priceInput .inp:hover {
   border: 1px solid #739ecc;
   box-shadow: 0 0 6px 1px #739ecc;
 }
+main #content .cont .searchPrice:hover .priceInput {
+  width: 100px;
+  height: 72px;
+  background: #fff;
+  box-shadow: 1px 1px 1px 1px #ddd;
+  z-index: 1;
+}
+main #content .cont .searchPrice:hover #clearBtn,
+main #content .cont .searchPrice:hover .sure {
+  display: block;
+  z-index: 9;
+}
 main #content .cont .addrBox {
   float: left;
   height: 36px;
@@ -610,12 +622,16 @@ main #content #result li .goodsWrap .imgList .imgGroup .imgTag {
   margin-right: 4px;
   overflow: hidden;
   border: 1px solid #ddd;
+  box-sizing: border-box;
   cursor: pointer;
 }
 main #content #result li .goodsWrap .imgList .imgGroup .imgTag img {
   display: block;
   width: 30px;
   height: 30px;
+}
+main #content #result li .goodsWrap .imgList .imgGroup .imgTag:hover {
+  border: 1px solid #e31436;
 }
 main #content #result li .goodsWrap .desc {
   width: 234px;
