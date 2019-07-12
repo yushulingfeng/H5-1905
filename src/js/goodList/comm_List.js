@@ -153,6 +153,7 @@
         $('.order').on('click', '#price_sort', function() {
             // console.log('ok')
             let sort = '';
+
             if (isok) {
                 $('#price_sort').html('价格 ↑');
                 isok = !isok;

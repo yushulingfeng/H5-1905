@@ -7,6 +7,10 @@
         $('.twoLevel').css('border', 'none');
     });
 
+
+
+    $('#comboRecbox').load('http://www.kl.com/src/html/page/details/comboRecbox.html');
+
     $('footer').load('http://www.kl.com/src/html/component/footer.html');
 
     $('.suspension_list').load('http://www.kl.com/src/html/page/index/suspension.html');
@@ -32,26 +36,7 @@
         window.scrollTo(0, 0);
     });
 
-    $('.imgBox').load('http://www.kl.com/src/html/page/details/magnifier.html', function() {
-        var magnifierConfig = {
-            magnifier: "#magnifier1", //最外层的大容器
-            width: 402, //承载容器宽
-            height: 402, //承载容器高
-            moveWidth: null, //如果设置了移动盒子的宽度，则不计算缩放比例
-            zoom: 2 //缩放比例
-        };
 
-        var _magnifier = magnifier(magnifierConfig);
-
-        /*magnifier的内置函数调用*/
-        /*
-            //设置magnifier函数的index属性
-            _magnifier.setIndex(1);
-
-            //重新载入主图,根据magnifier函数的index属性
-            _magnifier.eqImg();
-        */
-    });
 
 
 })();

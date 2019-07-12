@@ -567,6 +567,7 @@ main #content #result li {
   background-color: #fff;
   font-size: 12px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 main #content #result li .goodsWrap {
   position: absolute;

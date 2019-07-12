@@ -1,0 +1,208 @@
+#result {
+  display: flex;
+  flex-wrap: wrap;
+}
+#result li {
+  position: relative;
+  width: 23.728%;
+  height: 431px;
+  margin: 0 7px 14px;
+  background-color: #fff;
+  font-size: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+#result li .goodsWrap {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
+  border-bottom: none;
+  box-sizing: border-box;
+}
+#result li .goodsWrap a {
+  display: block;
+}
+#result li .goodsWrap a .img {
+  position: relative;
+}
+#result li .goodsWrap a .img img {
+  display: block;
+  width: 232px;
+  height: 232px;
+  padding: 15px 15px 10px;
+}
+#result li .goodsWrap a .img .hotSale {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 42px;
+}
+#result li .goodsWrap a .img .hotSale .hot {
+  display: inline-block;
+  width: 36px;
+  height: 18px;
+  line-height: 18px;
+  margin-left: 4px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  background: #ff8385;
+}
+#result li .goodsWrap .imgList {
+  position: relative;
+  width: 234px;
+  padding: 0 14px 11px;
+}
+#result li .goodsWrap .imgList .imgGroup {
+  height: 32px;
+}
+#result li .goodsWrap .imgList .imgGroup .imgTag {
+  float: left;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+#result li .goodsWrap .imgList .imgGroup .imgTag img {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+#result li .goodsWrap .imgList .imgGroup .imgTag:hover {
+  border: 1px solid #e31436;
+}
+#result li .goodsWrap .desc {
+  width: 234px;
+  padding: 0 14px 11px;
+}
+#result li .goodsWrap .desc .price {
+  height: 24px;
+  color: #e31436;
+  overflow: hidden;
+  width: 100%;
+}
+#result li .goodsWrap .desc .price .cur_price {
+  display: inline-block;
+  margin-right: 2px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+}
+#result li .goodsWrap .desc .price .cur_price i {
+  font-size: 12px;
+  font-weight: 700;
+  position: relative;
+  left: 7px;
+}
+#result li .goodsWrap .desc .price .market_price {
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: 2px;
+  color: #999;
+  font-size: 12px;
+}
+#result li .goodsWrap .desc .price .market_price del {
+  position: relative;
+  left: -6px;
+}
+#result li .goodsWrap .desc .goods_tit a {
+  height: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 234px;
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+  color: #333;
+}
+#result li .goodsWrap .desc .goods_tit a h2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#result li .goodsWrap .desc .sale_info {
+  height: auto;
+  min-height: 20px;
+  white-space: normal;
+  position: relative;
+  width: 234px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 20px;
+  font-size: 13px;
+  color: #e31436;
+}
+#result li .goodsWrap .desc .sale_info .activity {
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  padding: 0 3px;
+  margin-right: 4px;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 2px;
+}
+#result li .goodsWrap .desc .sale_info .self {
+  height: 14px;
+  line-height: 14px;
+  background-color: #fff;
+  border: 1px solid #e31436;
+  color: #e31436;
+}
+#result li .goodsWrap .desc .sale_info .fit {
+  background-color: #e31436;
+}
+#result li .goodsWrap .desc .goods_info {
+  margin-top: 10px;
+}
+#result li .goodsWrap .desc .goods_info .comments {
+  float: left;
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  color: #333;
+  font-weight: 700;
+}
+#result li .goodsWrap .desc .goods_info .comments .icon {
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 12px;
+  height: 14px;
+  background: url("http://www.kl.com/src/images/icon4.png") no-repeat;
+  background-position: 0 -230px;
+}
+#result li .goodsWrap .desc .goods_info .proPlace {
+  float: right;
+  max-width: 110px;
+  color: #999;
+}
+#result li .goodsWrap .desc .self_flag {
+  margin-top: 4px;
+}
+#result li .goodsWrap .desc .self_flag span {
+  color: #999;
+}
+#result li:hover .goodsWrap {
+  z-index: 99;
+  border: 1px solid #e31436;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+#result li:hover .goods_tit #goods_title {
+  height: auto;
+  min-height: 20px;
+  white-space: normal;
+}
+
+/*# sourceMappingURL=goods.css.map */

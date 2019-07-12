@@ -1,48 +1,48 @@
 (() => {
     //头部
-    $('header').load('html/component/header.html');
+    $('header').load('http://www.kl.com/src/html/component/header.html');
     //导航栏
-    $('#navBox').load('html/component/nav.html', () => {
+    $('#navBox').load('http://www.kl.com/src/html/component/nav.html', () => {
         let nav = document.querySelector('#navBox #topTabBox .topTab .nav');
         // console.log(nav);
         nav.children[0].children[0].className = 'active';
     });
     //轮播图
-    $('#banner').load('html/page/index/banner.html');
+    $('#banner').load('http://www.kl.com/src/html/page/index/banner.html');
     //右侧悬挂
-    $('.suspension_right').load('html/page/index/suspension.html');
+    $('.suspension_right').load('http://www.kl.com/src/html/page/index/suspension.html');
     //楼层跳跃
-    $('.floor_jump').load('html/page/index/floor_jump.html');
+    $('.floor_jump').load('http://www.kl.com/src/html/page/index/floor_jump.html');
     //限时购
-    $('#content .flashSale').load('html/page/index/flashSale.html');
+    $('#content .flashSale').load('http://www.kl.com/src/html/page/index/flashSale.html');
     //热门品牌
-    $('#content .hotBrand').load('html/page/index/hotBrand.html');
+    $('#content .hotBrand').load('http://www.kl.com/src/html/page/index/hotBrand.html');
     //美妆专区
-    $('.Beauty_makeupFloor').load('html/page/index/Beauty_makeupFloor.html');
+    $('.Beauty_makeupFloor').load('http://www.kl.com/src/html/page/index/Beauty_makeupFloor.html');
     //母婴专区
-    $('.muying_product').load('html/page/index/muying_product.html');
+    $('.muying_product').load('http://www.kl.com/src/html/page/index/muying_product.html');
     //营养保健
-    $('.healthcareFloor').load('html/page/index/healthcareFloor.html');
+    $('.healthcareFloor').load('http://www.kl.com/src/html/page/index/healthcareFloor.html');
     //数码家电
-    $('.digitalFloor').load('html/page/index/digitalFloor.html');
+    $('.digitalFloor').load('http://www.kl.com/src/html/page/index/digitalFloor.html');
     //个人洗护
-    $('.personal_careFloor').load('html/page/index/personal_careFloor.html');
+    $('.personal_careFloor').load('http://www.kl.com/src/html/page/index/personal_careFloor.html');
     //服饰鞋靴
-    $('.clothingFloor').load('html/page/index/clothingFloor.html');
+    $('.clothingFloor').load('http://www.kl.com/src/html/page/index/clothingFloor.html');
     //轻奢馆 
-    $('.light_luxury_halFloor').load('html/page/index/light_luxury_halFloor.html');
+    $('.light_luxury_halFloor').load('http://www.kl.com/src/html/page/index/light_luxury_halFloor.html');
     //手表配饰
-    $('.watchFloor').load('html/page/index/watchFloor.html');
+    $('.watchFloor').load('http://www.kl.com/src/html/page/index/watchFloor.html');
     //运动户外
-    $('.sportsFloor').load('html/page/index/sportsFloor.html');
+    $('.sportsFloor').load('http://www.kl.com/src/html/page/index/sportsFloor.html');
     //家居生活
-    $('.home_lifeFloor').load('html/page/index/home_lifeFloor.html');
+    $('.home_lifeFloor').load('http://www.kl.com/src/html/page/index/home_lifeFloor.html');
     //美食生鲜
-    $('.foodFloor').load('html/page/index/foodFloor.html');
+    $('.foodFloor').load('http://www.kl.com/src/html/page/index/foodFloor.html');
     //猜你喜欢
-    $('.youLike').load('html/page/index/youLike.html');
+    $('.youLike').load('http://www.kl.com/src/html/page/index/youLike.html');
     //尾部
-    $('footer').load('html/component/footer.html');
+    $('footer').load('http://www.kl.com/src/html/component/footer.html');
 
 
 

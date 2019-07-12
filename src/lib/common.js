@@ -424,8 +424,9 @@ function removeCookie(key) { //删除：设置失效时间为过去的时间，�
     setCookie(key, '', -1);
 }
 
-export {
-    setCookie,
-    getCookie,
-    removeCookie
-}
+// export {
+//     setCookie,
+//     getCookie,
+//     removeCookie,
+//     strToObj
+// }

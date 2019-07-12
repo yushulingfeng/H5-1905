@@ -1,0 +1,28 @@
+main {
+    #content {
+        background: #fff;
+        .cartBox {
+            width: 1090px;
+            margin: auto;
+            .myCart {
+                font-size: 14px;
+                color: #333;
+                line-height: 32px;
+                margin-top: 15px;
+            }
+            .no_cart {
+                position: relative;
+                font-size: 16px;
+                height: 218px;
+                background: url('http://www.kl.com/src/images/cartIcon.de306f2.jpg') 336px 91px no-repeat;
+                .wrap {
+                    position: absolute;
+                    left: 396px;
+                    top: 90px;
+                    white-space: normal;
+                    word-wrap: break-word;
+                }
+            }
+        }
+    }
+}

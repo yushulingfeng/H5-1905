@@ -15,12 +15,18 @@
                     // console.log(str)
                     upData(arr, str);
                     mouseoverImg();
+                    jumpTo();
                 }
             });
         }
     });
 
-
+    function jumpTo() {
+        $('#result').on('click', '.item', function() {
+            let gid = $(this).attr('data-id');
+            window.open('http://www.kl.com/src/html/page/details/details.html?gid=' + gid);
+        });
+    }
 
     function mouseoverImg() {
         let imgGroup = document.querySelectorAll('.imgGroup');
@@ -48,9 +54,9 @@
         }).join('');
 
         let html = arr1.map(item => {
-            return `<li data-id=${item.gid}>
+            return `<li data-id=${item.gid} class="item">
                             <div class="goodsWrap">
-                                <a href="" title="${item.title}">
+                                <a title="${item.title}">
                                     <div class="img">
                                         <img src="http://www.kl.com/src/images/goods/bigImg/Image Picka${item.bigImg}" alt="">
                                         <div class="hotSale">

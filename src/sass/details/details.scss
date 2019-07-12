@@ -398,7 +398,7 @@ main {
                             padding-bottom: 13px;
                             margin-bottom: 6px;
                             .color_box {
-                                margin: 1px 0 2px 0;
+                                margin: 1px 0 2px 14px;
                                 .line_title {
                                     height: 54px;
                                     line-height: 54px;
@@ -545,18 +545,6 @@ main {
                             line-height: 24px;
                             margin-right: 10px;
                             color: #333;
-                            .ctt {
-                                display: none;
-                                position: absolute;
-                                top: 23px;
-                                left: 0;
-                                background: #fff;
-                                width: 300px;
-                                padding: 11px 10px;
-                                overflow: hidden;
-                                border: 1px solid #ccc;
-                                z-index: 1;
-                            }
                             .tit {
                                 position: relative;
                                 padding: 0 27px 0 10px;
@@ -589,17 +577,295 @@ main {
                                     display: block;
                                 }
                             }
-                            &:hover {
-                                .ctt {
-                                    display: block;
-                                }
-                                .up {
-                                    display: block;
-                                }
-                                .down {
-                                    display: none;
+                        }
+                    }
+                    .ctt {
+                        display: none;
+                        position: absolute;
+                        top: 41px;
+                        left: 75px;
+                        background: #fff;
+                        width: 300px;
+                        padding: 11px 10px;
+                        overflow: hidden;
+                        border: 1px solid #ccc;
+                        z-index: 1;
+                        .moreList {
+                            .moreLi {
+                                line-height: 25px;
+                                font-size: 0;
+                                cursor: pointer;
+                            }
+                            .checked {
+                                position: relative;
+                                top: -4px;
+                                display: inline-block;
+                                vertical-align: middle;
+                                width: 15px;
+                                height: 15px;
+                                margin-right: 7px;
+                                input {
+                                    width: 15px;
+                                    height: 17px;
                                 }
                             }
+                            .msg {
+                                display: inline-block;
+                                vertical-align: middle;
+                                max-width: 210px;
+                                line-height: 18px;
+                                padding: 3px 0;
+                                font-size: 12px;
+                            }
+                            .link {
+                                display: inline-block;
+                                vertical-align: middle;
+                                font-size: 12px;
+                                margin-left: 30px;
+                                color: #333;
+                            }
+                        }
+                    }
+                }
+                .explain {
+                    padding: 6px 0 0 0;
+                    margin-bottom: -8px;
+                    color: #666;
+                    .buyNow_tips {
+                        margin-left: 0;
+                        line-height: 28px;
+                        margin-top: 5px;
+                        li {
+                            position: relative;
+                            padding-left: 19px;
+                            line-height: 18px;
+                            display: inline-block;
+                            margin-right: 10px;
+                            i {
+                                width: 12px;
+                                height: 12px;
+                                position: absolute;
+                                top: 3px;
+                                background: url('https://mm.bst.126.net/goods/dist/pc/images/support.ede6c07.png') no-repeat;
+                                left: 2px;
+                            }
+                            .unsupport {
+                                background: url('https://mm.bst.126.net/goods/dist/pc/images/unsupport-icon.094c85f.png') no-repeat;
+                            }
+                        }
+                    }
+                }
+                .buyBtns {
+                    display: block;
+                    margin-top: 20px;
+                    position: relative;
+                    a {
+                        display: inline-block;
+                        margin-right: 20px;
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-decoration: none;
+                        vertical-align: middle;
+                    }
+                    #buyBtn {
+                        position: relative;
+                        width: 156px;
+                        height: 46px;
+                        border: 2px solid #d41c44;
+                        background-color: #ffeced;
+                        color: #d31b44;
+                        line-height: 46px;
+                        cursor: pointer;
+                        &:hover {
+                            background: #fff;
+                        }
+                    }
+                    #addCart {
+                        width: 180px;
+                        height: 50px;
+                        line-height: 50px;
+                        color: #fff;
+                        background-color: #e31436;
+                        cursor: pointer;
+                        .iconfont {
+                            margin-right: 5px;
+                            display: inline-block;
+                        }
+                        &:hover {
+                            background-color: #fa2145;
+                        }
+                    }
+                    .favBtn {
+                        height: 28px;
+                        line-height: 28px;
+                        padding: 0 10px;
+                        font-size: 0;
+                        text-align: center;
+                        border: 1px solid #fff;
+                        position: relative;
+                        top: 10px;
+                        cursor: pointer;
+                        &:hover {
+                            .txt {
+                                text-decoration: underline;
+                            }
+                        }
+                        .txt {
+                            font-size: 14px;
+                            color: #6f6f6f;
+                            font-weight: normal;
+                        }
+                        .iconfont {
+                            font-size: 14px;
+                            margin-right: 5px;
+                            color: #e31436;
+                        }
+                    }
+                }
+                .comment_bar {
+                    font-size: 13px;
+                    margin-top: 6px;
+                    .percentStar {
+                        font-size: 11px;
+                        position: relative;
+                        display: inline-block;
+                        letter-spacing: 2px;
+                        white-space: nowrap;
+                        text-align: left;
+                        color: #d61640;
+                        span {
+                            vertical-align: middle;
+                            i {
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                    .goodPercent {
+                        position: relative;
+                        margin-left: 5px;
+                        font-weight: bold;
+                        color: #d22046;
+                    }
+                    .comNum {
+                        margin-left: 14px;
+                    }
+                    .commImg {
+                        margin-left: 10px;
+                    }
+                    .comm {
+                        a {
+                            color: #333;
+                            font-weight: bold;
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+                .excelComm {
+                    position: relative;
+                    padding: 2px 90px 10px 0;
+                    margin-top: 11px;
+                    border-top: 1px dotted #ccc;
+                    color: #666;
+                    font-size: 13px;
+                    .comm_tit {
+                        line-height: 30px;
+                    }
+                    .detail {
+                        display: block;
+                        line-height: 20px;
+                        max-height: 40px;
+                        min-height: 40px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        word-break: break-all;
+                        transition: max-height 1s ease-in-out;
+                    }
+                    &:hover {
+                        .detail {
+                            max-height: 300px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #comboRecbox {
+        margin: 15px 0;
+        .combotab {
+            li {
+                display: inline-block;
+                width: 110px;
+                height: 52px;
+                line-height: 52px;
+                margin-right: 10px;
+                font-weight: bold;
+                text-align: center;
+                font-size: 16px;
+                border-bottom: 2px solid #fff;
+                a {
+                    display: block;
+                    color: #000;
+                }
+            }
+        }
+        .newRecom {
+            height: auto;
+            margin: 0;
+            overflow: hidden;
+            .resclst {
+                padding: 17px 20px 12px 30px;
+                margin-left: 0px;
+                border: 1px solid #eaeaea;
+                li {
+                    margin: 0 35px 0 0;
+                    height: 195px;
+                    width: 138px;
+                    border: none;
+                    float: left;
+                    text-align: center;
+                    .itemImg {
+                        display: block;
+                        img {
+                            width: 110px;
+                            height: 110px;
+                        }
+                    }
+                    .itemTitle {
+                        margin-bottom: 9px;
+                        padding: 0px;
+                        height: 40px;
+                        overflow: hidden;
+                        a {
+                            line-height: 20px;
+                            font-size: 12px;
+                            color: #333;
+                            font-weight: normal;
+                            word-break: break-all;
+                        }
+                    }
+                    .itemInfo {
+                        .price {
+                            line-height: 14px;
+                            color: #e31436;
+                            font-size: 16px;
+                            font-weight: bold;
+                            .marprice {
+                                padding-left: 5px;
+                                color: #999;
+                                font-size: 12px;
+                                font-weight: normal;
+                                line-height: 14px;
+                            }
+                        }
+                        .comment {
+                            display: block;
+                            height: 24px;
+                            line-height: 20px;
+                            color: #999;
+                            font-size: 12px;
                         }
                     }
                 }
