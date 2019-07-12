@@ -45,7 +45,7 @@ main #content .cartBox .myCart .address_box .address .triangle {
 main #content .cartBox .myCart .tip {
   position: relative;
   float: right;
-  top: -4px;
+  top: 5px;
   height: 32px;
   line-height: 32px;
   font-size: 12px;
