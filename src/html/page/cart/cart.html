@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>购物车</title>
+
     <link rel="stylesheet" href="http://www.kl.com/src/css/kaola.css">
     <link rel="stylesheet" href="http://www.kl.com/src/css/cart.css">
 </head>
@@ -35,17 +36,34 @@
         <div id="content">
             <div class="cartBox">
                 <h3 class="myCart">
-                    <span>我的购物车</span>
+                    <span class="tt">我的购物车&nbsp;3</span>
+                    <span class="address_box fr">
+                        <label>配送至</label>
+                        <div class="address">
+                            <div class="addr_select">
+                                <input type="text" id="city" placeholder=" 广东省-广州市-天河区">
+                                <label for="city" class="triangle"></label>
+                            </div>
+                        </div>
+                    </span>
+                    <span class="tip">
+                        <img src="https://haitao.nos.netease.com/45441f34-6f10-45ee-8f33-11d9bc5dc4b8_16_16.png" alt="">
+                        <span class="msg">考拉自营商品已免运费</span>
+                    </span>
                 </h3>
                 <div class="no_cart">
                     <div class="wrap">
                         <p>
                             购物车里空空如也
-                            <a href="">去逛逛吧></a>
+                            <a href="http://www.kl.com/src/kaola.html">去逛逛吧></a>
                         </p>
-                        <p></p>
+                        <p>
+                            或者您可以先进行
+                            <a href="http://www.kl.com/src/html/page/login/login.html">登录></a>
+                        </p>
                     </div>
                 </div>
+
             </div>
             <div class="youLike">
                 <!-- 猜你喜欢 -->
@@ -62,3 +80,15 @@
 </html>
 <script src="http://www.kl.com/src/lib/jquery-1.10.1.min.js"></script>
 <script src="http://www.kl.com/src/js/cart/cart.js"></script>
+<script src="http://www.kl.com/src/js/goodList/settingAddress/Popt.js"></script>
+<script src="http://www.kl.com/src/js/goodList/settingAddress/cityJson.js"></script>
+<script src="http://www.kl.com/src/js/goodList/settingAddress/citySet.js"></script>
+
+<script>
+    (() => {
+        $("#city").click(function(e) {
+            SelCity(this, e);
+            // console.log("inout", $(this).val(), new Date())
+        });
+    })();
+</script>

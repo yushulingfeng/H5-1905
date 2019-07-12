@@ -37,7 +37,7 @@
 
         $("#city").click(function(e) {
             SelCity(this, e);
-            console.log("inout", $(this).val(), new Date())
+            // console.log("inout", $(this).val(), new Date())
         });
 
         //列表头部其他属性，按钮功能
