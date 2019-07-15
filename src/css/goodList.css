@@ -1,843 +1,950 @@
 main #navBox .nav_carts {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 main #navBox .nav_carts .carMenuBox {
-  display: none;
+    display: none;
 }
+
 main #navBox .nav_carts:hover .carMenuBox {
-  display: block;
+    display: block;
 }
+
 main #content .cont {
-  width: 1100px;
-  margin: auto;
-  position: relative;
+    width: 1100px;
+    margin: auto;
+    position: relative;
 }
+
 main #content .cont .listBox {
-  margin-bottom: 6px;
+    margin-bottom: 6px;
 }
+
 main #content .cont .listBox .options {
-  width: 1090px;
-  margin: 0 auto;
+    width: 1090px;
+    margin: 0 auto;
 }
+
 main #content .cont .listBox .options a {
-  color: #333;
+    color: #333;
 }
+
 main #content .cont .listBox .options .result_info {
-  margin-bottom: 10px;
-  line-height: 22px;
+    margin-bottom: 10px;
+    line-height: 22px;
 }
+
 main #content .cont .listBox .options .result_info .all {
-  float: left;
-  line-height: 22px;
-  font-size: 12px;
+    float: left;
+    line-height: 22px;
+    font-size: 12px;
 }
+
 main #content .cont .listBox .options .result_info .gap {
-  margin: 0 8px;
-  display: inline-block;
-  width: 10px;
-  color: #999;
-  font-weight: 700;
-  line-height: 22px;
-  float: left;
+    margin: 0 8px;
+    display: inline-block;
+    width: 10px;
+    color: #999;
+    font-weight: 700;
+    line-height: 22px;
+    float: left;
 }
+
 main #content .cont .listBox .options .result_info .phone {
-  line-height: 22px;
-  font-size: 12px;
-  float: left;
+    line-height: 22px;
+    font-size: 12px;
+    float: left;
 }
+
 main #content .cont .listBox .options .result_info .detail_search {
-  position: relative;
-  font-size: 12px;
-  float: left;
-  margin-right: 10px;
+    position: relative;
+    font-size: 12px;
+    float: left;
+    margin-right: 10px;
 }
+
 main #content .cont .listBox .options .result_info .detail_search input {
-  width: 105px;
-  padding: 5px 24px 5px 5px;
-  height: 12px;
-  border: 1px solid #ccc;
-  margin-top: -1px;
+    width: 105px;
+    padding: 5px 24px 5px 5px;
+    height: 12px;
+    border: 1px solid #ccc;
+    margin-top: -1px;
 }
+
 main #content .cont .listBox .options .result_info .detail_search .searchBtn {
-  position: absolute;
-  right: 8px;
-  top: 4px;
-  cursor: pointer;
-  width: 14px;
-  background: url(http://www.kl.com/src/images/icon1.png) no-repeat;
-  height: 14px;
-  background-position: -468px -666px;
-  display: block;
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    cursor: pointer;
+    width: 14px;
+    background: url(/src/images/icon1.png) no-repeat;
+    height: 14px;
+    background-position: -468px -666px;
+    display: block;
 }
+
 main #content .cont .listBox .options .gnum {
-  height: 22px;
-  display: inline-block;
-  font-size: 12px;
-  line-height: 24px;
-  color: #999;
+    height: 22px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 24px;
+    color: #999;
 }
+
 main #content .cont .listBox .options .gnum i {
-  color: #e31436;
+    color: #e31436;
 }
+
 main #content .cont .opertaion {
-  margin-bottom: 10px;
-  background-color: #fff;
-  border: 1px solid #eaeaea;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
 }
+
 main #content .cont .opertaion .classify {
-  border-bottom: 1px dotted #eaeaea;
-  position: relative;
-  background: #f8f8f8;
+    border-bottom: 1px dotted #eaeaea;
+    position: relative;
+    background: #f8f8f8;
 }
+
 main #content .cont .opertaion .brandWrap .name,
 main #content .cont .opertaion .country .name,
 main #content .cont .opertaion .sort .name,
 main #content .cont .opertaion .property .name {
-  font-size: 12px;
-  line-height: 12px;
-  padding-top: 12px;
-  width: 85px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  float: left;
-  height: 100%;
-  padding-left: 15px;
-  color: #666;
-  background: #f8f8f8;
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 12px;
+    width: 85px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+    height: 100%;
+    padding-left: 15px;
+    color: #666;
+    background: #f8f8f8;
 }
+
 main #content .cont .opertaion .brandWrap .hdbrands,
 main #content .cont .opertaion .country .hdbrands,
 main #content .cont .opertaion .sort .hdbrands,
 main #content .cont .opertaion .property .hdbrands {
-  margin-left: 110px;
-  padding: 8px 10px 4px 0;
-  background-color: #fff;
+    margin-left: 110px;
+    padding: 8px 10px 4px 0;
+    background-color: #fff;
 }
+
 main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2,
 main #content .cont .opertaion .country .hdbrands .hdbrands2,
 main #content .cont .opertaion .sort .hdbrands .hdbrands2,
 main #content .cont .opertaion .property .hdbrands .hdbrands2 {
-  height: 45px;
-  position: relative;
-  overflow: hidden;
+    height: 45px;
+    position: relative;
+    overflow: hidden;
 }
+
 main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .brand,
 main #content .cont .opertaion .country .hdbrands .hdbrands2 .brand,
 main #content .cont .opertaion .sort .hdbrands .hdbrands2 .brand,
 main #content .cont .opertaion .property .hdbrands .hdbrands2 .brand {
-  margin-left: 15px;
-  line-height: 14px;
-  overflow: auto;
-  font-size: 12px;
-  float: left;
+    margin-left: 15px;
+    line-height: 14px;
+    overflow: auto;
+    font-size: 12px;
+    float: left;
 }
+
 main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .brand a,
 main #content .cont .opertaion .country .hdbrands .hdbrands2 .brand a,
 main #content .cont .opertaion .sort .hdbrands .hdbrands2 .brand a,
 main #content .cont .opertaion .property .hdbrands .hdbrands2 .brand a {
-  position: relative;
-  box-sizing: border-box;
-  margin-right: 18px;
-  margin-bottom: 4px;
-  padding: 3px 5px;
-  width: 120px;
-  border: 1px solid transparent;
-  font-size: 12px;
-  line-height: 12px;
-  text-decoration: none;
-  color: #333;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  float: left;
-  display: inline-block;
-  cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    margin-right: 18px;
+    margin-bottom: 4px;
+    padding: 3px 5px;
+    width: 120px;
+    border: 1px solid transparent;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
 }
+
 main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .brand a:hover,
 main #content .cont .opertaion .country .hdbrands .hdbrands2 .brand a:hover,
 main #content .cont .opertaion .sort .hdbrands .hdbrands2 .brand a:hover,
 main #content .cont .opertaion .property .hdbrands .hdbrands2 .brand a:hover {
-  color: #e31436;
+    color: #e31436;
 }
+
 main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap,
 main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap,
 main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap,
 main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap {
-  position: absolute;
-  top: 4px;
-  right: -11px;
+    position: absolute;
+    top: 4px;
+    right: -11px;
 }
+
 main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .more,
 main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .more,
 main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .more,
 main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .more {
-  margin-left: 0;
-  font-size: 12px;
-  position: relative;
-  float: right;
-  width: 42px;
-  margin: auto 15px;
-  line-height: 13px;
-  cursor: pointer;
+    margin-left: 0;
+    font-size: 12px;
+    position: relative;
+    float: right;
+    width: 42px;
+    margin: auto 15px;
+    line-height: 13px;
+    cursor: pointer;
 }
+
 main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .more span,
 main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .more span,
 main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .more span,
 main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .more span {
-  position: absolute;
-  top: 3px;
-  left: 30px;
-  width: 9px;
-  height: 6px;
-  background-position: 0 0;
-  background: url(http://www.kl.com/src/images/icon4.png) no-repeat;
+    position: absolute;
+    top: 3px;
+    left: 30px;
+    width: 9px;
+    height: 6px;
+    background-position: 0 0;
+    background: url(/src/images/icon4.png) no-repeat;
 }
+
 main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .more:hover,
 main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .more:hover,
 main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .more:hover,
 main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .more:hover {
-  color: #e31436;
+    color: #e31436;
 }
+
 main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .more:hover span,
 main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .more:hover span,
 main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .more:hover span,
 main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .more:hover span {
-  background-position: -50px 0;
+    background-position: -50px 0;
 }
+
 main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .item-multiple,
 main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .item-multiple,
 main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .item-multiple,
 main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .item-multiple {
-  float: right;
-  margin: -4px 15px 0 0;
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 0 5px;
-  height: 20px;
-  line-height: 20px;
-  color: #333;
-  font-size: 12px;
-  border: 1px solid #ddd;
-  cursor: pointer;
+    float: right;
+    margin: -4px 15px 0 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 5px;
+    height: 20px;
+    line-height: 20px;
+    color: #333;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    cursor: pointer;
 }
+
 main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .item-multiple:hover,
 main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .item-multiple:hover,
 main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .item-multiple:hover,
 main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .item-multiple:hover {
-  color: #e31436;
-  border: 1px solid #e31436;
+    color: #e31436;
+    border: 1px solid #e31436;
 }
+
 main #content .cont .opertaion .brandWrap .hdbrands .hdbrands2 .morewrap .item-multiple .iconfont,
 main #content .cont .opertaion .country .hdbrands .hdbrands2 .morewrap .item-multiple .iconfont,
 main #content .cont .opertaion .sort .hdbrands .hdbrands2 .morewrap .item-multiple .iconfont,
 main #content .cont .opertaion .property .hdbrands .hdbrands2 .morewrap .item-multiple .iconfont {
-  font-size: 12px;
-  color: #333;
-  height: 20px;
-  line-height: 20px;
-  position: relative;
+    font-size: 12px;
+    color: #333;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
 }
+
 main #content .cont .country #countyrBrands,
 main #content .cont .sort #countyrBrands,
 main #content .cont .property #countyrBrands {
-  height: 24px;
-  position: relative;
-  overflow: hidden;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
 }
+
 main #content .cont .country #countyrBrands .attr_items,
 main #content .cont .sort #countyrBrands .attr_items,
 main #content .cont .property #countyrBrands .attr_items {
-  position: relative;
-  margin-left: 0;
+    position: relative;
+    margin-left: 0;
 }
+
 main #content .cont .country #countyrBrands .attr_items a,
 main #content .cont .sort #countyrBrands .attr_items a,
 main #content .cont .property #countyrBrands .attr_items a {
-  box-sizing: border-box;
-  margin-right: 18px;
-  text-decoration: none;
-  float: left;
-  position: relative;
-  border: 1px solid #ddd;
-  padding: 3px 5px;
-  line-height: 12px;
-  font-size: 12px;
-  margin: 0 0 4px 20px;
-  cursor: pointer;
-  color: #333;
+    box-sizing: border-box;
+    margin-right: 18px;
+    text-decoration: none;
+    float: left;
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 3px 5px;
+    line-height: 12px;
+    font-size: 12px;
+    margin: 0 0 4px 20px;
+    cursor: pointer;
+    color: #333;
 }
+
 main #content .cont .country #countyrBrands .attr_items a .iconfont,
 main #content .cont .sort #countyrBrands .attr_items a .iconfont,
 main #content .cont .property #countyrBrands .attr_items a .iconfont {
-  font-size: 12px;
-  width: 12px;
-  height: 12px;
-  line-height: 12px;
-  margin-left: 2px;
-  color: #cdcdcd;
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    margin-left: 2px;
+    color: #cdcdcd;
 }
+
 main #content .cont .country #countyrBrands .attr_items a .down,
 main #content .cont .sort #countyrBrands .attr_items a .down,
 main #content .cont .property #countyrBrands .attr_items a .down {
-  display: inline-block;
+    display: inline-block;
 }
+
 main #content .cont .country #countyrBrands .attr_items a .up,
 main #content .cont .sort #countyrBrands .attr_items a .up,
 main #content .cont .property #countyrBrands .attr_items a .up {
-  display: none;
+    display: none;
 }
+
 main #content .cont .country .drop_downList,
 main #content .cont .sort .drop_downList,
 main #content .cont .property .drop_downList {
-  position: absolute;
-  left: 0;
-  top: 29px;
-  width: 100%;
-  border: 1px solid #aaa;
-  background: #fff;
-  z-index: 100;
-  font-size: 12px;
-  line-height: 12px;
-  display: none;
-  padding-bottom: 11px;
+    position: absolute;
+    left: 0;
+    top: 29px;
+    width: 100%;
+    border: 1px solid #aaa;
+    background: #fff;
+    z-index: 100;
+    font-size: 12px;
+    line-height: 12px;
+    display: none;
+    padding-bottom: 11px;
 }
+
 main #content .cont .country .drop_downList .list,
 main #content .cont .sort .drop_downList .list,
 main #content .cont .property .drop_downList .list {
-  position: relative;
-  padding-right: 65px;
-  margin-bottom: 5px;
-  margin-left: -8px;
+    position: relative;
+    padding-right: 65px;
+    margin-bottom: 5px;
+    margin-left: -8px;
 }
+
 main #content .cont .country .drop_downList .list a,
 main #content .cont .sort .drop_downList .list a,
 main #content .cont .property .drop_downList .list a {
-  float: left;
-  position: relative;
-  margin: 11px 0 0 17px;
-  cursor: pointer;
-  padding: 3px 22px 3px 5px;
-  border: 1px solid transparent;
-  color: #333;
+    float: left;
+    position: relative;
+    margin: 11px 0 0 17px;
+    cursor: pointer;
+    padding: 3px 22px 3px 5px;
+    border: 1px solid transparent;
+    color: #333;
 }
+
 main #content .cont .country .drop_downList .list a:hover,
 main #content .cont .sort .drop_downList .list a:hover,
 main #content .cont .property .drop_downList .list a:hover {
-  color: #e31436;
+    color: #e31436;
 }
+
 main #content .cont .country .drop_downList .list .item-multiple,
 main #content .cont .sort .drop_downList .list .item-multiple,
 main #content .cont .property .drop_downList .list .item-multiple {
-  position: absolute;
-  right: 9px;
-  top: 10px;
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 0 5px;
-  height: 20px;
-  line-height: 20px;
-  color: #333;
-  font-size: 12px;
-  border: 1px solid #ddd;
-  cursor: pointer;
+    position: absolute;
+    right: 9px;
+    top: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 5px;
+    height: 20px;
+    line-height: 20px;
+    color: #333;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    cursor: pointer;
 }
+
 main #content .cont .country .drop_downList .list .item-multiple:hover,
 main #content .cont .sort .drop_downList .list .item-multiple:hover,
 main #content .cont .property .drop_downList .list .item-multiple:hover {
-  color: #e31436;
-  border: 1px solid #e31436;
+    color: #e31436;
+    border: 1px solid #e31436;
 }
+
 main #content .cont .country .drop_downList .btn_group,
 main #content .cont .sort .drop_downList .btn_group,
 main #content .cont .property .drop_downList .btn_group {
-  display: none;
-  box-sizing: border-box;
-  margin-top: 8px;
-  text-align: center;
+    display: none;
+    box-sizing: border-box;
+    margin-top: 8px;
+    text-align: center;
 }
+
 main #content .cont .country .drop_downList .btn_group span,
 main #content .cont .sort .drop_downList .btn_group span,
 main #content .cont .property .drop_downList .btn_group span {
-  display: inline-block;
-  width: 48px;
-  height: 24px;
-  line-height: 24px;
-  text-align: center;
-  font-size: 12px;
-  cursor: pointer;
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
 }
+
 main #content .cont .country .drop_downList .btn_group .sure,
 main #content .cont .sort .drop_downList .btn_group .sure,
 main #content .cont .property .drop_downList .btn_group .sure {
-  background: #ccc;
-  color: #fff;
+    background: #ccc;
+    color: #fff;
 }
+
 main #content .cont .country .drop_downList .btn_group .cancel,
 main #content .cont .sort .drop_downList .btn_group .cancel,
 main #content .cont .property .drop_downList .btn_group .cancel {
-  width: 46px;
-  height: 22px;
-  line-height: 22px;
-  border: 1px solid #aaa;
-  color: #333;
-  margin-left: 10px;
+    width: 46px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #aaa;
+    color: #333;
+    margin-left: 10px;
 }
+
 main #content .cont .country .drop_downList .btn_group .cancel:hover,
 main #content .cont .sort .drop_downList .btn_group .cancel:hover,
 main #content .cont .property .drop_downList .btn_group .cancel:hover {
-  border: 1px solid #000;
+    border: 1px solid #000;
 }
+
 main #content .cont .filter {
-  background: #fff;
-  height: 36px;
+    background: #fff;
+    height: 36px;
 }
+
 main #content .cont .order li {
-  float: left;
-  width: 65px;
-  height: 36px;
-  line-height: 36px;
-  margin: -1px;
-  margin-left: 0;
-  font-size: 13px;
-  color: #333;
-  border: 1px solid #eaeaea;
-  cursor: pointer;
-  text-align: center;
+    float: left;
+    width: 65px;
+    height: 36px;
+    line-height: 36px;
+    margin: -1px;
+    margin-left: 0;
+    font-size: 13px;
+    color: #333;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    text-align: center;
 }
+
 main #content .cont .order .active {
-  position: relative;
-  border: 1px solid #e31436;
-  color: #e31436;
+    position: relative;
+    border: 1px solid #e31436;
+    color: #e31436;
 }
+
 main #content .cont .searchPrice {
-  width: 116px;
-  height: 36px;
-  font-size: 14px;
-  position: relative;
-  float: left;
-  line-height: 36px;
+    width: 116px;
+    height: 36px;
+    font-size: 14px;
+    position: relative;
+    float: left;
+    line-height: 36px;
 }
+
 main #content .cont .searchPrice #clearBtn {
-  display: none;
-  position: absolute;
-  right: auto;
-  left: 15px;
-  top: 42px;
-  line-height: 16px;
-  font-size: 12px;
-  color: #51b8f1;
-  cursor: pointer;
+    display: none;
+    position: absolute;
+    right: auto;
+    left: 15px;
+    top: 42px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #51b8f1;
+    cursor: pointer;
 }
+
 main #content .cont .searchPrice .sure {
-  display: none;
-  position: absolute;
-  top: 40px;
-  right: 10px;
-  line-height: 16px;
-  margin-left: 5px;
-  padding: 2px 8px;
-  border-radius: 3px;
-  color: #fff;
-  background: #e31436;
-  border: 0;
-  cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    line-height: 16px;
+    margin-left: 5px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    color: #fff;
+    background: #e31436;
+    border: 0;
+    cursor: pointer;
 }
+
 main #content .cont .searchPrice .priceInput {
-  position: absolute;
-  left: 3px;
-  top: -1px;
-  padding: 0 8px;
+    position: absolute;
+    left: 3px;
+    top: -1px;
+    padding: 0 8px;
 }
+
 main #content .cont .searchPrice .priceInput .inp {
-  width: 34px;
-  line-height: 18px;
-  padding-left: 4px;
-  border: 1px solid #ddd;
+    width: 34px;
+    line-height: 18px;
+    padding-left: 4px;
+    border: 1px solid #ddd;
 }
+
 main #content .cont .searchPrice .priceInput .inp:hover {
-  border: 1px solid #739ecc;
-  box-shadow: 0 0 6px 1px #739ecc;
+    border: 1px solid #739ecc;
+    box-shadow: 0 0 6px 1px #739ecc;
 }
+
 main #content .cont .searchPrice:hover .priceInput {
-  width: 100px;
-  height: 72px;
-  background: #fff;
-  box-shadow: 1px 1px 1px 1px #ddd;
-  z-index: 1;
+    width: 100px;
+    height: 72px;
+    background: #fff;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    z-index: 1;
 }
+
 main #content .cont .searchPrice:hover #clearBtn,
 main #content .cont .searchPrice:hover .sure {
-  display: block;
-  z-index: 9;
+    display: block;
+    z-index: 9;
 }
+
 main #content .cont .addrBox {
-  float: left;
-  height: 36px;
-  margin-left: 10px;
+    float: left;
+    height: 36px;
+    margin-left: 10px;
 }
+
 main #content .cont .addrBox .addr_tit {
-  font-size: 12px;
-  line-height: 36px;
-  float: left;
+    font-size: 12px;
+    line-height: 36px;
+    float: left;
 }
+
 main #content .cont .addrBox .addr_select {
-  float: left;
-  display: inline-block;
-  margin: 8px 0 0 6px;
-  position: relative;
+    float: left;
+    display: inline-block;
+    margin: 8px 0 0 6px;
+    position: relative;
 }
+
 main #content .cont .addrBox .addr_select #city {
-  border: 1px solid #ddd;
-  height: 20px;
-  width: 160px;
-  position: absolute;
-  top: -1px;
+    border: 1px solid #ddd;
+    height: 20px;
+    width: 160px;
+    position: absolute;
+    top: -1px;
 }
+
 main #content .cont .addrBox .addr_select .triangle {
-  display: block;
-  border: 5px solid transparent;
-  border-top-color: #666;
-  position: absolute;
-  left: 137px;
-  top: 7px;
+    display: block;
+    border: 5px solid transparent;
+    border-top-color: #666;
+    position: absolute;
+    left: 137px;
+    top: 7px;
 }
+
 main #content .cont .checkedBox {
-  position: relative;
-  float: left;
-  line-height: 36px;
-  margin-left: 8px;
-  cursor: pointer;
-  font-size: 13px;
-  left: 170px;
+    position: relative;
+    float: left;
+    line-height: 36px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    left: 170px;
 }
+
 main #content .cont .checkedBox a {
-  color: #333;
+    color: #333;
 }
+
 main #content .cont .checkedBox a .box {
-  display: inline-block;
-  height: 16px;
-  width: 16px;
-  vertical-align: middle;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
 }
+
 main #content .cont .checkedBox a span {
-  vertical-align: middle;
+    vertical-align: middle;
 }
+
 main #content .cont .simplePage {
-  float: right;
-  margin-right: 13px;
-  margin-top: 12px;
-  line-height: 12px;
+    float: right;
+    margin-right: 13px;
+    margin-top: 12px;
+    line-height: 12px;
 }
+
 main #content .cont .simplePage .num {
-  float: left;
+    float: left;
 }
+
 main #content .cont .simplePage .num i {
-  color: #e31436;
+    color: #e31436;
 }
+
 main #content .cont .simplePage .arrow-left {
-  background-position: 0 -188px;
-  cursor: default;
-  width: 8px;
-  height: 13px;
-  display: inline-block;
-  float: left;
-  margin-left: 13px;
-  background: url(http://www.kl.com/src/images/icon4.png) no-repeat;
+    background-position: 0 -188px;
+    cursor: default;
+    width: 8px;
+    height: 13px;
+    display: inline-block;
+    float: left;
+    margin-left: 13px;
+    background: url(/src/images/icon4.png) no-repeat;
 }
+
 main #content .cont .simplePage .arrow-right {
-  background-position: -21px -210px;
-  width: 8px;
-  height: 13px;
-  cursor: pointer;
-  display: inline-block;
-  float: left;
-  margin-left: 13px;
-  background: url(http://www.kl.com/src/images/icon4.png) no-repeat;
+    background-position: -21px -210px;
+    width: 8px;
+    height: 13px;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    margin-left: 13px;
+    background: url(/src/images/icon4.png) no-repeat;
 }
+
 main #content #result {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 main #content #result li {
-  position: relative;
-  width: 23.728%;
-  height: 431px;
-  margin: 0 7px 14px;
-  background-color: #fff;
-  font-size: 12px;
-  box-sizing: border-box;
-  cursor: pointer;
+    position: relative;
+    width: 23.728%;
+    height: 431px;
+    margin: 0 7px 14px;
+    background-color: #fff;
+    font-size: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
 }
+
 main #content #result li .goodsWrap {
-  position: absolute;
-  top: -1px;
-  left: -1px;
-  background-color: #fff;
-  border: 1px solid #f3f3f3;
-  border-bottom: none;
-  box-sizing: border-box;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background-color: #fff;
+    border: 1px solid #f3f3f3;
+    border-bottom: none;
+    box-sizing: border-box;
 }
+
 main #content #result li .goodsWrap a {
-  display: block;
+    display: block;
 }
+
 main #content #result li .goodsWrap a .img {
-  position: relative;
+    position: relative;
 }
+
 main #content #result li .goodsWrap a .img img {
-  display: block;
-  width: 232px;
-  height: 232px;
-  padding: 15px 15px 10px;
+    display: block;
+    width: 232px;
+    height: 232px;
+    padding: 15px 15px 10px;
 }
+
 main #content #result li .goodsWrap a .img .hotSale {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  height: 42px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 42px;
 }
+
 main #content #result li .goodsWrap a .img .hotSale .hot {
-  display: inline-block;
-  width: 36px;
-  height: 18px;
-  line-height: 18px;
-  margin-left: 4px;
-  font-size: 12px;
-  color: #fff;
-  text-align: center;
-  background: #ff8385;
+    display: inline-block;
+    width: 36px;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 4px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background: #ff8385;
 }
+
 main #content #result li .goodsWrap .imgList {
-  position: relative;
-  width: 234px;
-  padding: 0 14px 11px;
+    position: relative;
+    width: 234px;
+    padding: 0 14px 11px;
 }
+
 main #content #result li .goodsWrap .imgList .imgGroup {
-  height: 32px;
+    height: 32px;
 }
+
 main #content #result li .goodsWrap .imgList .imgGroup .imgTag {
-  float: left;
-  position: relative;
-  width: 30px;
-  height: 30px;
-  margin-right: 4px;
-  overflow: hidden;
-  border: 1px solid #ddd;
-  box-sizing: border-box;
-  cursor: pointer;
+    float: left;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    cursor: pointer;
 }
+
 main #content #result li .goodsWrap .imgList .imgGroup .imgTag img {
-  display: block;
-  width: 30px;
-  height: 30px;
+    display: block;
+    width: 30px;
+    height: 30px;
 }
+
 main #content #result li .goodsWrap .imgList .imgGroup .imgTag:hover {
-  border: 1px solid #e31436;
+    border: 1px solid #e31436;
 }
+
 main #content #result li .goodsWrap .desc {
-  width: 234px;
-  padding: 0 14px 11px;
+    width: 234px;
+    padding: 0 14px 11px;
 }
+
 main #content #result li .goodsWrap .desc .price {
-  height: 24px;
-  color: #e31436;
-  overflow: hidden;
-  width: 100%;
+    height: 24px;
+    color: #e31436;
+    overflow: hidden;
+    width: 100%;
 }
+
 main #content #result li .goodsWrap .desc .price .cur_price {
-  display: inline-block;
-  margin-right: 2px;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 24px;
+    display: inline-block;
+    margin-right: 2px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
 }
+
 main #content #result li .goodsWrap .desc .price .cur_price i {
-  font-size: 12px;
-  font-weight: 700;
-  position: relative;
-  left: 7px;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    left: 7px;
 }
+
 main #content #result li .goodsWrap .desc .price .market_price {
-  display: inline-block;
-  margin: 0 5px;
-  vertical-align: 2px;
-  color: #999;
-  font-size: 12px;
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: 2px;
+    color: #999;
+    font-size: 12px;
 }
+
 main #content #result li .goodsWrap .desc .price .market_price del {
-  position: relative;
-  left: -6px;
+    position: relative;
+    left: -6px;
 }
+
 main #content #result li .goodsWrap .desc .goods_tit a {
-  height: 20px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  width: 234px;
-  margin-top: 5px;
-  font-size: 13px;
-  line-height: 20px;
-  word-wrap: break-word;
-  word-break: break-all;
-  color: #333;
+    height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 234px;
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+    color: #333;
 }
+
 main #content #result li .goodsWrap .desc .goods_tit a h2 {
-  text-overflow: ellipsis;
-  overflow: hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
+
 main #content #result li .goodsWrap .desc .sale_info {
-  height: auto;
-  min-height: 20px;
-  white-space: normal;
-  position: relative;
-  width: 234px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  line-height: 20px;
-  font-size: 13px;
-  color: #e31436;
+    height: auto;
+    min-height: 20px;
+    white-space: normal;
+    position: relative;
+    width: 234px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 13px;
+    color: #e31436;
 }
+
 main #content #result li .goodsWrap .desc .sale_info .activity {
-  display: inline-block;
-  height: 16px;
-  line-height: 16px;
-  padding: 0 3px;
-  margin-right: 4px;
-  text-align: center;
-  vertical-align: middle;
-  color: #fff;
-  font-size: 12px;
-  border-radius: 2px;
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 3px;
+    margin-right: 4px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 2px;
 }
+
 main #content #result li .goodsWrap .desc .sale_info .self {
-  height: 14px;
-  line-height: 14px;
-  background-color: #fff;
-  border: 1px solid #e31436;
-  color: #e31436;
+    height: 14px;
+    line-height: 14px;
+    background-color: #fff;
+    border: 1px solid #e31436;
+    color: #e31436;
 }
+
 main #content #result li .goodsWrap .desc .sale_info .fit {
-  background-color: #e31436;
+    background-color: #e31436;
 }
+
 main #content #result li .goodsWrap .desc .goods_info {
-  margin-top: 10px;
+    margin-top: 10px;
 }
+
 main #content #result li .goodsWrap .desc .goods_info .comments {
-  float: left;
-  position: relative;
-  display: inline-block;
-  padding-left: 20px;
-  color: #333;
-  font-weight: 700;
+    float: left;
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    color: #333;
+    font-weight: 700;
 }
+
 main #content #result li .goodsWrap .desc .goods_info .comments .icon {
-  display: block;
-  position: absolute;
-  top: 3px;
-  left: 2px;
-  width: 12px;
-  height: 14px;
-  background: url("http://www.kl.com/src/images/icon4.png") no-repeat;
-  background-position: 0 -230px;
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    width: 12px;
+    height: 14px;
+    background: url(" /src/images/icon4.png") no-repeat;
+    background-position: 0 -230px;
 }
+
 main #content #result li .goodsWrap .desc .goods_info .proPlace {
-  float: right;
-  max-width: 110px;
-  color: #999;
+    float: right;
+    max-width: 110px;
+    color: #999;
 }
+
 main #content #result li .goodsWrap .desc .self_flag {
-  margin-top: 4px;
+    margin-top: 4px;
 }
+
 main #content #result li .goodsWrap .desc .self_flag span {
-  color: #999;
+    color: #999;
 }
+
 main #content #result li:hover .goodsWrap {
-  z-index: 99;
-  border: 1px solid #e31436;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    border: 1px solid #e31436;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
 }
+
 main #content #result li:hover .goods_tit #goods_title {
-  height: auto;
-  min-height: 20px;
-  white-space: normal;
+    height: auto;
+    min-height: 20px;
+    white-space: normal;
 }
 
 ._citys {
-  width: 450px;
-  display: inline-block;
-  border: 2px solid #eee;
-  padding: 5px;
-  position: relative;
-  background: #fff;
+    width: 450px;
+    display: inline-block;
+    border: 2px solid #eee;
+    padding: 5px;
+    position: relative;
+    background: #fff;
 }
 
 ._citys span {
-  color: #56b4f8;
-  height: 15px;
-  width: 15px;
-  line-height: 15px;
-  text-align: center;
-  border-radius: 3px;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  border: 1px solid #56b4f8;
-  cursor: pointer;
+    color: #56b4f8;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 1px solid #56b4f8;
+    cursor: pointer;
 }
 
 ._citys0 {
-  width: 100%;
-  height: 34px;
-  display: inline-block;
-  border-bottom: 2px solid #56b4f8;
-  padding: 0;
-  margin: 0;
+    width: 100%;
+    height: 34px;
+    display: inline-block;
+    border-bottom: 2px solid #56b4f8;
+    padding: 0;
+    margin: 0;
 }
 
 ._citys0 li {
-  display: inline-block;
-  line-height: 34px;
-  font-size: 15px;
-  color: #888;
-  width: 80px;
-  text-align: center;
-  cursor: pointer;
+    display: inline-block;
+    line-height: 34px;
+    font-size: 15px;
+    color: #888;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .citySel {
-  background-color: #56b4f8;
-  color: #fff !important;
+    background-color: #56b4f8;
+    color: #fff !important;
 }
 
 ._citys1 {
-  width: 100%;
-  display: inline-block;
-  padding: 10px 0;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
 }
 
 ._citys1 a {
-  width: 83px;
-  height: 35px;
-  display: inline-block;
-  background-color: #f5f5f5;
-  color: #666;
-  margin-left: 6px;
-  margin-top: 3px;
-  line-height: 35px;
-  text-align: center;
-  cursor: pointer;
-  font-size: 13px;
-  overflow: hidden;
+    width: 83px;
+    height: 35px;
+    display: inline-block;
+    background-color: #f5f5f5;
+    color: #666;
+    margin-left: 6px;
+    margin-top: 3px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    overflow: hidden;
 }
 
 ._citys1 a:hover {
-  color: #fff;
-  background-color: #56b4f8;
+    color: #fff;
+    background-color: #56b4f8;
 }
 
 .AreaS {
-  background-color: #56b4f8 !important;
-  color: #fff !important;
+    background-color: #56b4f8 !important;
+    color: #fff !important;
 }
+
 
 /*# sourceMappingURL=goodList.css.map */

@@ -1,0 +1,561 @@
+.Beauty_makeupFloor,
+.muying_product,
+.healthcareFloor,
+.digitalFloor,
+.personal_careFloor,
+.clothingFloor,
+.light_luxury_halFloor,
+.watchFloor,
+.sportsFloor,
+.home_lifeFloor,
+.foodFloor {
+  width: 1090px;
+  margin: 40px auto;
+}
+.Beauty_makeupFloor .title,
+.muying_product .title,
+.healthcareFloor .title,
+.digitalFloor .title,
+.personal_careFloor .title,
+.clothingFloor .title,
+.light_luxury_halFloor .title,
+.watchFloor .title,
+.sportsFloor .title,
+.home_lifeFloor .title,
+.foodFloor .title {
+  height: 74px;
+  padding-top: 25px;
+  border-top: 1px solid #e9e9e9;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #999;
+  position: relative;
+  line-height: 32px;
+}
+.Beauty_makeupFloor .title h2,
+.muying_product .title h2,
+.healthcareFloor .title h2,
+.digitalFloor .title h2,
+.personal_careFloor .title h2,
+.clothingFloor .title h2,
+.light_luxury_halFloor .title h2,
+.watchFloor .title h2,
+.sportsFloor .title h2,
+.home_lifeFloor .title h2,
+.foodFloor .title h2 {
+  float: left;
+  font-size: 22px;
+  margin-right: 20px;
+}
+.Beauty_makeupFloor .title h2 .tex,
+.muying_product .title h2 .tex,
+.healthcareFloor .title h2 .tex,
+.digitalFloor .title h2 .tex,
+.personal_careFloor .title h2 .tex,
+.clothingFloor .title h2 .tex,
+.light_luxury_halFloor .title h2 .tex,
+.watchFloor .title h2 .tex,
+.sportsFloor .title h2 .tex,
+.home_lifeFloor .title h2 .tex,
+.foodFloor .title h2 .tex {
+  font-weight: bold;
+  color: #333;
+}
+.Beauty_makeupFloor .title .hots_search_words,
+.muying_product .title .hots_search_words,
+.healthcareFloor .title .hots_search_words,
+.digitalFloor .title .hots_search_words,
+.personal_careFloor .title .hots_search_words,
+.clothingFloor .title .hots_search_words,
+.light_luxury_halFloor .title .hots_search_words,
+.watchFloor .title .hots_search_words,
+.sportsFloor .title .hots_search_words,
+.home_lifeFloor .title .hots_search_words,
+.foodFloor .title .hots_search_words {
+  float: left;
+  position: relative;
+  top: 3px;
+  font-size: 14px;
+  color: #999;
+}
+.Beauty_makeupFloor .title .hots_search_words li,
+.muying_product .title .hots_search_words li,
+.healthcareFloor .title .hots_search_words li,
+.digitalFloor .title .hots_search_words li,
+.personal_careFloor .title .hots_search_words li,
+.clothingFloor .title .hots_search_words li,
+.light_luxury_halFloor .title .hots_search_words li,
+.watchFloor .title .hots_search_words li,
+.sportsFloor .title .hots_search_words li,
+.home_lifeFloor .title .hots_search_words li,
+.foodFloor .title .hots_search_words li {
+  float: left;
+  margin-right: 14px;
+}
+.Beauty_makeupFloor .title .hots_search_words li a,
+.muying_product .title .hots_search_words li a,
+.healthcareFloor .title .hots_search_words li a,
+.digitalFloor .title .hots_search_words li a,
+.personal_careFloor .title .hots_search_words li a,
+.clothingFloor .title .hots_search_words li a,
+.light_luxury_halFloor .title .hots_search_words li a,
+.watchFloor .title .hots_search_words li a,
+.sportsFloor .title .hots_search_words li a,
+.home_lifeFloor .title .hots_search_words li a,
+.foodFloor .title .hots_search_words li a {
+  color: #999;
+}
+.Beauty_makeupFloor .title .hots_search_words li a:hover,
+.muying_product .title .hots_search_words li a:hover,
+.healthcareFloor .title .hots_search_words li a:hover,
+.digitalFloor .title .hots_search_words li a:hover,
+.personal_careFloor .title .hots_search_words li a:hover,
+.clothingFloor .title .hots_search_words li a:hover,
+.light_luxury_halFloor .title .hots_search_words li a:hover,
+.watchFloor .title .hots_search_words li a:hover,
+.sportsFloor .title .hots_search_words li a:hover,
+.home_lifeFloor .title .hots_search_words li a:hover,
+.foodFloor .title .hots_search_words li a:hover {
+  text-decoration: underline;
+}
+.Beauty_makeupFloor .title .hots_search_words li .red,
+.muying_product .title .hots_search_words li .red,
+.healthcareFloor .title .hots_search_words li .red,
+.digitalFloor .title .hots_search_words li .red,
+.personal_careFloor .title .hots_search_words li .red,
+.clothingFloor .title .hots_search_words li .red,
+.light_luxury_halFloor .title .hots_search_words li .red,
+.watchFloor .title .hots_search_words li .red,
+.sportsFloor .title .hots_search_words li .red,
+.home_lifeFloor .title .hots_search_words li .red,
+.foodFloor .title .hots_search_words li .red {
+  color: #ff080f;
+}
+.Beauty_makeupFloor .title .more,
+.muying_product .title .more,
+.healthcareFloor .title .more,
+.digitalFloor .title .more,
+.personal_careFloor .title .more,
+.clothingFloor .title .more,
+.light_luxury_halFloor .title .more,
+.watchFloor .title .more,
+.sportsFloor .title .more,
+.home_lifeFloor .title .more,
+.foodFloor .title .more {
+  position: absolute;
+  right: 0;
+  top: 24px;
+  font-size: 14px;
+  color: #999;
+}
+.Beauty_makeupFloor .title .more:hover,
+.muying_product .title .more:hover,
+.healthcareFloor .title .more:hover,
+.digitalFloor .title .more:hover,
+.personal_careFloor .title .more:hover,
+.clothingFloor .title .more:hover,
+.light_luxury_halFloor .title .more:hover,
+.watchFloor .title .more:hover,
+.sportsFloor .title .more:hover,
+.home_lifeFloor .title .more:hover,
+.foodFloor .title .more:hover {
+  text-decoration: underline;
+}
+.Beauty_makeupFloor .cont,
+.muying_product .cont,
+.healthcareFloor .cont,
+.digitalFloor .cont,
+.personal_careFloor .cont,
+.clothingFloor .cont,
+.light_luxury_halFloor .cont,
+.watchFloor .cont,
+.sportsFloor .cont,
+.home_lifeFloor .cont,
+.foodFloor .cont {
+  background: #fff;
+  height: 541px;
+  display: flex;
+}
+.Beauty_makeupFloor .cont .left,
+.Beauty_makeupFloor .cont .center,
+.Beauty_makeupFloor .cont .right,
+.muying_product .cont .left,
+.muying_product .cont .center,
+.muying_product .cont .right,
+.healthcareFloor .cont .left,
+.healthcareFloor .cont .center,
+.healthcareFloor .cont .right,
+.digitalFloor .cont .left,
+.digitalFloor .cont .center,
+.digitalFloor .cont .right,
+.personal_careFloor .cont .left,
+.personal_careFloor .cont .center,
+.personal_careFloor .cont .right,
+.clothingFloor .cont .left,
+.clothingFloor .cont .center,
+.clothingFloor .cont .right,
+.light_luxury_halFloor .cont .left,
+.light_luxury_halFloor .cont .center,
+.light_luxury_halFloor .cont .right,
+.watchFloor .cont .left,
+.watchFloor .cont .center,
+.watchFloor .cont .right,
+.sportsFloor .cont .left,
+.sportsFloor .cont .center,
+.sportsFloor .cont .right,
+.home_lifeFloor .cont .left,
+.home_lifeFloor .cont .center,
+.home_lifeFloor .cont .right,
+.foodFloor .cont .left,
+.foodFloor .cont .center,
+.foodFloor .cont .right {
+  position: relative;
+}
+.Beauty_makeupFloor .cont .left .pic img,
+.muying_product .cont .left .pic img,
+.healthcareFloor .cont .left .pic img,
+.digitalFloor .cont .left .pic img,
+.personal_careFloor .cont .left .pic img,
+.clothingFloor .cont .left .pic img,
+.light_luxury_halFloor .cont .left .pic img,
+.watchFloor .cont .left .pic img,
+.sportsFloor .cont .left .pic img,
+.home_lifeFloor .cont .left .pic img,
+.foodFloor .cont .left .pic img {
+  width: 330px;
+  height: 541px;
+}
+.Beauty_makeupFloor .cont .left ul,
+.muying_product .cont .left ul,
+.healthcareFloor .cont .left ul,
+.digitalFloor .cont .left ul,
+.personal_careFloor .cont .left ul,
+.clothingFloor .cont .left ul,
+.light_luxury_halFloor .cont .left ul,
+.watchFloor .cont .left ul,
+.sportsFloor .cont .left ul,
+.home_lifeFloor .cont .left ul,
+.foodFloor .cont .left ul {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+}
+.Beauty_makeupFloor .cont .left ul li,
+.muying_product .cont .left ul li,
+.healthcareFloor .cont .left ul li,
+.digitalFloor .cont .left ul li,
+.personal_careFloor .cont .left ul li,
+.clothingFloor .cont .left ul li,
+.light_luxury_halFloor .cont .left ul li,
+.watchFloor .cont .left ul li,
+.sportsFloor .cont .left ul li,
+.home_lifeFloor .cont .left ul li,
+.foodFloor .cont .left ul li {
+  float: left;
+  margin: 0 18px 8px 0;
+}
+.Beauty_makeupFloor .cont .left ul li a,
+.muying_product .cont .left ul li a,
+.healthcareFloor .cont .left ul li a,
+.digitalFloor .cont .left ul li a,
+.personal_careFloor .cont .left ul li a,
+.clothingFloor .cont .left ul li a,
+.light_luxury_halFloor .cont .left ul li a,
+.watchFloor .cont .left ul li a,
+.sportsFloor .cont .left ul li a,
+.home_lifeFloor .cont .left ul li a,
+.foodFloor .cont .left ul li a {
+  text-align: center;
+  display: block;
+  height: 18px;
+  padding: 11px 0;
+  overflow: hidden;
+  font-size: 12px;
+  color: #333;
+  border-radius: 40px;
+  background: #fff;
+  border: 1px solid #eee;
+  width: 80px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.Beauty_makeupFloor .cont .left ul li a:hover,
+.muying_product .cont .left ul li a:hover,
+.healthcareFloor .cont .left ul li a:hover,
+.digitalFloor .cont .left ul li a:hover,
+.personal_careFloor .cont .left ul li a:hover,
+.clothingFloor .cont .left ul li a:hover,
+.light_luxury_halFloor .cont .left ul li a:hover,
+.watchFloor .cont .left ul li a:hover,
+.sportsFloor .cont .left ul li a:hover,
+.home_lifeFloor .cont .left ul li a:hover,
+.foodFloor .cont .left ul li a:hover {
+  color: #ff1e32;
+}
+.Beauty_makeupFloor .cont .center,
+.muying_product .cont .center,
+.healthcareFloor .cont .center,
+.digitalFloor .cont .center,
+.personal_careFloor .cont .center,
+.clothingFloor .cont .center,
+.light_luxury_halFloor .cont .center,
+.watchFloor .cont .center,
+.sportsFloor .cont .center,
+.home_lifeFloor .cont .center,
+.foodFloor .cont .center {
+  width: 550px;
+  border: 1px solid #e9e9e9;
+  border-right: 0;
+  border-bottom: 0;
+}
+.Beauty_makeupFloor .cont .center .centerList li,
+.muying_product .cont .center .centerList li,
+.healthcareFloor .cont .center .centerList li,
+.digitalFloor .cont .center .centerList li,
+.personal_careFloor .cont .center .centerList li,
+.clothingFloor .cont .center .centerList li,
+.light_luxury_halFloor .cont .center .centerList li,
+.watchFloor .cont .center .centerList li,
+.sportsFloor .cont .center .centerList li,
+.home_lifeFloor .cont .center .centerList li,
+.foodFloor .cont .center .centerList li {
+  width: 49.8%;
+  height: 269px;
+  float: left;
+  text-align: center;
+  border: 1px solid #e9e9e9;
+  border-width: 0 1px 1px 0;
+}
+.Beauty_makeupFloor .cont .center .centerList li a,
+.muying_product .cont .center .centerList li a,
+.healthcareFloor .cont .center .centerList li a,
+.digitalFloor .cont .center .centerList li a,
+.personal_careFloor .cont .center .centerList li a,
+.clothingFloor .cont .center .centerList li a,
+.light_luxury_halFloor .cont .center .centerList li a,
+.watchFloor .cont .center .centerList li a,
+.sportsFloor .cont .center .centerList li a,
+.home_lifeFloor .cont .center .centerList li a,
+.foodFloor .cont .center .centerList li a {
+  text-decoration: none;
+}
+.Beauty_makeupFloor .cont .center .centerList li a .tit,
+.muying_product .cont .center .centerList li a .tit,
+.healthcareFloor .cont .center .centerList li a .tit,
+.digitalFloor .cont .center .centerList li a .tit,
+.personal_careFloor .cont .center .centerList li a .tit,
+.clothingFloor .cont .center .centerList li a .tit,
+.light_luxury_halFloor .cont .center .centerList li a .tit,
+.watchFloor .cont .center .centerList li a .tit,
+.sportsFloor .cont .center .centerList li a .tit,
+.home_lifeFloor .cont .center .centerList li a .tit,
+.foodFloor .cont .center .centerList li a .tit {
+  font-size: 24px;
+  color: #333;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-top: 0;
+  height: 49px;
+}
+.Beauty_makeupFloor .cont .center .centerList li a .desc,
+.muying_product .cont .center .centerList li a .desc,
+.healthcareFloor .cont .center .centerList li a .desc,
+.digitalFloor .cont .center .centerList li a .desc,
+.personal_careFloor .cont .center .centerList li a .desc,
+.clothingFloor .cont .center .centerList li a .desc,
+.light_luxury_halFloor .cont .center .centerList li a .desc,
+.watchFloor .cont .center .centerList li a .desc,
+.sportsFloor .cont .center .centerList li a .desc,
+.home_lifeFloor .cont .center .centerList li a .desc,
+.foodFloor .cont .center .centerList li a .desc {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 10px 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #666;
+}
+.Beauty_makeupFloor .cont .center .centerList li a img,
+.muying_product .cont .center .centerList li a img,
+.healthcareFloor .cont .center .centerList li a img,
+.digitalFloor .cont .center .centerList li a img,
+.personal_careFloor .cont .center .centerList li a img,
+.clothingFloor .cont .center .centerList li a img,
+.light_luxury_halFloor .cont .center .centerList li a img,
+.watchFloor .cont .center .centerList li a img,
+.sportsFloor .cont .center .centerList li a img,
+.home_lifeFloor .cont .center .centerList li a img,
+.foodFloor .cont .center .centerList li a img {
+  width: 188px;
+  height: 144px;
+}
+.Beauty_makeupFloor .cont .right,
+.muying_product .cont .right,
+.healthcareFloor .cont .right,
+.digitalFloor .cont .right,
+.personal_careFloor .cont .right,
+.clothingFloor .cont .right,
+.light_luxury_halFloor .cont .right,
+.watchFloor .cont .right,
+.sportsFloor .cont .right,
+.home_lifeFloor .cont .right,
+.foodFloor .cont .right {
+  width: 219px;
+  border: 1px solid #e9e9e9;
+  border-width: 0 1px 1px 0;
+}
+.Beauty_makeupFloor .cont .right .tit,
+.muying_product .cont .right .tit,
+.healthcareFloor .cont .right .tit,
+.digitalFloor .cont .right .tit,
+.personal_careFloor .cont .right .tit,
+.clothingFloor .cont .right .tit,
+.light_luxury_halFloor .cont .right .tit,
+.watchFloor .cont .right .tit,
+.sportsFloor .cont .right .tit,
+.home_lifeFloor .cont .right .tit,
+.foodFloor .cont .right .tit {
+  font-size: 16px;
+  line-height: 58px;
+  padding: 0 0 0 10px;
+  color: #333;
+  font-weight: 700;
+  height: 58px;
+  border: 1px solid #e9e9e9;
+  border-width: 1px 1px 1px 0;
+  position: relative;
+}
+.Beauty_makeupFloor .cont .right .loopListBox,
+.muying_product .cont .right .loopListBox,
+.healthcareFloor .cont .right .loopListBox,
+.digitalFloor .cont .right .loopListBox,
+.personal_careFloor .cont .right .loopListBox,
+.clothingFloor .cont .right .loopListBox,
+.light_luxury_halFloor .cont .right .loopListBox,
+.watchFloor .cont .right .loopListBox,
+.sportsFloor .cont .right .loopListBox,
+.home_lifeFloor .cont .right .loopListBox,
+.foodFloor .cont .right .loopListBox {
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+}
+.Beauty_makeupFloor .cont .right .loopListBox iframe,
+.muying_product .cont .right .loopListBox iframe,
+.healthcareFloor .cont .right .loopListBox iframe,
+.digitalFloor .cont .right .loopListBox iframe,
+.personal_careFloor .cont .right .loopListBox iframe,
+.clothingFloor .cont .right .loopListBox iframe,
+.light_luxury_halFloor .cont .right .loopListBox iframe,
+.watchFloor .cont .right .loopListBox iframe,
+.sportsFloor .cont .right .loopListBox iframe,
+.home_lifeFloor .cont .right .loopListBox iframe,
+.foodFloor .cont .right .loopListBox iframe {
+  width: 219px;
+  height: 480px;
+}
+.Beauty_makeupFloor .brandList,
+.muying_product .brandList,
+.healthcareFloor .brandList,
+.digitalFloor .brandList,
+.personal_careFloor .brandList,
+.clothingFloor .brandList,
+.light_luxury_halFloor .brandList,
+.watchFloor .brandList,
+.sportsFloor .brandList,
+.home_lifeFloor .brandList,
+.foodFloor .brandList {
+  margin: 20px 0 40px;
+  border: 1px solid #eaeaea;
+  line-height: 167px;
+  background: #fff;
+}
+.Beauty_makeupFloor .brandList .tit,
+.muying_product .brandList .tit,
+.healthcareFloor .brandList .tit,
+.digitalFloor .brandList .tit,
+.personal_careFloor .brandList .tit,
+.clothingFloor .brandList .tit,
+.light_luxury_halFloor .brandList .tit,
+.watchFloor .brandList .tit,
+.sportsFloor .brandList .tit,
+.home_lifeFloor .brandList .tit,
+.foodFloor .brandList .tit {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  text-indent: 20px;
+  line-height: 48px;
+  height: 48px;
+  border-bottom: 1px solid #eaeaea;
+  padding-top: 0;
+}
+.Beauty_makeupFloor .brandList .brand_list,
+.muying_product .brandList .brand_list,
+.healthcareFloor .brandList .brand_list,
+.digitalFloor .brandList .brand_list,
+.personal_careFloor .brandList .brand_list,
+.clothingFloor .brandList .brand_list,
+.light_luxury_halFloor .brandList .brand_list,
+.watchFloor .brandList .brand_list,
+.sportsFloor .brandList .brand_list,
+.home_lifeFloor .brandList .brand_list,
+.foodFloor .brandList .brand_list {
+  display: flex;
+}
+.Beauty_makeupFloor .brandList .brand_list li,
+.muying_product .brandList .brand_list li,
+.healthcareFloor .brandList .brand_list li,
+.digitalFloor .brandList .brand_list li,
+.personal_careFloor .brandList .brand_list li,
+.clothingFloor .brandList .brand_list li,
+.light_luxury_halFloor .brandList .brand_list li,
+.watchFloor .brandList .brand_list li,
+.sportsFloor .brandList .brand_list li,
+.home_lifeFloor .brandList .brand_list li,
+.foodFloor .brandList .brand_list li {
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid #eaeaea;
+  position: relative;
+}
+.Beauty_makeupFloor .brandList .brand_list li a span,
+.muying_product .brandList .brand_list li a span,
+.healthcareFloor .brandList .brand_list li a span,
+.digitalFloor .brandList .brand_list li a span,
+.personal_careFloor .brandList .brand_list li a span,
+.clothingFloor .brandList .brand_list li a span,
+.light_luxury_halFloor .brandList .brand_list li a span,
+.watchFloor .brandList .brand_list li a span,
+.sportsFloor .brandList .brand_list li a span,
+.home_lifeFloor .brandList .brand_list li a span,
+.foodFloor .brandList .brand_list li a span {
+  background: url(../images/heart.png) no-repeat;
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-position: 50%;
+}
+.Beauty_makeupFloor .brandList .brand_list li:hover a span,
+.muying_product .brandList .brand_list li:hover a span,
+.healthcareFloor .brandList .brand_list li:hover a span,
+.digitalFloor .brandList .brand_list li:hover a span,
+.personal_careFloor .brandList .brand_list li:hover a span,
+.clothingFloor .brandList .brand_list li:hover a span,
+.light_luxury_halFloor .brandList .brand_list li:hover a span,
+.watchFloor .brandList .brand_list li:hover a span,
+.sportsFloor .brandList .brand_list li:hover a span,
+.home_lifeFloor .brandList .brand_list li:hover a span,
+.foodFloor .brandList .brand_list li:hover a span {
+  display: block;
+}
+
+/*# sourceMappingURL=productFloor.css.map */

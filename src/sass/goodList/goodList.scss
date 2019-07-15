@@ -65,7 +65,7 @@ main {
                                 top: 4px;
                                 cursor: pointer;
                                 width: 14px;
-                                background: url(http://www.kl.com/src/images/icon1.png) no-repeat;
+                                background: url(/src/images/icon1.png) no-repeat;
                                 height: 14px;
                                 background-position: -468px -666px;
                                 display: block;
@@ -168,7 +168,7 @@ main {
                                         width: 9px;
                                         height: 6px;
                                         background-position: 0 0;
-                                        background: url(http://www.kl.com/src/images/icon4.png) no-repeat;
+                                        background: url(/src/images/icon4.png) no-repeat;
                                     }
                                     &:hover {
                                         color: #e31436;
@@ -484,7 +484,7 @@ main {
                     display: inline-block;
                     float: left;
                     margin-left: 13px;
-                    background: url(http://www.kl.com/src/images/icon4.png) no-repeat;
+                    background: url(/src/images/icon4.png) no-repeat;
                 }
                 .arrow-right {
                     background-position: -21px -210px;
@@ -494,7 +494,7 @@ main {
                     display: inline-block;
                     float: left;
                     margin-left: 13px;
-                    background: url(http://www.kl.com/src/images/icon4.png) no-repeat;
+                    background: url(/src/images/icon4.png) no-repeat;
                 }
             }
         }

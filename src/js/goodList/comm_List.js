@@ -1,15 +1,15 @@
 (() => {
 
-    $('header').load('http://www.kl.com/src/html/component/header.html');
+    $('header').load('/src/html/component/header.html');
 
-    $('#navBox').load('http://www.kl.com/src/html/component/nav.html', function() {
+    $('#navBox').load('/src/html/component/nav.html', function() {
         $('.twoLevel span').css('font-size', '14px');
         $('.twoLevel').css('border', 'none');
     });
 
-    $('footer').load('http://www.kl.com/src/html/component/footer.html');
+    $('footer').load('/src/html/component/footer.html');
 
-    $('.suspension_list').load('http://www.kl.com/src/html/page/index/suspension.html');
+    $('.suspension_list').load('/src/html/page/index/suspension.html');
 
     //回到顶部悬挂侧栏
     let suspension = document.querySelector('.suspension_list');
@@ -33,7 +33,7 @@
     });
 
     //列表页头 列表属性
-    $('.options').load('http://www.kl.com/src/html/page/goodList/options.html', function() {
+    $('.options').load('/src/html/page/goodList/options.html', function() {
 
         $("#city").click(function(e) {
             SelCity(this, e);
@@ -130,18 +130,19 @@
             // console.log('ok')
             $.ajax({
                 type: 'get',
-                url: 'http://www.kl.com/src/api/list/comment_sort.php',
+                url: '/src/api/list/comment_sort.php',
                 success: str => {
 
                     let arr = JSON.parse(str);
 
                     $.ajax({
                         type: 'get',
-                        url: 'http://www.kl.com/src/database/goodsImg.json',
+                        url: '/src/database/goodsImg.json',
                         success: str => {
                             // console.log(str)
                             upData(arr, str);
                             mouseoverImg();
+                            jumpTo();
                         }
                     });
                 }
@@ -167,18 +168,19 @@
 
             $.ajax({
                 type: 'get',
-                url: 'http://www.kl.com/src/api/list/price_sort.php',
+                url: '/src/api/list/price_sort.php',
                 data: 'sort=' + sort,
                 success: str => {
 
                     let arr = JSON.parse(str);
                     $.ajax({
                         type: 'get',
-                        url: 'http://www.kl.com/src/database/goodsImg.json',
+                        url: '/src/database/goodsImg.json',
                         success: str => {
                             // console.log(str)
                             upData(arr, str);
                             mouseoverImg();
+                            jumpTo();
                         }
                     });
                 }
@@ -198,17 +200,18 @@
 
             $.ajax({
                 type: 'post',
-                url: 'http://www.kl.com/src/api/list/search_price.php',
+                url: '/src/api/list/search_price.php',
                 data: 'val1=' + val1 + '&val2=' + val2,
                 success: str => {
                     let arr = JSON.parse(str);
                     $.ajax({
                         type: 'get',
-                        url: 'http://www.kl.com/src/database/goodsImg.json',
+                        url: '/src/database/goodsImg.json',
                         success: str => {
                             // console.log(str)
                             upData(arr, str);
                             mouseoverImg();
+                            jumpTo();
                         }
                     });
                 }
@@ -227,17 +230,18 @@
 
             $.ajax({
                 type: 'post',
-                url: 'http://www.kl.com/src/api/list/detail_search.php',
+                url: '/src/api/list/detail_search.php',
                 data: 'val=' + val,
                 success: str => {
                     let arr = JSON.parse(str);
                     $.ajax({
                         type: 'get',
-                        url: 'http://www.kl.com/src/database/goodsImg.json',
+                        url: '/src/database/goodsImg.json',
                         success: str => {
                             // console.log(str)
                             upData(arr, str);
                             mouseoverImg();
+                            jumpTo();
                             $('#detail_search').val(' ');
                         }
                     });
@@ -252,17 +256,18 @@
 
                 $.ajax({
                     type: 'post',
-                    url: 'http://www.kl.com/src/api/list/detail_search.php',
+                    url: '/src/api/list/detail_search.php',
                     data: 'val=' + val,
                     success: str => {
                         let arr = JSON.parse(str);
                         $.ajax({
                             type: 'get',
-                            url: 'http://www.kl.com/src/database/goodsImg.json',
+                            url: '/src/database/goodsImg.json',
                             success: str => {
                                 // console.log(str)
                                 upData(arr, str);
                                 mouseoverImg();
+                                jumpTo();
                                 $('#detail_search').val(' ');
                             }
                         });
@@ -285,11 +290,12 @@
 
 
 
-
-
-
-
-
+        function jumpTo() {
+            $('#result').on('click', '.item', function() {
+                let gid = $(this).attr('data-id');
+                window.open(' /src/html/page/details/details.html?gid=' + gid);
+            });
+        }
 
 
         function mouseoverImg() {
@@ -313,58 +319,58 @@
 
             let imgs = arr2.map(item => {
                 return `<li class="imgTag">
-                            <img src="${item}" alt="">
-                        </li>`;
+                                <img src="${item}" alt="">
+                            </li>`;
             }).join('');
 
             let html = arr1.map(item => {
                 return `<li data-id=${item.gid}>
-                                <div class="goodsWrap">
-                                    <a href="" title="${item.title}">
-                                        <div class="img">
-                                            <img src="http://www.kl.com/src/images/goods/bigImg/Image Picka${item.bigImg}" alt="">
-                                            <div class="hotSale">
-                                                <span class="hot">${item.hot_sale}</span>
+                                    <div class="goodsWrap">
+                                        <a title="${item.title}">
+                                            <div class="img">
+                                                <img src="/src/images/goods/bigImg/Image Picka${item.bigImg}" alt="">
+                                                <div class="hotSale">
+                                                    <span class="hot">${item.hot_sale}</span>
+                                                </div>
                                             </div>
+                                        </a>
+                                        <div class="imgList">
+                                            <ul class="imgGroup">
+                                                ${imgs}
+                                            </ul>
                                         </div>
-                                    </a>
-                                    <div class="imgList">
-                                        <ul class="imgGroup">
-                                            ${imgs}
-                                        </ul>
-                                    </div>
-                                    <div class="desc">
-                                        <p class="price">
-                                            <span class="cur_price">
-                                                <i>￥</i>
-                                                ${item.cur}
-                                            </span>
-                                            <span class="market_price">
-                                                ￥
-                                                <del>${item.market_price}</del>
-                                            </span>
-                                        </p>
-                                        <div class="goods_tit">
-                                            <a id="goods_title" href="">
-                                                <h2>${item.title}</h2>
-                                            </a>
+                                        <div class="desc">
+                                            <p class="price">
+                                                <span class="cur_price">
+                                                    <i>￥</i>
+                                                    ${item.cur}
+                                                </span>
+                                                <span class="market_price">
+                                                    ￥
+                                                    <del>${item.market_price}</del>
+                                                </span>
+                                            </p>
+                                            <div class="goods_tit">
+                                                <a id="goods_title">
+                                                    <h2>${item.title}</h2>
+                                                </a>
+                                            </div>
+                                            <p class="sale_info">
+                                                <span class="activity self">${item.activity}</span>
+                                                <span class="activity fit">${item.col5}</span>
+                                            </p>
+                                            <p class="goods_info clearfix">
+                                                <a class="comments">
+                                                    <i class="icon"></i> ${item.comment}
+                                                </a>
+                                                <span class="proPlace">${item.proPlace}</span>
+                                            </p>
+                                            <p class="self_flag">
+                                                <span>${item.selfflag}</span>
+                                            </p>
                                         </div>
-                                        <p class="sale_info">
-                                            <span class="activity self">${item.activity}</span>
-                                            <span class="activity fit">${item.col5}</span>
-                                        </p>
-                                        <p class="goods_info clearfix">
-                                            <a href="" class="comments">
-                                                <i class="icon"></i> ${item.comment}
-                                            </a>
-                                            <span class="proPlace">${item.proPlace}</span>
-                                        </p>
-                                        <p class="self_flag">
-                                            <span>${item.selfflag}</span>
-                                        </p>
                                     </div>
-                                </div>
-                            </li>`;
+                                </li>`;
             }).join('');
             //渲染到节点
             $('#result').html(html);
@@ -374,8 +380,8 @@
             }
 
         }
-
-
     });
+
+
 
 })();

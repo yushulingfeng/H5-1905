@@ -1,928 +1,1067 @@
 main {
-  background: #fff;
+    background: #fff;
 }
+
 main #navBox .nav_carts {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 main #navBox .nav_carts .carMenuBox {
-  display: none;
+    display: none;
 }
+
 main #navBox .nav_carts:hover .carMenuBox {
-  display: block;
+    display: block;
 }
+
 main #content {
-  z-index: 9;
-  border-top: 1px solid #e8e8e8;
+    z-index: 9;
+    border-top: 1px solid #e8e8e8;
 }
+
 main #content #cont {
-  width: 1090px;
-  margin: auto;
-  font-size: 14px;
-  padding: 10px 0 0;
+    width: 1090px;
+    margin: auto;
+    font-size: 14px;
+    padding: 10px 0 0;
 }
+
 main #content #cont #barBox {
-  height: 69px;
+    height: 69px;
 }
+
 main #content #cont #barBox .crumbs {
-  height: 22px;
-  line-height: 22px;
-  margin-top: 0;
-  padding-top: 12px;
-  padding-bottom: 17px;
-  border-bottom: 1px solid #ddd;
-  font-size: 13px;
-  color: #999;
-  margin-bottom: 40px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 0;
+    padding-top: 12px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 40px;
 }
+
 main #content #cont #barBox .crumbs span {
-  vertical-align: middle;
+    vertical-align: middle;
 }
+
 main #content #cont #barBox .crumbs .txt {
-  line-height: 24px;
+    line-height: 24px;
 }
+
 main #content #cont #barBox .crumbs .crumbBtn {
-  display: inline-block;
-  position: relative;
-  margin-right: 4px;
-  border: 1px solid #ccc;
+    display: inline-block;
+    position: relative;
+    margin-right: 4px;
+    border: 1px solid #ccc;
 }
+
 main #content #cont #barBox .crumbs .crumbBtn .btnBox {
-  z-index: 1;
-  height: 18px;
-  line-height: 18px;
-  background: #fff;
-  position: relative;
-  cursor: pointer;
+    z-index: 1;
+    height: 18px;
+    line-height: 18px;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
 }
+
 main #content #cont #barBox .crumbs .crumbBtn .btnBox a {
-  display: inline-block;
-  padding: 0 5px;
-  margin-right: 15px;
-  color: #333;
-  height: 20px;
-  line-height: 20px;
-  max-width: 90px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+    display: inline-block;
+    padding: 0 5px;
+    margin-right: 15px;
+    color: #333;
+    height: 20px;
+    line-height: 20px;
+    max-width: 90px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
+
 main #content #cont #barBox .crumbs .crumbBtn .btnBox .icon {
-  position: absolute;
-  display: inline-block;
-  right: 6px;
-  top: 4px;
-  width: 6px;
-  height: 6px;
-  border: 2px solid #ccc;
-  border-width: 0 0 2px 2px;
-  transform-origin: 30% 70%;
-  transition: transform 0.1s ease-in, -webkit-transform 0.1s ease-in;
-  transform: rotate(-45deg);
+    position: absolute;
+    display: inline-block;
+    right: 6px;
+    top: 4px;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #ccc;
+    border-width: 0 0 2px 2px;
+    transform-origin: 30% 70%;
+    transition: transform 0.1s ease-in, -webkit-transform 0.1s ease-in;
+    transform: rotate(-45deg);
 }
+
 main #content #cont #barBox .crumbs .crumbBtn:hover a {
-  color: #e31436;
+    color: #e31436;
 }
+
 main #content #cont #barBox .crumbs .crumbBtn:hover .icon {
-  transform: rotate(135deg);
+    transform: rotate(135deg);
 }
+
 main #content #cont #barBox .crumbs .crumbs_title {
-  display: inline-block;
-  max-width: 300px;
-  color: #999;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  word-wrap: normal;
-  word-break: keep-all;
+    display: inline-block;
+    max-width: 300px;
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    word-break: keep-all;
 }
+
 main #content #cont .infoWrap {
-  margin: 20px 0 0;
-  position: relative;
-  z-index: 1;
+    margin: 20px 0 0;
+    position: relative;
+    z-index: 1;
 }
+
 main #content #cont .infoWrap .imgBox {
-  float: left;
-  width: 402px;
-  height: 488px;
-  position: relative;
-  z-index: 100;
+    float: left;
+    width: 402px;
+    height: 488px;
+    position: relative;
+    z-index: 100;
 }
+
 main #content #cont .infoWrap .info {
-  position: relative;
-  float: left;
-  width: 658px;
-  margin-left: 30px;
-  font-size: 12px;
+    position: relative;
+    float: left;
+    width: 658px;
+    margin-left: 30px;
+    font-size: 12px;
 }
+
 main #content #cont .infoWrap .info dt {
-  color: #333;
-  word-wrap: break-word;
+    color: #333;
+    word-wrap: break-word;
 }
+
 main #content #cont .infoWrap .info .ptags {
-  position: absolute;
-  top: 0;
-  right: 0;
-  overflow: hidden;
-  margin-left: -6px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    margin-left: -6px;
 }
+
 main #content #cont .infoWrap .info .ptags .tag {
-  display: inline-block;
-  width: 54px;
-  height: 22px;
-  margin-left: 6px;
-  padding-right: 6px;
-  line-height: 22px;
-  text-align: right;
-  font-size: 13px;
-  font-weight: bold;
-  background: url(http://www.kl.com/src/images/icon5.png) no-repeat;
-  background-position: -94px 0;
-  color: #cf2c48;
+    display: inline-block;
+    width: 54px;
+    height: 22px;
+    margin-left: 6px;
+    padding-right: 6px;
+    line-height: 22px;
+    text-align: right;
+    font-size: 13px;
+    font-weight: bold;
+    background: url(/src/images/icon5.png) no-repeat;
+    background-position: -94px 0;
+    color: #cf2c48;
 }
+
 main #content #cont .infoWrap .info .country span,
 main #content #cont .infoWrap .info .country a {
-  font-size: 13px;
-  margin-left: 6px;
-  color: #999;
-  font-weight: 400;
-  vertical-align: middle;
+    font-size: 13px;
+    margin-left: 6px;
+    color: #999;
+    font-weight: 400;
+    vertical-align: middle;
 }
+
 main #content #cont .infoWrap .info .country img {
-  width: 24px;
-  height: 24px;
-  vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
 }
+
 main #content #cont .infoWrap .info .country .split {
-  font-size: 12px;
+    font-size: 12px;
 }
+
 main #content #cont .infoWrap .info .country .brand:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 main #content #cont .infoWrap .info .title {
-  margin-top: 10px;
-  margin-bottom: 5px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
 }
+
 main #content #cont .infoWrap .info .desc {
-  margin-bottom: 11px;
-  color: #333;
-  line-height: 20px;
-  font-size: 13px;
+    margin-bottom: 11px;
+    color: #333;
+    line-height: 20px;
+    font-size: 13px;
 }
+
 main #content #cont .infoWrap .info .line_title {
-  padding-left: 15px;
-  box-sizing: border-box;
-  font-size: 12px;
-  width: 75px;
-  color: #666;
-  display: inline-block;
-  float: left;
-  line-height: 26px;
-  vertical-align: 4px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 12px;
+    width: 75px;
+    color: #666;
+    display: inline-block;
+    float: left;
+    line-height: 26px;
+    vertical-align: 4px;
 }
+
 main #content #cont .infoWrap .info .priceBox {
-  background: #f9f9f9;
-  z-index: 22;
-  margin-bottom: 12px;
-  border-bottom: 1px dotted #ddd;
-  padding-bottom: 4px;
+    background: #f9f9f9;
+    z-index: 22;
+    margin-bottom: 12px;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 4px;
 }
+
 main #content #cont .infoWrap .info .priceBox .price {
-  overflow: hidden;
-  position: relative;
-  padding-top: 5px;
-  border-top: 1px dotted #ddd;
-  z-index: 99;
+    overflow: hidden;
+    position: relative;
+    padding-top: 5px;
+    border-top: 1px dotted #ddd;
+    z-index: 99;
 }
+
 main #content #cont .infoWrap .info .priceBox .price .pri_title {
-  padding-left: 15px;
-  box-sizing: border-box;
-  font-size: 12px;
-  float: left;
-  line-height: 26px;
-  margin: 10px 0;
-  vertical-align: 4px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 12px;
+    float: left;
+    line-height: 26px;
+    margin: 10px 0;
+    vertical-align: 4px;
 }
+
 main #content #cont .infoWrap .info .priceBox .price .price_cnt {
-  margin-left: 71px;
+    margin-left: 71px;
 }
+
 main #content #cont .infoWrap .info .priceBox .price .price_cnt .cur_pritxt {
-  font-size: 16px;
-  position: relative;
-  left: -7px;
+    font-size: 16px;
+    position: relative;
+    left: -7px;
 }
+
 main #content #cont .infoWrap .info .priceBox .price .price_cnt .pri_info {
-  font-size: 26px;
-  color: #e31436;
-  font-weight: bold;
-  vertical-align: baseline;
-  margin: 8px 0;
-  display: inline-block;
+    font-size: 26px;
+    color: #e31436;
+    font-weight: bold;
+    vertical-align: baseline;
+    margin: 8px 0;
+    display: inline-block;
 }
+
 main #content #cont .infoWrap .info .priceBox .price .price_cnt .pri_info .cur {
-  position: relative;
-  left: -10px;
+    position: relative;
+    left: -10px;
 }
+
 main #content #cont .infoWrap .info .priceBox .price .price_cnt .spe_pri {
-  display: inline-block;
-  margin-left: 5px;
-  background-color: #f68587;
-  height: 18px;
-  line-height: 18px;
-  padding: 0 5px;
-  color: #fff;
-  font-size: 12px;
-  vertical-align: 5px;
-  border-radius: 2px;
+    display: inline-block;
+    margin-left: 5px;
+    background-color: #f68587;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: 5px;
+    border-radius: 2px;
 }
+
 main #content #cont .infoWrap .info .priceBox .price .price_cnt .market_pri {
-  vertical-align: 4px;
-  font-size: 12px;
-  color: #999;
-  margin-left: 14px;
-  margin-bottom: 8px;
+    vertical-align: 4px;
+    font-size: 12px;
+    color: #999;
+    margin-left: 14px;
+    margin-bottom: 8px;
 }
+
 main #content #cont .infoWrap .info .postage {
-  margin-top: 7px;
-  position: relative;
+    margin-top: 7px;
+    position: relative;
 }
+
 main #content #cont .infoWrap .info .postage .msg {
-  margin-left: 85px;
-  position: relative;
-  top: 10px;
+    margin-left: 85px;
+    position: relative;
+    top: 10px;
 }
+
 main #content #cont .infoWrap .info .postage .msg .feeinfo {
-  display: inline;
-  line-height: 24px;
-  height: 24px;
-  vertical-align: middle;
-  position: absolute;
-  left: 205px;
-  top: -2px;
+    display: inline;
+    line-height: 24px;
+    height: 24px;
+    vertical-align: middle;
+    position: absolute;
+    left: 205px;
+    top: -2px;
 }
+
 main #content #cont .infoWrap .info .postage .msg .feeinfo .freeShop {
-  z-index: 3;
-  padding: 1px 20px;
-  display: inline-block;
-  height: 28px;
-  line-height: 28px;
-  cursor: default;
-  box-sizing: border-box;
-  width: 105px;
-  position: absolute;
+    z-index: 3;
+    padding: 1px 20px;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    cursor: default;
+    box-sizing: border-box;
+    width: 105px;
+    position: absolute;
 }
+
 main #content #cont .infoWrap .info .postage .msg .feeinfo .freeShop .arrow {
-  border: 5px solid transparent;
-  border-top-color: #333;
-  position: absolute;
-  top: 13px;
-  right: 8px;
+    border: 5px solid transparent;
+    border-top-color: #333;
+    position: absolute;
+    top: 13px;
+    right: 8px;
 }
+
 main #content #cont .infoWrap .info .postage .msg .feeinfo .desc {
-  display: none;
-  position: absolute;
-  left: 0;
-  top: 27px;
-  width: 335px;
-  padding: 10px 15px;
-  line-height: 22px;
-  border: 1px solid #d5d5d5;
-  background-color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 27px;
+    width: 335px;
+    padding: 10px 15px;
+    line-height: 22px;
+    border: 1px solid #d5d5d5;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
 }
+
 main #content #cont .infoWrap .info .postage .msg .feeinfo:hover .desc {
-  display: block;
+    display: block;
 }
+
 main #content #cont .infoWrap .info .postage .msg .feeinfo:hover .freeShop {
-  border: 1px solid #ddd;
-  border-bottom: 0;
-  background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    background: #fff;
 }
+
 main #content #cont .infoWrap .info .postage .msg .from {
-  line-height: 24px;
-  display: inline-block;
-  vertical-align: middle;
-  padding-right: 10px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
 }
+
 main #content #cont .infoWrap .info .postage .msg .address {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
 }
+
 main #content #cont .infoWrap .info .postage .msg .address #city {
-  border: 1px solid #ddd;
-  height: 20px;
-  width: 160px;
-  position: absolute;
-  top: -1px;
+    border: 1px solid #ddd;
+    height: 20px;
+    width: 160px;
+    position: absolute;
+    top: -1px;
 }
+
 main #content #cont .infoWrap .info .postage .msg .address label {
-  display: block;
-  border: 5px solid transparent;
-  border-top-color: #666;
-  position: absolute;
-  left: 170px;
-  top: 8px;
+    display: block;
+    border: 5px solid transparent;
+    border-top-color: #666;
+    position: absolute;
+    left: 170px;
+    top: 8px;
 }
+
 main #content #cont .infoWrap .info .service {
-  margin-top: 15px;
+    margin-top: 15px;
 }
+
 main #content #cont .infoWrap .info .service .send {
-  position: relative;
-  top: 5px;
+    position: relative;
+    top: 5px;
 }
+
 main #content #cont .infoWrap .info .service .sendBox {
-  padding-left: 77px;
-  padding-top: 12px;
+    padding-left: 77px;
+    padding-top: 12px;
 }
+
 main #content #cont .infoWrap .info .service .sendBox .postage_list {
-  margin: 10px 0 0 -27px;
+    margin: 10px 0 0 -27px;
 }
+
 main #content #cont .infoWrap .info .service .sendBox .postage_list .item {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  width: 100px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
 }
+
 main #content #cont .infoWrap .info .service .sendBox .postage_list .item img {
-  display: block;
-  width: 28px;
-  height: 28px;
-  border-radius: 14px;
-  margin: 0 auto;
+    display: block;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    margin: 0 auto;
 }
+
 main #content #cont .infoWrap .info .service .sendBox .postage_list .item p {
-  display: inline-block;
-  white-space: nowrap;
-  padding-top: 7px;
+    display: inline-block;
+    white-space: nowrap;
+    padding-top: 7px;
 }
+
 main #content #cont .infoWrap .info .service .sendBox .postage_list .item p span {
-  max-width: 100px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
 main #content #cont .infoWrap .info .service .sendBox .postage_list .item .line {
-  position: absolute;
-  display: block;
-  background: #dcdcdc;
-  right: -30px;
-  top: 13px;
-  width: 60px;
-  height: 1px;
+    position: absolute;
+    display: block;
+    background: #dcdcdc;
+    right: -30px;
+    top: 13px;
+    width: 60px;
+    height: 1px;
 }
+
 main #content #cont .infoWrap .info .service .sendBox .postage_list .item .active {
-  background: #7f7f7f;
+    background: #7f7f7f;
 }
+
 main #content #cont .infoWrap .info .service .tomorrow_arrival {
-  margin-top: 8px;
+    margin-top: 8px;
 }
+
 main #content #cont .infoWrap .info .service .tomorrow_arrival .bold {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 main #content #cont .infoWrap .info #colorBox {
-  margin-top: 9px;
+    margin-top: 9px;
 }
+
 main #content #cont .infoWrap .info #colorBox .color_wrap {
-  position: relative;
-  width: 581px;
-  left: -15px;
-  border: 2px solid #fff;
-  padding-bottom: 13px;
-  margin-bottom: 6px;
+    position: relative;
+    width: 581px;
+    left: -15px;
+    border: 2px solid #fff;
+    padding-bottom: 13px;
+    margin-bottom: 6px;
 }
+
 main #content #cont .infoWrap .info #colorBox .color_wrap .color_box {
-  margin: 1px 0 2px 14px;
+    margin: 1px 0 2px 14px;
 }
+
 main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .line_title {
-  height: 54px;
-  line-height: 54px;
+    height: 54px;
+    line-height: 54px;
 }
+
 main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox {
-  vertical-align: middle;
-  float: left;
-  width: 480px;
+    vertical-align: middle;
+    float: left;
+    width: 480px;
 }
+
 main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox .img_box {
-  height: 58px;
-  float: left;
-  display: inline;
-  background-color: #fff;
-  margin-right: 7px;
-  position: relative;
-  white-space: nowrap;
+    height: 58px;
+    float: left;
+    display: inline;
+    background-color: #fff;
+    margin-right: 7px;
+    position: relative;
+    white-space: nowrap;
 }
+
 main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox .img_box a {
-  height: 50px;
-  width: 50px;
-  border: 2px solid #ccc;
-  display: block;
-  margin: 1px 1px 1px 1px;
-  line-height: 18px;
-  text-align: center;
-  cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #ccc;
+    display: block;
+    margin: 1px 1px 1px 1px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
 }
+
 main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox .img_box a img {
-  width: 50px;
-  height: 50px;
-  vertical-align: top;
-  cursor: pointer;
+    width: 50px;
+    height: 50px;
+    vertical-align: top;
+    cursor: pointer;
 }
+
 main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox .img_box a:hover {
-  border-color: #d41c44;
-  color: #d41c44;
-  border-width: 2px;
+    border-color: #d41c44;
+    color: #d41c44;
+    border-width: 2px;
 }
+
 main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox .img_box i {
-  display: none;
+    display: none;
 }
+
 main #content #cont .infoWrap .info #colorBox .color_wrap .color_box .valBox .img_box i .checked {
-  position: absolute;
-  font-size: 10px;
-  color: #fff;
-  line-height: 0px;
-  height: 5px;
-  width: 7px;
-  right: -6px;
-  bottom: -6px;
-  background: url(http://www.kl.com/src/images/goods/images/icon6.png) no-repeat;
-  background-position: left -20px;
-  overflow: hidden;
+    position: absolute;
+    font-size: 10px;
+    color: #fff;
+    line-height: 0px;
+    height: 5px;
+    width: 7px;
+    right: -6px;
+    bottom: -6px;
+    background: url(/src/images/goods/images/icon6.png) no-repeat;
+    background-position: left -20px;
+    overflow: hidden;
 }
+
 main #content #cont .infoWrap .info #colorBox .tip {
-  visibility: hidden;
-  height: 0px;
-  overflow: hidden;
-  -webkit-transition: all 0.2s ease-in-out 0.3s;
+    visibility: hidden;
+    height: 0px;
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease-in-out 0.3s;
 }
+
 main #content #cont .infoWrap .info #colorBox .tip .tip_box {
-  color: #d31b44;
-  vertical-align: middle;
+    color: #d31b44;
+    vertical-align: middle;
 }
+
 main #content #cont .infoWrap .info #colorBox .tip .tip_box i {
-  color: #d12147;
-  font-size: 17px;
-  margin-right: 5px;
-  display: inline-block;
+    color: #d12147;
+    font-size: 17px;
+    margin-right: 5px;
+    display: inline-block;
 }
+
 main #content #cont .infoWrap .buy_numBox {
-  margin-top: 6px;
+    margin-top: 6px;
 }
+
 main #content #cont .infoWrap .buy_numBox .buy_box {
-  position: relative;
+    position: relative;
 }
+
 main #content #cont .infoWrap .buy_numBox .buy_box .ctrNum {
-  display: inline-block;
-  border: 1px solid #ccc;
-  text-align: center;
-  vertical-align: middle;
+    display: inline-block;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
 }
+
 main #content #cont .infoWrap .buy_numBox .buy_box .ctrNum .icon_minus,
 main #content #cont .infoWrap .buy_numBox .buy_box .ctrNum .icon_plus {
-  color: #777 !important;
-  background-color: #f3f3f3;
-  cursor: default;
-  border-right: 1px solid #ccc;
-  display: inline-block;
-  width: 22px;
-  height: 22px;
-  line-height: 22px;
-  text-decoration: none;
-  vertical-align: top;
-  user-select: none;
-  font-size: 20px;
+    color: #777 !important;
+    background-color: #f3f3f3;
+    cursor: default;
+    border-right: 1px solid #ccc;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-decoration: none;
+    vertical-align: top;
+    user-select: none;
+    font-size: 20px;
 }
+
 main #content #cont .infoWrap .buy_numBox .buy_box .ctrNum .ctrnum {
-  width: 38px;
-  padding: 4px 5px;
-  margin: 0;
-  line-height: 1;
-  height: 14px;
-  font-size: 14px;
-  vertical-align: top;
-  text-align: center;
-  color: #333;
-  border: none;
-  outline: none;
-  box-sizing: content-box;
+    width: 38px;
+    padding: 4px 5px;
+    margin: 0;
+    line-height: 1;
+    height: 14px;
+    font-size: 14px;
+    vertical-align: top;
+    text-align: center;
+    color: #333;
+    border: none;
+    outline: none;
+    box-sizing: content-box;
 }
+
 main #content #cont .infoWrap .buy_numBox .buy_box .dome_tip {
-  font-weight: 300;
-  margin-left: 5px;
-  vertical-align: middle;
-  color: #e31436;
+    font-weight: 300;
+    margin-left: 5px;
+    vertical-align: middle;
+    color: #e31436;
 }
+
 main #content #cont .infoWrap .guarantee {
-  position: relative;
-  color: #333;
-  font-size: 0;
-  padding: 20px 0 15px;
-  z-index: 9;
+    position: relative;
+    color: #333;
+    font-size: 0;
+    padding: 20px 0 15px;
+    z-index: 9;
 }
+
 main #content #cont .infoWrap .guarantee .line_title {
-  float: left;
-  height: 24px;
-  line-height: 24px;
+    float: left;
+    height: 24px;
+    line-height: 24px;
 }
+
 main #content #cont .infoWrap .guarantee .guarantee_cnt {
-  float: left;
-  font-size: 12px;
+    float: left;
+    font-size: 12px;
 }
+
 main #content #cont .infoWrap .guarantee .guarantee_cnt .guali {
-  float: left;
-  position: relative;
-  height: 24px;
-  line-height: 24px;
-  margin-right: 10px;
-  color: #333;
+    float: left;
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 10px;
+    color: #333;
 }
+
 main #content #cont .infoWrap .guarantee .guarantee_cnt .guali .tit {
-  position: relative;
-  padding: 0 27px 0 10px;
-  height: 22px;
-  line-height: 22px;
-  max-width: 230px;
-  overflow: hidden;
-  word-wrap: normal;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  border: 1px solid #ccc;
-  cursor: pointer;
-  z-index: 2;
-  font-size: 12px;
+    position: relative;
+    padding: 0 27px 0 10px;
+    height: 22px;
+    line-height: 22px;
+    max-width: 230px;
+    overflow: hidden;
+    word-wrap: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 12px;
 }
+
 main #content #cont .infoWrap .guarantee .guarantee_cnt .guali .tit .up,
 main #content #cont .infoWrap .guarantee .guarantee_cnt .guali .tit .down {
-  position: absolute;
-  width: 12px;
-  height: 22px;
-  right: 8px;
-  top: 0;
-  font-size: 10px;
-  line-height: 20px;
-  color: #999;
+    position: absolute;
+    width: 12px;
+    height: 22px;
+    right: 8px;
+    top: 0;
+    font-size: 10px;
+    line-height: 20px;
+    color: #999;
 }
+
 main #content #cont .infoWrap .guarantee .guarantee_cnt .guali .tit .up {
-  display: none;
+    display: none;
 }
+
 main #content #cont .infoWrap .guarantee .guarantee_cnt .guali .tit .down {
-  display: block;
+    display: block;
 }
+
 main #content #cont .infoWrap .guarantee .ctt {
-  display: none;
-  position: absolute;
-  top: 41px;
-  left: 75px;
-  background: #fff;
-  width: 300px;
-  padding: 11px 10px;
-  overflow: hidden;
-  border: 1px solid #ccc;
-  z-index: 1;
+    display: none;
+    position: absolute;
+    top: 41px;
+    left: 75px;
+    background: #fff;
+    width: 300px;
+    padding: 11px 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    z-index: 1;
 }
+
 main #content #cont .infoWrap .guarantee .ctt .moreList .moreLi {
-  line-height: 25px;
-  font-size: 0;
-  cursor: pointer;
+    line-height: 25px;
+    font-size: 0;
+    cursor: pointer;
 }
+
 main #content #cont .infoWrap .guarantee .ctt .moreList .checked {
-  position: relative;
-  top: -4px;
-  display: inline-block;
-  vertical-align: middle;
-  width: 15px;
-  height: 15px;
-  margin-right: 7px;
+    position: relative;
+    top: -4px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
 }
+
 main #content #cont .infoWrap .guarantee .ctt .moreList .checked input {
-  width: 15px;
-  height: 17px;
+    width: 15px;
+    height: 17px;
 }
+
 main #content #cont .infoWrap .guarantee .ctt .moreList .msg {
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 210px;
-  line-height: 18px;
-  padding: 3px 0;
-  font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 210px;
+    line-height: 18px;
+    padding: 3px 0;
+    font-size: 12px;
 }
+
 main #content #cont .infoWrap .guarantee .ctt .moreList .link {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 12px;
-  margin-left: 30px;
-  color: #333;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    margin-left: 30px;
+    color: #333;
 }
+
 main #content #cont .infoWrap .explain {
-  padding: 6px 0 0 0;
-  margin-bottom: -8px;
-  color: #666;
+    padding: 6px 0 0 0;
+    margin-bottom: -8px;
+    color: #666;
 }
+
 main #content #cont .infoWrap .explain .buyNow_tips {
-  margin-left: 0;
-  line-height: 28px;
-  margin-top: 5px;
+    margin-left: 0;
+    line-height: 28px;
+    margin-top: 5px;
 }
+
 main #content #cont .infoWrap .explain .buyNow_tips li {
-  position: relative;
-  padding-left: 19px;
-  line-height: 18px;
-  display: inline-block;
-  margin-right: 10px;
+    position: relative;
+    padding-left: 19px;
+    line-height: 18px;
+    display: inline-block;
+    margin-right: 10px;
 }
+
 main #content #cont .infoWrap .explain .buyNow_tips li i {
-  width: 12px;
-  height: 12px;
-  position: absolute;
-  top: 3px;
-  background: url("https://mm.bst.126.net/goods/dist/pc/images/support.ede6c07.png") no-repeat;
-  left: 2px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 3px;
+    background: url("https://mm.bst.126.net/goods/dist/pc/images/support.ede6c07.png") no-repeat;
+    left: 2px;
 }
+
 main #content #cont .infoWrap .explain .buyNow_tips li .unsupport {
-  background: url("https://mm.bst.126.net/goods/dist/pc/images/unsupport-icon.094c85f.png") no-repeat;
+    background: url("https://mm.bst.126.net/goods/dist/pc/images/unsupport-icon.094c85f.png") no-repeat;
 }
+
 main #content #cont .infoWrap .buyBtns {
-  display: block;
-  margin-top: 20px;
-  position: relative;
+    display: block;
+    margin-top: 20px;
+    position: relative;
 }
+
 main #content #cont .infoWrap .buyBtns a {
-  display: inline-block;
-  margin-right: 20px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-  vertical-align: middle;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
 }
+
 main #content #cont .infoWrap .buyBtns #buyBtn {
-  position: relative;
-  width: 156px;
-  height: 46px;
-  border: 2px solid #d41c44;
-  background-color: #ffeced;
-  color: #d31b44;
-  line-height: 46px;
-  cursor: pointer;
+    position: relative;
+    width: 156px;
+    height: 46px;
+    border: 2px solid #d41c44;
+    background-color: #ffeced;
+    color: #d31b44;
+    line-height: 46px;
+    cursor: pointer;
 }
+
 main #content #cont .infoWrap .buyBtns #buyBtn:hover {
-  background: #fff;
+    background: #fff;
 }
+
 main #content #cont .infoWrap .buyBtns #addCart {
-  width: 180px;
-  height: 50px;
-  line-height: 50px;
-  color: #fff;
-  background-color: #e31436;
-  cursor: pointer;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #e31436;
+    cursor: pointer;
 }
+
 main #content #cont .infoWrap .buyBtns #addCart .iconfont {
-  margin-right: 5px;
-  display: inline-block;
+    margin-right: 5px;
+    display: inline-block;
 }
+
 main #content #cont .infoWrap .buyBtns #addCart:hover {
-  background-color: #fa2145;
+    background-color: #fa2145;
 }
+
 main #content #cont .infoWrap .buyBtns .favBtn {
-  height: 28px;
-  line-height: 28px;
-  padding: 0 10px;
-  font-size: 0;
-  text-align: center;
-  border: 1px solid #fff;
-  position: relative;
-  top: 10px;
-  cursor: pointer;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    font-size: 0;
+    text-align: center;
+    border: 1px solid #fff;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
 }
+
 main #content #cont .infoWrap .buyBtns .favBtn:hover .txt {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 main #content #cont .infoWrap .buyBtns .favBtn .txt {
-  font-size: 14px;
-  color: #6f6f6f;
-  font-weight: normal;
+    font-size: 14px;
+    color: #6f6f6f;
+    font-weight: normal;
 }
+
 main #content #cont .infoWrap .buyBtns .favBtn .iconfont {
-  font-size: 14px;
-  margin-right: 5px;
-  color: #e31436;
+    font-size: 14px;
+    margin-right: 5px;
+    color: #e31436;
 }
+
 main #content #cont .infoWrap .comment_bar {
-  font-size: 13px;
-  margin-top: 6px;
+    font-size: 13px;
+    margin-top: 6px;
 }
+
 main #content #cont .infoWrap .comment_bar .percentStar {
-  font-size: 11px;
-  position: relative;
-  display: inline-block;
-  letter-spacing: 2px;
-  white-space: nowrap;
-  text-align: left;
-  color: #d61640;
+    font-size: 11px;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    text-align: left;
+    color: #d61640;
 }
+
 main #content #cont .infoWrap .comment_bar .percentStar span {
-  vertical-align: middle;
+    vertical-align: middle;
 }
+
 main #content #cont .infoWrap .comment_bar .percentStar span i {
-  font-size: 11px;
+    font-size: 11px;
 }
+
 main #content #cont .infoWrap .comment_bar .goodPercent {
-  position: relative;
-  margin-left: 5px;
-  font-weight: bold;
-  color: #d22046;
+    position: relative;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #d22046;
 }
+
 main #content #cont .infoWrap .comment_bar .comNum {
-  margin-left: 14px;
+    margin-left: 14px;
 }
+
 main #content #cont .infoWrap .comment_bar .commImg {
-  margin-left: 10px;
+    margin-left: 10px;
 }
+
 main #content #cont .infoWrap .comment_bar .comm a {
-  color: #333;
-  font-weight: bold;
+    color: #333;
+    font-weight: bold;
 }
+
 main #content #cont .infoWrap .comment_bar .comm a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 main #content #cont .infoWrap .excelComm {
-  position: relative;
-  padding: 2px 90px 10px 0;
-  margin-top: 11px;
-  border-top: 1px dotted #ccc;
-  color: #666;
-  font-size: 13px;
+    position: relative;
+    padding: 2px 90px 10px 0;
+    margin-top: 11px;
+    border-top: 1px dotted #ccc;
+    color: #666;
+    font-size: 13px;
 }
+
 main #content #cont .infoWrap .excelComm .comm_tit {
-  line-height: 30px;
+    line-height: 30px;
 }
+
 main #content #cont .infoWrap .excelComm .detail {
-  display: block;
-  line-height: 20px;
-  max-height: 40px;
-  min-height: 40px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  word-break: break-all;
-  transition: max-height 1s ease-in-out;
+    display: block;
+    line-height: 20px;
+    max-height: 40px;
+    min-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    transition: max-height 1s ease-in-out;
 }
+
 main #content #cont .infoWrap .excelComm:hover .detail {
-  max-height: 300px;
+    max-height: 300px;
 }
+
 main #comboRecbox {
-  margin: 15px 0;
+    margin: 15px 0;
 }
+
 main #comboRecbox .combotab li {
-  display: inline-block;
-  width: 110px;
-  height: 52px;
-  line-height: 52px;
-  margin-right: 10px;
-  font-weight: bold;
-  text-align: center;
-  font-size: 16px;
-  border-bottom: 2px solid #fff;
+    display: inline-block;
+    width: 110px;
+    height: 52px;
+    line-height: 52px;
+    margin-right: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 2px solid #fff;
 }
+
 main #comboRecbox .combotab li a {
-  display: block;
-  color: #000;
+    display: block;
+    color: #000;
 }
+
 main #comboRecbox .newRecom {
-  height: auto;
-  margin: 0;
-  overflow: hidden;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
 }
+
 main #comboRecbox .newRecom .resclst {
-  padding: 17px 20px 12px 30px;
-  margin-left: 0px;
-  border: 1px solid #eaeaea;
+    padding: 17px 20px 12px 30px;
+    margin-left: 0px;
+    border: 1px solid #eaeaea;
 }
+
 main #comboRecbox .newRecom .resclst li {
-  margin: 0 35px 0 0;
-  height: 195px;
-  width: 138px;
-  border: none;
-  float: left;
-  text-align: center;
+    margin: 0 35px 0 0;
+    height: 195px;
+    width: 138px;
+    border: none;
+    float: left;
+    text-align: center;
 }
+
 main #comboRecbox .newRecom .resclst li .itemImg {
-  display: block;
+    display: block;
 }
+
 main #comboRecbox .newRecom .resclst li .itemImg img {
-  width: 110px;
-  height: 110px;
+    width: 110px;
+    height: 110px;
 }
+
 main #comboRecbox .newRecom .resclst li .itemTitle {
-  margin-bottom: 9px;
-  padding: 0px;
-  height: 40px;
-  overflow: hidden;
+    margin-bottom: 9px;
+    padding: 0px;
+    height: 40px;
+    overflow: hidden;
 }
+
 main #comboRecbox .newRecom .resclst li .itemTitle a {
-  line-height: 20px;
-  font-size: 12px;
-  color: #333;
-  font-weight: normal;
-  word-break: break-all;
+    line-height: 20px;
+    font-size: 12px;
+    color: #333;
+    font-weight: normal;
+    word-break: break-all;
 }
+
 main #comboRecbox .newRecom .resclst li .itemInfo .price {
-  line-height: 14px;
-  color: #e31436;
-  font-size: 16px;
-  font-weight: bold;
+    line-height: 14px;
+    color: #e31436;
+    font-size: 16px;
+    font-weight: bold;
 }
+
 main #comboRecbox .newRecom .resclst li .itemInfo .price .marprice {
-  padding-left: 5px;
-  color: #999;
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 14px;
+    padding-left: 5px;
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
 }
+
 main #comboRecbox .newRecom .resclst li .itemInfo .comment {
-  display: block;
-  height: 24px;
-  line-height: 20px;
-  color: #999;
-  font-size: 12px;
+    display: block;
+    height: 24px;
+    line-height: 20px;
+    color: #999;
+    font-size: 12px;
 }
 
 ._citys {
-  width: 450px;
-  display: inline-block;
-  border: 2px solid #eee;
-  padding: 5px;
-  position: relative;
-  background: #fff;
+    width: 450px;
+    display: inline-block;
+    border: 2px solid #eee;
+    padding: 5px;
+    position: relative;
+    background: #fff;
 }
 
 ._citys span {
-  color: #56b4f8;
-  height: 15px;
-  width: 15px;
-  line-height: 15px;
-  text-align: center;
-  border-radius: 3px;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  border: 1px solid #56b4f8;
-  cursor: pointer;
+    color: #56b4f8;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 1px solid #56b4f8;
+    cursor: pointer;
 }
 
 ._citys0 {
-  width: 100%;
-  height: 34px;
-  display: inline-block;
-  border-bottom: 2px solid #56b4f8;
-  padding: 0;
-  margin: 0;
+    width: 100%;
+    height: 34px;
+    display: inline-block;
+    border-bottom: 2px solid #56b4f8;
+    padding: 0;
+    margin: 0;
 }
 
 ._citys0 li {
-  display: inline-block;
-  line-height: 34px;
-  font-size: 15px;
-  color: #888;
-  width: 80px;
-  text-align: center;
-  cursor: pointer;
+    display: inline-block;
+    line-height: 34px;
+    font-size: 15px;
+    color: #888;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .citySel {
-  background-color: #56b4f8;
-  color: #fff !important;
+    background-color: #56b4f8;
+    color: #fff !important;
 }
 
 ._citys1 {
-  width: 100%;
-  display: inline-block;
-  padding: 10px 0;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
 }
 
 ._citys1 a {
-  width: 83px;
-  height: 35px;
-  display: inline-block;
-  background-color: #f5f5f5;
-  color: #666;
-  margin-left: 6px;
-  margin-top: 3px;
-  line-height: 35px;
-  text-align: center;
-  cursor: pointer;
-  font-size: 13px;
-  overflow: hidden;
+    width: 83px;
+    height: 35px;
+    display: inline-block;
+    background-color: #f5f5f5;
+    color: #666;
+    margin-left: 6px;
+    margin-top: 3px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    overflow: hidden;
 }
 
 ._citys1 a:hover {
-  color: #fff;
-  background-color: #56b4f8;
+    color: #fff;
+    background-color: #56b4f8;
 }
 
 .AreaS {
-  background-color: #56b4f8 !important;
-  color: #fff !important;
+    background-color: #56b4f8 !important;
+    color: #fff !important;
 }
+
 
 /*# sourceMappingURL=details.css.map */

@@ -8,8 +8,8 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "index": "parcel watch src/js/index.js",
-        "login": "parcel build src/js/login.js",
+        "index": "parcel watch src/js/index.js --out-dir src/dist",
+        "login": "parcel build src/js/login.js --out-dir src/dist",
         "build": "npm run index && npm run login"
     },
     "keywords": [],
@@ -19,9 +19,11 @@
         "jquery": "^3.4.1"
     },
     "devDependencies": {
-        "@babel/cli": "^7.4.4",
-        "@babel/core": "^7.4.5",
-        "@babel/preset-env": "^7.4.5",
-        "parcel-bundler": "^1.12.3"
+        "@babel/cli": "^7.5.0",
+        "@babel/core": "^7.5.4",
+        "@babel/preset-env": "^7.5.4",
+        "parcel-bundler": "^1.12.3",
+        "webpack": "^4.35.3",
+        "webpack-cli": "^3.3.5"
     }
 }

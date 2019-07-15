@@ -1,4 +1,4 @@
-// import { strToObj } from "http://www.kl.com/src/lib/common.js";
+// import { strToObj } from "/src/lib/common.js";
 
 
 (() => {
@@ -7,14 +7,14 @@
     // console.log(data);
     $.ajax({
         type: 'post',
-        url: 'http://www.kl.com/src/api/details/getData.php',
+        url: '/src/api/details/getData.php',
         data: 'gid=' + data.gid,
         success: str => {
             let arr = JSON.parse(str);
             // console.log(arr);
             $.ajax({
                 type: 'get',
-                url: 'http://www.kl.com/src/database/goodsImg.json',
+                url: '/src/database/goodsImg.json',
                 success: str => {
                     // console.log(str)
                     upData2(arr, str);
@@ -178,7 +178,7 @@
                                             <i class="tag">${item.activity}</i>
                                     </dt>
                                 <dt class="country">
-                                            <img src="http://www.kl.com/src/images/USA.png" alt="">
+                                            <img src=" /src/images/USA.png" alt="">
                                             <span>${item.proPlace}</span>
                                             <span class="split">|</span>
                                             <a href="" class="brand">Apple 苹果</a>
@@ -238,21 +238,21 @@
                                     <div class="sendBox">
                                         <ul class="postage_list">
                                             <li class="item">
-                                                <img src="http://www.kl.com/src/images/apple.jpg" alt="">
+                                                <img src=" /src/images/apple.jpg" alt="">
                                                 <p title="正品货源">
                                                     <span>正品货源</span>
                                                 </p>
                                                 <span class="line active"></span>
                                             </li>
                                             <li class="item">
-                                                <img src="http://www.kl.com/src/images/fahuodi@3x.png" alt="">
+                                                <img src=" /src/images/fahuodi@3x.png" alt="">
                                                 <p title="自营国内仓发货">
                                                     <span>自营国内仓发货</span>
                                                 </p>
                                                 <span class="line"></span>
                                             </li>
                                             <li class="item">
-                                                <img src="http://www.kl.com/src/images/mudidi@3x.png" alt="">
+                                                <img src=" /src/images/mudidi@3x.png" alt="">
                                                 <p title="广州市">
                                                     <span>广州市</span>
                                                 </p>
@@ -274,7 +274,7 @@
                                                 <ul class="clearfix">
                                                     <li class="img_box" title="黑色">
                                                         <a href="">
-                                                            <img src="http://www.kl.com/src/images/goods/images/bigImg1.jpg" alt="">
+                                                            <img src=" /src/images/goods/images/bigImg1.jpg" alt="">
                                                         </a>
                                                         <i>
                                                                     <span class="checked"></span>
@@ -282,7 +282,7 @@
                                                     </li>
                                                     <li class="img_box" title="黄色">
                                                         <a href="">
-                                                            <img src="http://www.kl.com/src/images/goods/images/bigImg2.jpg" alt="">
+                                                            <img src=" /src/images/goods/images/bigImg2.jpg" alt="">
                                                         </a>
                                                         <i>
                                                                     <span class="checked"></span>
@@ -290,7 +290,7 @@
                                                     </li>
                                                     <li class="img_box" title="蓝色">
                                                         <a>
-                                                            <img src="http://www.kl.com/src/images/goods/images/bigImg3.jpeg" alt="">
+                                                            <img src=" /src/images/goods/images/bigImg3.jpeg" alt="">
                                                         </a>
                                                         <i>
                                                                     <span class="checked"></span>
@@ -298,7 +298,7 @@
                                                     </li>
                                                     <li class="img_box" title="珊瑚色">
                                                         <a>
-                                                            <img src="http://www.kl.com/src/images/goods/images/bigImg4.jpg" alt="">
+                                                            <img src=" /src/images/goods/images/bigImg4.jpg" alt="">
                                                         </a>
                                                         <i>
                                                                     <span class="checked"></span>
@@ -306,7 +306,7 @@
                                                     </li>
                                                     <li class="img_box" title="红色">
                                                         <a>
-                                                            <img src="http://www.kl.com/src/images/goods/images/bigImg5.jpg" alt="">
+                                                            <img src=" /src/images/goods/images/bigImg5.jpg" alt="">
                                                         </a>
                                                         <i>
                                                                     <span class="checked"></span>
@@ -314,7 +314,7 @@
                                                     </li>
                                                     <li class="img_box" title="白色">
                                                         <a>
-                                                            <img src="http://www.kl.com/src/images/goods/images/bigImg6.jpg" alt="">
+                                                            <img src=" /src/images/goods/images/bigImg6.jpg" alt="">
                                                         </a>
                                                         <i>
                                                                     <span class="checked"></span>

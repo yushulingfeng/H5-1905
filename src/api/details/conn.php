@@ -4,7 +4,7 @@
     //文件名不能写con,因为con是系统文件，不能用这个名字做文件名
 
     //连接数据库
-    $severname = 'localhost';//或者写：http://127.0.0.1
+    $severname = 'localhost';//或者写： 127.0.0.1
     $username = 'root';
     $psw = '';
     $dbname = 'h51905';

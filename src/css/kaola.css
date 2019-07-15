@@ -221,6 +221,7 @@ main #body #loginwrap .main #login_form #login_box .dologin {
   color: #fff;
   font-size: 14px;
   background: #e31436;
+  cursor: pointer;
 }
 main #body #loginwrap .main #login_form #login_box .dologin:hover {
   opacity: .8;
@@ -455,6 +456,7 @@ main #body #regwrap #reg_box .content #reg_btn .doreg {
   color: #fff;
   font-size: 14px;
   background: #e31436;
+  cursor: pointer;
 }
 main #body #regwrap #reg_box .content #reg_btn .doreg:hover {
   opacity: .8;

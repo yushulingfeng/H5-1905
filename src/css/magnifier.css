@@ -50,7 +50,7 @@ img {
     width: 100px;
     height: 100px;
     position: absolute;
-    background-image: url('http://www.kl.com/src/images/goods/images/move-box.png');
+    background-image: url(' /src/images/goods/images/move-box.png');
 }
 
 .images-cover {

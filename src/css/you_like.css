@@ -1,0 +1,99 @@
+.youLike {
+  width: 1090px;
+  height: 445px;
+  margin: 40px auto;
+  padding-bottom: 90px;
+}
+.youLike .title {
+  padding: 20px 0 5px;
+  font-weight: 700;
+  height: 38px;
+  line-height: 38px;
+  color: #333;
+  font-size: 22px;
+}
+.youLike .title span {
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+  padding-left: 12px;
+}
+.youLike .guess_list {
+  width: 100%;
+  height: 382px;
+  margin: 0 -10px;
+}
+.youLike .guess_list li {
+  margin: 0 10px;
+  width: 252px;
+  height: 382px;
+  float: left;
+}
+.youLike .guess_list li .itemImg {
+  width: 180px;
+  height: 180px;
+  border: 1px solid #e9e9e9;
+  background-color: #fff;
+  padding: 39px;
+  display: block;
+  cursor: pointer;
+}
+.youLike .guess_list li .itemImg img {
+  width: 180px;
+  height: 180px;
+}
+.youLike .guess_list li .tit {
+  white-space: normal;
+  word-wrap: break-word;
+  height: 45px;
+  margin: 7px 0 14px;
+  display: -webkit-box;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  border: 0;
+}
+.youLike .guess_list li .tit a {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+}
+.youLike .guess_list li .tit a:hover {
+  text-decoration: underline;
+}
+.youLike .guess_list li .item_price {
+  padding: 0 15px 0 0;
+}
+.youLike .guess_list li .item_price .price {
+  float: left;
+  color: #ff1e32;
+  font-size: 20px;
+}
+.youLike .guess_list li .item_price .price .symbol {
+  font-size: 14px;
+  font-weight: 400;
+}
+.youLike .guess_list li .item_price .price .delPrice,
+.youLike .guess_list li .item_price .price del {
+  color: #999;
+  font-size: 12px;
+  font-weight: 400;
+}
+.youLike .guess_list li .item_price .comment {
+  float: right;
+  display: block;
+  height: 24px;
+  line-height: 20px;
+  color: #999;
+  font-size: 12px;
+}
+.youLike .guess_list li .item_price .comment:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=you_like.css.map */

@@ -1,4 +1,4 @@
-const baseUrl = 'http://www.kl.com/src/database'
+const baseUrl = ' ../src/database'
 const requestUrl = {
     list: baseUrl + "/list.json",
     user: baseUrl + "/user.json",

@@ -1,0 +1,1368 @@
+main #content {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  padding-top: 15px;
+  border-bottom: 1px solid #eaeaea;
+}
+main #content .suspension_right,
+main #content .suspension_list {
+  display: block;
+  right: 80px;
+  position: absolute;
+  top: 55px;
+  z-index: 99;
+  width: 62px;
+  height: 245px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+}
+main #content .suspension_right li a,
+main #content .suspension_list li a {
+  display: block;
+  width: 62px;
+  height: 49px;
+  padding: 12px 0 0;
+  border-bottom: 1px solid #eaeaea;
+  background: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  color: #333;
+}
+main #content .suspension_right li a:hover,
+main #content .suspension_list li a:hover {
+  color: #ff1e32;
+  background: #f6f6f6;
+}
+main #content .suspension_right li a:hover .sign,
+main #content .suspension_list li a:hover .sign {
+  background: url(../images/sign_hover.png);
+}
+main #content .suspension_right li a:hover .cart,
+main #content .suspension_list li a:hover .cart {
+  background: url(../images/cart_right_hover.png);
+}
+main #content .suspension_right li a:hover .app,
+main #content .suspension_list li a:hover .app {
+  background: url(../images/app_hover.png);
+  background-size: 20px 20px;
+}
+main #content .suspension_right li a:hover .top,
+main #content .suspension_list li a:hover .top {
+  background: url(../images/top_hover.png);
+}
+main #content .suspension_right li a:hover .hover,
+main #content .suspension_right li a:hover .qr_code,
+main #content .suspension_list li a:hover .hover,
+main #content .suspension_list li a:hover .qr_code {
+  display: block;
+}
+main #content .suspension_right li a i,
+main #content .suspension_list li a i {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+main #content .suspension_right li a .sign,
+main #content .suspension_list li a .sign {
+  background: url(../images/sign.png);
+}
+main #content .suspension_right li a .cart,
+main #content .suspension_list li a .cart {
+  background: url(../images/cart_right.png);
+}
+main #content .suspension_right li a .app,
+main #content .suspension_list li a .app {
+  background: url(../images/app.png);
+}
+main #content .suspension_right li a .top,
+main #content .suspension_list li a .top {
+  background: url(../images/top.png);
+}
+main #content .suspension_right li a .hover,
+main #content .suspension_list li a .hover {
+  display: none;
+  position: absolute;
+  left: -100px;
+  top: 10px;
+  width: 66px;
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  border: 1px solid #ededee;
+  padding: 10px;
+}
+main #content .suspension_right li a .hover .txt,
+main #content .suspension_list li a .hover .txt {
+  font-size: 12px;
+  display: block;
+  line-height: 16px;
+  color: #333;
+}
+main #content .suspension_right li a .hover .arrow,
+main #content .suspension_list li a .hover .arrow {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+main #content .suspension_right li a .hover .arrow .arr,
+main #content .suspension_list li a .hover .arrow .arr {
+  position: absolute;
+  right: -18px;
+  border-width: 9px;
+  border-style: dashed dashed dashed solid;
+  border-color: transparent transparent transparent #e4e4e4;
+}
+main #content .suspension_right li a .hover .arrow .arr2,
+main #content .suspension_list li a .hover .arrow .arr2 {
+  position: absolute;
+  right: -17px;
+  border-width: 9px;
+  border-style: dashed dashed dashed solid;
+  border-color: transparent transparent transparent #fff;
+}
+main #content .suspension_right li a .qr_code,
+main #content .suspension_list li a .qr_code {
+  display: none;
+  position: absolute;
+  left: -110px;
+  top: 106px;
+  width: 105px;
+  height: 142px;
+  background: url(../images/qrcode.png) no-repeat;
+}
+main #content .floor_jump {
+  display: block;
+  left: 45px;
+  position: absolute;
+  top: 55px;
+  z-index: 99;
+  width: 99px;
+  height: 653px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+}
+main #content .floor_jump .topImg {
+  display: block;
+  height: 49px;
+  border-bottom: 1px solid #eaeaea;
+}
+main #content .floor_jump h3 {
+  height: 51px;
+  padding-left: 10px;
+  text-align: left;
+  line-height: 51px;
+  border-bottom: 1px solid #eaeaea;
+  cursor: pointer;
+}
+main #content .floor_jump h3 a {
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+}
+main #content .floor_jump h3:hover {
+  background: #f6f6f6;
+}
+main #content .floor_jump h3:hover a {
+  color: #ff1e32;
+}
+main #content .floor_jump .con_floor {
+  padding: 10px 0;
+}
+main #content .floor_jump .con_floor li {
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 10px;
+  font-size: 12px;
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+main #content .floor_jump .con_floor li:hover {
+  color: #ff1e32;
+  background: #f6f6f6;
+}
+main #content .floor_jump .lastImg {
+  height: 129px;
+  display: block;
+  border-top: 1px solid #eaeaea;
+}
+main #content .cont_1 {
+  width: 100%;
+  height: 332px;
+  background: url(../images/cont_1.webp) no-repeat top center;
+}
+main #content .cont_1a {
+  position: absolute;
+  top: 15px;
+  left: 166px;
+  width: 1090px;
+  height: 332px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+main #content .cont_1a a {
+  flex: 1;
+}
+main #content .tit {
+  position: relative;
+  font-size: 14px;
+  height: 74px;
+  padding-top: 25px;
+  border-top: 1px solid #e9e9e9;
+  margin: 0;
+  box-sizing: border-box;
+  color: #999;
+}
+main #content .tit .big {
+  font-size: 22px;
+  color: #333;
+  margin-right: 10px;
+  font-weight: bold;
+}
+main #content .tit .more {
+  position: absolute;
+  right: 0px;
+  top: 26px;
+  color: #999;
+}
+main #content .flashSale,
+main #content .hotBrand {
+  width: 1090px;
+  margin: 40px auto 0px;
+}
+main #content .flashSale .cnt,
+main #content .hotBrand .cnt {
+  height: 380px;
+  border-top: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+}
+main #content .flashSale .cnt .goodList,
+main #content .hotBrand .cnt .goodList {
+  float: left;
+  width: 829px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+main #content .flashSale .cnt .goodList li,
+main #content .hotBrand .cnt .goodList li {
+  width: 50%;
+  display: flex;
+  border-bottom: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+main #content .flashSale .cnt .goodList li a,
+main #content .hotBrand .cnt .goodList li a {
+  display: inline-block;
+  width: 188px;
+  height: 188px;
+}
+main #content .flashSale .cnt .goodList li .detail,
+main #content .hotBrand .cnt .goodList li .detail {
+  padding-left: 8px;
+  position: relative;
+  width: 227px;
+  height: 188px;
+  background: #fff;
+  border-right: 1px solid #eaeaea;
+}
+main #content .flashSale .cnt .goodList li .detail h3,
+main #content .hotBrand .cnt .goodList li .detail h3 {
+  margin: 16px 0 6px;
+  height: 21px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+main #content .flashSale .cnt .goodList li .detail h3 a,
+main #content .hotBrand .cnt .goodList li .detail h3 a {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+main #content .flashSale .cnt .goodList li .detail h4,
+main #content .hotBrand .cnt .goodList li .detail h4 {
+  overflow: hidden;
+  height: 35px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+main #content .flashSale .cnt .goodList li .detail h4 a,
+main #content .hotBrand .cnt .goodList li .detail h4 a {
+  line-height: 16px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #999;
+}
+main #content .flashSale .cnt .goodList li .detail .price,
+main #content .hotBrand .cnt .goodList li .detail .price {
+  margin-bottom: 33px;
+  font-weight: bold;
+  color: #ff1e32;
+  font-size: 20px;
+}
+main #content .flashSale .cnt .goodList li .detail .price b,
+main #content .hotBrand .cnt .goodList li .detail .price b {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: -2px;
+}
+main #content .flashSale .cnt .goodList li .detail .price span,
+main #content .flashSale .cnt .goodList li .detail .price del,
+main #content .hotBrand .cnt .goodList li .detail .price span,
+main #content .hotBrand .cnt .goodList li .detail .price del {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+}
+main #content .flashSale .cnt .goodList li .detail .price del,
+main #content .hotBrand .cnt .goodList li .detail .price del {
+  margin-left: -8px;
+}
+main #content .flashSale .cnt .goodList li .detail .line,
+main #content .hotBrand .cnt .goodList li .detail .line {
+  position: relative;
+  width: 90px;
+  height: 4px;
+  line-height: 0;
+  margin-top: -2px;
+  text-align: left;
+  font-size: 12px;
+  color: #ff1e32;
+  overflow: hidden;
+  background: #e8e8e8;
+  border-radius: 4px;
+}
+main #content .flashSale .cnt .goodList li .detail .line b,
+main #content .hotBrand .cnt .goodList li .detail .line b {
+  display: inline-block;
+  width: 99%;
+  height: 100%;
+  background-color: #ff1429;
+}
+main #content .flashSale .cnt .goodList li .detail .stock,
+main #content .hotBrand .cnt .goodList li .detail .stock {
+  margin-top: 5px;
+  color: #ff1e32;
+  font-size: 14px;
+}
+main #content .flashSale .cnt .goodList li .detail .rushByBtn,
+main #content .hotBrand .cnt .goodList li .detail .rushByBtn {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  width: 80px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #ff1e32;
+  text-align: center;
+  font-size: 14px;
+  color: #ff1e32;
+  text-decoration: none;
+  border-radius: 36px;
+}
+main #content .flashSale .cnt .right,
+main #content .hotBrand .cnt .right {
+  float: right;
+  width: 259px;
+  height: 100%;
+}
+main #content .flashSale .cnt .right a,
+main #content .hotBrand .cnt .right a {
+  display: inline-block;
+}
+main #content .hotBrand .cnt {
+  height: 355px;
+  display: flex;
+}
+main #content .hotBrand .cnt .left_banner {
+  width: 20%;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+main #content .hotBrand .cnt .left_banner iframe {
+  width: 100%;
+  height: 100%;
+}
+main #content .hotBrand .cnt .hot_brand {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+main #content .hotBrand .cnt .hot_brand li {
+  position: relative;
+  width: 24.86%;
+  height: 49.7%;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+main #content .hotBrand .cnt .hot_brand li:hover .inf img {
+  top: -19px;
+  transform: scale(0.66);
+}
+main #content .hotBrand .cnt .hot_brand li:hover p {
+  opacity: 0;
+}
+main #content .hotBrand .cnt .hot_brand li:hover .action {
+  opacity: 1;
+}
+main #content .hotBrand .cnt .hot_brand li:hover .action .follow,
+main #content .hotBrand .cnt .hot_brand li:hover .action .followers {
+  opacity: 1;
+}
+main #content .hotBrand .cnt .hot_brand li .inf {
+  width: 100%;
+  height: 100%;
+  transform: translateZ(0);
+  margin: 0 auto;
+  overflow: hidden;
+  background: #fff;
+}
+main #content .hotBrand .cnt .hot_brand li .inf img {
+  display: block;
+  margin: 12px auto 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  top: 0;
+  transition: all .3s;
+  transform: scale(1);
+}
+main #content .hotBrand .cnt .hot_brand li .inf p {
+  margin: 10px -90px 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 700;
+  transition: opacity .2s ease .08s;
+}
+main #content .hotBrand .cnt .hot_brand li .action {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all .3s;
+}
+main #content .hotBrand .cnt .hot_brand li .action .follow {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 52px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #999;
+  border: 1px solid #999;
+  text-decoration: none;
+  opacity: 0;
+  border-radius: 20px;
+  transition: all .5s;
+}
+main #content .hotBrand .cnt .hot_brand li .action .follow:hover {
+  background: #eee;
+}
+main #content .hotBrand .cnt .hot_brand li .action .followers {
+  margin: 99px 0 8px;
+  font-size: 12px;
+  color: #999;
+  transition: all .5s;
+}
+main #content .hotBrand .cnt .hot_brand li .action .enter {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 36px;
+  box-sizing: border-box;
+  line-height: 32px;
+  color: #ff1e3c;
+  background-color: #fff;
+  text-decoration: none;
+  border-radius: 32px;
+  border: 2px solid #ff1e3c;
+  font-size: 14px;
+}
+main #content .hotBrand .cnt .hot_brand li .action .enter:hover {
+  background: #fff4f5;
+}
+main #content .Beauty_makeupFloor,
+main #content .muying_product,
+main #content .healthcareFloor,
+main #content .digitalFloor,
+main #content .personal_careFloor,
+main #content .clothingFloor,
+main #content .light_luxury_halFloor,
+main #content .watchFloor,
+main #content .sportsFloor,
+main #content .home_lifeFloor,
+main #content .foodFloor {
+  width: 1090px;
+  margin: 40px auto;
+}
+main #content .Beauty_makeupFloor .title,
+main #content .muying_product .title,
+main #content .healthcareFloor .title,
+main #content .digitalFloor .title,
+main #content .personal_careFloor .title,
+main #content .clothingFloor .title,
+main #content .light_luxury_halFloor .title,
+main #content .watchFloor .title,
+main #content .sportsFloor .title,
+main #content .home_lifeFloor .title,
+main #content .foodFloor .title {
+  height: 74px;
+  padding-top: 25px;
+  border-top: 1px solid #e9e9e9;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #999;
+  position: relative;
+  line-height: 32px;
+}
+main #content .Beauty_makeupFloor .title h2,
+main #content .muying_product .title h2,
+main #content .healthcareFloor .title h2,
+main #content .digitalFloor .title h2,
+main #content .personal_careFloor .title h2,
+main #content .clothingFloor .title h2,
+main #content .light_luxury_halFloor .title h2,
+main #content .watchFloor .title h2,
+main #content .sportsFloor .title h2,
+main #content .home_lifeFloor .title h2,
+main #content .foodFloor .title h2 {
+  float: left;
+  font-size: 22px;
+  margin-right: 20px;
+}
+main #content .Beauty_makeupFloor .title h2 .tex,
+main #content .muying_product .title h2 .tex,
+main #content .healthcareFloor .title h2 .tex,
+main #content .digitalFloor .title h2 .tex,
+main #content .personal_careFloor .title h2 .tex,
+main #content .clothingFloor .title h2 .tex,
+main #content .light_luxury_halFloor .title h2 .tex,
+main #content .watchFloor .title h2 .tex,
+main #content .sportsFloor .title h2 .tex,
+main #content .home_lifeFloor .title h2 .tex,
+main #content .foodFloor .title h2 .tex {
+  font-weight: bold;
+  color: #333;
+}
+main #content .Beauty_makeupFloor .title .hots_search_words,
+main #content .muying_product .title .hots_search_words,
+main #content .healthcareFloor .title .hots_search_words,
+main #content .digitalFloor .title .hots_search_words,
+main #content .personal_careFloor .title .hots_search_words,
+main #content .clothingFloor .title .hots_search_words,
+main #content .light_luxury_halFloor .title .hots_search_words,
+main #content .watchFloor .title .hots_search_words,
+main #content .sportsFloor .title .hots_search_words,
+main #content .home_lifeFloor .title .hots_search_words,
+main #content .foodFloor .title .hots_search_words {
+  float: left;
+  position: relative;
+  top: 3px;
+  font-size: 14px;
+  color: #999;
+}
+main #content .Beauty_makeupFloor .title .hots_search_words li,
+main #content .muying_product .title .hots_search_words li,
+main #content .healthcareFloor .title .hots_search_words li,
+main #content .digitalFloor .title .hots_search_words li,
+main #content .personal_careFloor .title .hots_search_words li,
+main #content .clothingFloor .title .hots_search_words li,
+main #content .light_luxury_halFloor .title .hots_search_words li,
+main #content .watchFloor .title .hots_search_words li,
+main #content .sportsFloor .title .hots_search_words li,
+main #content .home_lifeFloor .title .hots_search_words li,
+main #content .foodFloor .title .hots_search_words li {
+  float: left;
+  margin-right: 14px;
+}
+main #content .Beauty_makeupFloor .title .hots_search_words li a,
+main #content .muying_product .title .hots_search_words li a,
+main #content .healthcareFloor .title .hots_search_words li a,
+main #content .digitalFloor .title .hots_search_words li a,
+main #content .personal_careFloor .title .hots_search_words li a,
+main #content .clothingFloor .title .hots_search_words li a,
+main #content .light_luxury_halFloor .title .hots_search_words li a,
+main #content .watchFloor .title .hots_search_words li a,
+main #content .sportsFloor .title .hots_search_words li a,
+main #content .home_lifeFloor .title .hots_search_words li a,
+main #content .foodFloor .title .hots_search_words li a {
+  color: #999;
+}
+main #content .Beauty_makeupFloor .title .hots_search_words li a:hover,
+main #content .muying_product .title .hots_search_words li a:hover,
+main #content .healthcareFloor .title .hots_search_words li a:hover,
+main #content .digitalFloor .title .hots_search_words li a:hover,
+main #content .personal_careFloor .title .hots_search_words li a:hover,
+main #content .clothingFloor .title .hots_search_words li a:hover,
+main #content .light_luxury_halFloor .title .hots_search_words li a:hover,
+main #content .watchFloor .title .hots_search_words li a:hover,
+main #content .sportsFloor .title .hots_search_words li a:hover,
+main #content .home_lifeFloor .title .hots_search_words li a:hover,
+main #content .foodFloor .title .hots_search_words li a:hover {
+  text-decoration: underline;
+}
+main #content .Beauty_makeupFloor .title .hots_search_words li .red,
+main #content .muying_product .title .hots_search_words li .red,
+main #content .healthcareFloor .title .hots_search_words li .red,
+main #content .digitalFloor .title .hots_search_words li .red,
+main #content .personal_careFloor .title .hots_search_words li .red,
+main #content .clothingFloor .title .hots_search_words li .red,
+main #content .light_luxury_halFloor .title .hots_search_words li .red,
+main #content .watchFloor .title .hots_search_words li .red,
+main #content .sportsFloor .title .hots_search_words li .red,
+main #content .home_lifeFloor .title .hots_search_words li .red,
+main #content .foodFloor .title .hots_search_words li .red {
+  color: #ff080f;
+}
+main #content .Beauty_makeupFloor .title .more,
+main #content .muying_product .title .more,
+main #content .healthcareFloor .title .more,
+main #content .digitalFloor .title .more,
+main #content .personal_careFloor .title .more,
+main #content .clothingFloor .title .more,
+main #content .light_luxury_halFloor .title .more,
+main #content .watchFloor .title .more,
+main #content .sportsFloor .title .more,
+main #content .home_lifeFloor .title .more,
+main #content .foodFloor .title .more {
+  position: absolute;
+  right: 0;
+  top: 24px;
+  font-size: 14px;
+  color: #999;
+}
+main #content .Beauty_makeupFloor .title .more:hover,
+main #content .muying_product .title .more:hover,
+main #content .healthcareFloor .title .more:hover,
+main #content .digitalFloor .title .more:hover,
+main #content .personal_careFloor .title .more:hover,
+main #content .clothingFloor .title .more:hover,
+main #content .light_luxury_halFloor .title .more:hover,
+main #content .watchFloor .title .more:hover,
+main #content .sportsFloor .title .more:hover,
+main #content .home_lifeFloor .title .more:hover,
+main #content .foodFloor .title .more:hover {
+  text-decoration: underline;
+}
+main #content .Beauty_makeupFloor .cont,
+main #content .muying_product .cont,
+main #content .healthcareFloor .cont,
+main #content .digitalFloor .cont,
+main #content .personal_careFloor .cont,
+main #content .clothingFloor .cont,
+main #content .light_luxury_halFloor .cont,
+main #content .watchFloor .cont,
+main #content .sportsFloor .cont,
+main #content .home_lifeFloor .cont,
+main #content .foodFloor .cont {
+  background: #fff;
+  height: 541px;
+  display: flex;
+}
+main #content .Beauty_makeupFloor .cont .left,
+main #content .Beauty_makeupFloor .cont .center,
+main #content .Beauty_makeupFloor .cont .right,
+main #content .muying_product .cont .left,
+main #content .muying_product .cont .center,
+main #content .muying_product .cont .right,
+main #content .healthcareFloor .cont .left,
+main #content .healthcareFloor .cont .center,
+main #content .healthcareFloor .cont .right,
+main #content .digitalFloor .cont .left,
+main #content .digitalFloor .cont .center,
+main #content .digitalFloor .cont .right,
+main #content .personal_careFloor .cont .left,
+main #content .personal_careFloor .cont .center,
+main #content .personal_careFloor .cont .right,
+main #content .clothingFloor .cont .left,
+main #content .clothingFloor .cont .center,
+main #content .clothingFloor .cont .right,
+main #content .light_luxury_halFloor .cont .left,
+main #content .light_luxury_halFloor .cont .center,
+main #content .light_luxury_halFloor .cont .right,
+main #content .watchFloor .cont .left,
+main #content .watchFloor .cont .center,
+main #content .watchFloor .cont .right,
+main #content .sportsFloor .cont .left,
+main #content .sportsFloor .cont .center,
+main #content .sportsFloor .cont .right,
+main #content .home_lifeFloor .cont .left,
+main #content .home_lifeFloor .cont .center,
+main #content .home_lifeFloor .cont .right,
+main #content .foodFloor .cont .left,
+main #content .foodFloor .cont .center,
+main #content .foodFloor .cont .right {
+  position: relative;
+}
+main #content .Beauty_makeupFloor .cont .left .pic img,
+main #content .muying_product .cont .left .pic img,
+main #content .healthcareFloor .cont .left .pic img,
+main #content .digitalFloor .cont .left .pic img,
+main #content .personal_careFloor .cont .left .pic img,
+main #content .clothingFloor .cont .left .pic img,
+main #content .light_luxury_halFloor .cont .left .pic img,
+main #content .watchFloor .cont .left .pic img,
+main #content .sportsFloor .cont .left .pic img,
+main #content .home_lifeFloor .cont .left .pic img,
+main #content .foodFloor .cont .left .pic img {
+  width: 330px;
+  height: 541px;
+}
+main #content .Beauty_makeupFloor .cont .left ul,
+main #content .muying_product .cont .left ul,
+main #content .healthcareFloor .cont .left ul,
+main #content .digitalFloor .cont .left ul,
+main #content .personal_careFloor .cont .left ul,
+main #content .clothingFloor .cont .left ul,
+main #content .light_luxury_halFloor .cont .left ul,
+main #content .watchFloor .cont .left ul,
+main #content .sportsFloor .cont .left ul,
+main #content .home_lifeFloor .cont .left ul,
+main #content .foodFloor .cont .left ul {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+}
+main #content .Beauty_makeupFloor .cont .left ul li,
+main #content .muying_product .cont .left ul li,
+main #content .healthcareFloor .cont .left ul li,
+main #content .digitalFloor .cont .left ul li,
+main #content .personal_careFloor .cont .left ul li,
+main #content .clothingFloor .cont .left ul li,
+main #content .light_luxury_halFloor .cont .left ul li,
+main #content .watchFloor .cont .left ul li,
+main #content .sportsFloor .cont .left ul li,
+main #content .home_lifeFloor .cont .left ul li,
+main #content .foodFloor .cont .left ul li {
+  float: left;
+  margin: 0 18px 8px 0;
+}
+main #content .Beauty_makeupFloor .cont .left ul li a,
+main #content .muying_product .cont .left ul li a,
+main #content .healthcareFloor .cont .left ul li a,
+main #content .digitalFloor .cont .left ul li a,
+main #content .personal_careFloor .cont .left ul li a,
+main #content .clothingFloor .cont .left ul li a,
+main #content .light_luxury_halFloor .cont .left ul li a,
+main #content .watchFloor .cont .left ul li a,
+main #content .sportsFloor .cont .left ul li a,
+main #content .home_lifeFloor .cont .left ul li a,
+main #content .foodFloor .cont .left ul li a {
+  text-align: center;
+  display: block;
+  height: 18px;
+  padding: 11px 0;
+  overflow: hidden;
+  font-size: 12px;
+  color: #333;
+  border-radius: 40px;
+  background: #fff;
+  border: 1px solid #eee;
+  width: 80px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+main #content .Beauty_makeupFloor .cont .left ul li a:hover,
+main #content .muying_product .cont .left ul li a:hover,
+main #content .healthcareFloor .cont .left ul li a:hover,
+main #content .digitalFloor .cont .left ul li a:hover,
+main #content .personal_careFloor .cont .left ul li a:hover,
+main #content .clothingFloor .cont .left ul li a:hover,
+main #content .light_luxury_halFloor .cont .left ul li a:hover,
+main #content .watchFloor .cont .left ul li a:hover,
+main #content .sportsFloor .cont .left ul li a:hover,
+main #content .home_lifeFloor .cont .left ul li a:hover,
+main #content .foodFloor .cont .left ul li a:hover {
+  color: #ff1e32;
+}
+main #content .Beauty_makeupFloor .cont .center,
+main #content .muying_product .cont .center,
+main #content .healthcareFloor .cont .center,
+main #content .digitalFloor .cont .center,
+main #content .personal_careFloor .cont .center,
+main #content .clothingFloor .cont .center,
+main #content .light_luxury_halFloor .cont .center,
+main #content .watchFloor .cont .center,
+main #content .sportsFloor .cont .center,
+main #content .home_lifeFloor .cont .center,
+main #content .foodFloor .cont .center {
+  width: 550px;
+  border: 1px solid #e9e9e9;
+  border-right: 0;
+  border-bottom: 0;
+}
+main #content .Beauty_makeupFloor .cont .center .centerList li,
+main #content .muying_product .cont .center .centerList li,
+main #content .healthcareFloor .cont .center .centerList li,
+main #content .digitalFloor .cont .center .centerList li,
+main #content .personal_careFloor .cont .center .centerList li,
+main #content .clothingFloor .cont .center .centerList li,
+main #content .light_luxury_halFloor .cont .center .centerList li,
+main #content .watchFloor .cont .center .centerList li,
+main #content .sportsFloor .cont .center .centerList li,
+main #content .home_lifeFloor .cont .center .centerList li,
+main #content .foodFloor .cont .center .centerList li {
+  width: 49.8%;
+  height: 269px;
+  float: left;
+  text-align: center;
+  border: 1px solid #e9e9e9;
+  border-width: 0 1px 1px 0;
+}
+main #content .Beauty_makeupFloor .cont .center .centerList li a,
+main #content .muying_product .cont .center .centerList li a,
+main #content .healthcareFloor .cont .center .centerList li a,
+main #content .digitalFloor .cont .center .centerList li a,
+main #content .personal_careFloor .cont .center .centerList li a,
+main #content .clothingFloor .cont .center .centerList li a,
+main #content .light_luxury_halFloor .cont .center .centerList li a,
+main #content .watchFloor .cont .center .centerList li a,
+main #content .sportsFloor .cont .center .centerList li a,
+main #content .home_lifeFloor .cont .center .centerList li a,
+main #content .foodFloor .cont .center .centerList li a {
+  text-decoration: none;
+}
+main #content .Beauty_makeupFloor .cont .center .centerList li a .tit,
+main #content .muying_product .cont .center .centerList li a .tit,
+main #content .healthcareFloor .cont .center .centerList li a .tit,
+main #content .digitalFloor .cont .center .centerList li a .tit,
+main #content .personal_careFloor .cont .center .centerList li a .tit,
+main #content .clothingFloor .cont .center .centerList li a .tit,
+main #content .light_luxury_halFloor .cont .center .centerList li a .tit,
+main #content .watchFloor .cont .center .centerList li a .tit,
+main #content .sportsFloor .cont .center .centerList li a .tit,
+main #content .home_lifeFloor .cont .center .centerList li a .tit,
+main #content .foodFloor .cont .center .centerList li a .tit {
+  font-size: 24px;
+  color: #333;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-top: 0;
+  height: 49px;
+}
+main #content .Beauty_makeupFloor .cont .center .centerList li a .desc,
+main #content .muying_product .cont .center .centerList li a .desc,
+main #content .healthcareFloor .cont .center .centerList li a .desc,
+main #content .digitalFloor .cont .center .centerList li a .desc,
+main #content .personal_careFloor .cont .center .centerList li a .desc,
+main #content .clothingFloor .cont .center .centerList li a .desc,
+main #content .light_luxury_halFloor .cont .center .centerList li a .desc,
+main #content .watchFloor .cont .center .centerList li a .desc,
+main #content .sportsFloor .cont .center .centerList li a .desc,
+main #content .home_lifeFloor .cont .center .centerList li a .desc,
+main #content .foodFloor .cont .center .centerList li a .desc {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 10px 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #666;
+}
+main #content .Beauty_makeupFloor .cont .center .centerList li a img,
+main #content .muying_product .cont .center .centerList li a img,
+main #content .healthcareFloor .cont .center .centerList li a img,
+main #content .digitalFloor .cont .center .centerList li a img,
+main #content .personal_careFloor .cont .center .centerList li a img,
+main #content .clothingFloor .cont .center .centerList li a img,
+main #content .light_luxury_halFloor .cont .center .centerList li a img,
+main #content .watchFloor .cont .center .centerList li a img,
+main #content .sportsFloor .cont .center .centerList li a img,
+main #content .home_lifeFloor .cont .center .centerList li a img,
+main #content .foodFloor .cont .center .centerList li a img {
+  width: 188px;
+  height: 144px;
+}
+main #content .Beauty_makeupFloor .cont .right,
+main #content .muying_product .cont .right,
+main #content .healthcareFloor .cont .right,
+main #content .digitalFloor .cont .right,
+main #content .personal_careFloor .cont .right,
+main #content .clothingFloor .cont .right,
+main #content .light_luxury_halFloor .cont .right,
+main #content .watchFloor .cont .right,
+main #content .sportsFloor .cont .right,
+main #content .home_lifeFloor .cont .right,
+main #content .foodFloor .cont .right {
+  width: 219px;
+  border: 1px solid #e9e9e9;
+  border-width: 0 1px 1px 0;
+}
+main #content .Beauty_makeupFloor .cont .right .tit,
+main #content .muying_product .cont .right .tit,
+main #content .healthcareFloor .cont .right .tit,
+main #content .digitalFloor .cont .right .tit,
+main #content .personal_careFloor .cont .right .tit,
+main #content .clothingFloor .cont .right .tit,
+main #content .light_luxury_halFloor .cont .right .tit,
+main #content .watchFloor .cont .right .tit,
+main #content .sportsFloor .cont .right .tit,
+main #content .home_lifeFloor .cont .right .tit,
+main #content .foodFloor .cont .right .tit {
+  font-size: 16px;
+  line-height: 58px;
+  padding: 0 0 0 10px;
+  color: #333;
+  font-weight: 700;
+  height: 58px;
+  border: 1px solid #e9e9e9;
+  border-width: 1px 1px 1px 0;
+  position: relative;
+}
+main #content .Beauty_makeupFloor .cont .right .loopListBox,
+main #content .muying_product .cont .right .loopListBox,
+main #content .healthcareFloor .cont .right .loopListBox,
+main #content .digitalFloor .cont .right .loopListBox,
+main #content .personal_careFloor .cont .right .loopListBox,
+main #content .clothingFloor .cont .right .loopListBox,
+main #content .light_luxury_halFloor .cont .right .loopListBox,
+main #content .watchFloor .cont .right .loopListBox,
+main #content .sportsFloor .cont .right .loopListBox,
+main #content .home_lifeFloor .cont .right .loopListBox,
+main #content .foodFloor .cont .right .loopListBox {
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+}
+main #content .Beauty_makeupFloor .cont .right .loopListBox iframe,
+main #content .muying_product .cont .right .loopListBox iframe,
+main #content .healthcareFloor .cont .right .loopListBox iframe,
+main #content .digitalFloor .cont .right .loopListBox iframe,
+main #content .personal_careFloor .cont .right .loopListBox iframe,
+main #content .clothingFloor .cont .right .loopListBox iframe,
+main #content .light_luxury_halFloor .cont .right .loopListBox iframe,
+main #content .watchFloor .cont .right .loopListBox iframe,
+main #content .sportsFloor .cont .right .loopListBox iframe,
+main #content .home_lifeFloor .cont .right .loopListBox iframe,
+main #content .foodFloor .cont .right .loopListBox iframe {
+  width: 219px;
+  height: 480px;
+}
+main #content .Beauty_makeupFloor .brandList,
+main #content .muying_product .brandList,
+main #content .healthcareFloor .brandList,
+main #content .digitalFloor .brandList,
+main #content .personal_careFloor .brandList,
+main #content .clothingFloor .brandList,
+main #content .light_luxury_halFloor .brandList,
+main #content .watchFloor .brandList,
+main #content .sportsFloor .brandList,
+main #content .home_lifeFloor .brandList,
+main #content .foodFloor .brandList {
+  margin: 20px 0 40px;
+  border: 1px solid #eaeaea;
+  line-height: 167px;
+  background: #fff;
+}
+main #content .Beauty_makeupFloor .brandList .tit,
+main #content .muying_product .brandList .tit,
+main #content .healthcareFloor .brandList .tit,
+main #content .digitalFloor .brandList .tit,
+main #content .personal_careFloor .brandList .tit,
+main #content .clothingFloor .brandList .tit,
+main #content .light_luxury_halFloor .brandList .tit,
+main #content .watchFloor .brandList .tit,
+main #content .sportsFloor .brandList .tit,
+main #content .home_lifeFloor .brandList .tit,
+main #content .foodFloor .brandList .tit {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  text-indent: 20px;
+  line-height: 48px;
+  height: 48px;
+  border-bottom: 1px solid #eaeaea;
+  padding-top: 0;
+}
+main #content .Beauty_makeupFloor .brandList .brand_list,
+main #content .muying_product .brandList .brand_list,
+main #content .healthcareFloor .brandList .brand_list,
+main #content .digitalFloor .brandList .brand_list,
+main #content .personal_careFloor .brandList .brand_list,
+main #content .clothingFloor .brandList .brand_list,
+main #content .light_luxury_halFloor .brandList .brand_list,
+main #content .watchFloor .brandList .brand_list,
+main #content .sportsFloor .brandList .brand_list,
+main #content .home_lifeFloor .brandList .brand_list,
+main #content .foodFloor .brandList .brand_list {
+  display: flex;
+}
+main #content .Beauty_makeupFloor .brandList .brand_list li,
+main #content .muying_product .brandList .brand_list li,
+main #content .healthcareFloor .brandList .brand_list li,
+main #content .digitalFloor .brandList .brand_list li,
+main #content .personal_careFloor .brandList .brand_list li,
+main #content .clothingFloor .brandList .brand_list li,
+main #content .light_luxury_halFloor .brandList .brand_list li,
+main #content .watchFloor .brandList .brand_list li,
+main #content .sportsFloor .brandList .brand_list li,
+main #content .home_lifeFloor .brandList .brand_list li,
+main #content .foodFloor .brandList .brand_list li {
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid #eaeaea;
+  position: relative;
+}
+main #content .Beauty_makeupFloor .brandList .brand_list li a span,
+main #content .muying_product .brandList .brand_list li a span,
+main #content .healthcareFloor .brandList .brand_list li a span,
+main #content .digitalFloor .brandList .brand_list li a span,
+main #content .personal_careFloor .brandList .brand_list li a span,
+main #content .clothingFloor .brandList .brand_list li a span,
+main #content .light_luxury_halFloor .brandList .brand_list li a span,
+main #content .watchFloor .brandList .brand_list li a span,
+main #content .sportsFloor .brandList .brand_list li a span,
+main #content .home_lifeFloor .brandList .brand_list li a span,
+main #content .foodFloor .brandList .brand_list li a span {
+  background: url(../images/heart.png) no-repeat;
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-position: 50%;
+}
+main #content .Beauty_makeupFloor .brandList .brand_list li:hover a span,
+main #content .muying_product .brandList .brand_list li:hover a span,
+main #content .healthcareFloor .brandList .brand_list li:hover a span,
+main #content .digitalFloor .brandList .brand_list li:hover a span,
+main #content .personal_careFloor .brandList .brand_list li:hover a span,
+main #content .clothingFloor .brandList .brand_list li:hover a span,
+main #content .light_luxury_halFloor .brandList .brand_list li:hover a span,
+main #content .watchFloor .brandList .brand_list li:hover a span,
+main #content .sportsFloor .brandList .brand_list li:hover a span,
+main #content .home_lifeFloor .brandList .brand_list li:hover a span,
+main #content .foodFloor .brandList .brand_list li:hover a span {
+  display: block;
+}
+main #content .youLike {
+  width: 1090px;
+  height: 445px;
+  margin: 40px auto;
+  padding-bottom: 90px;
+}
+main #content .youLike .title {
+  padding: 20px 0 5px;
+  font-weight: 700;
+  height: 38px;
+  line-height: 38px;
+  color: #333;
+  font-size: 22px;
+}
+main #content .youLike .title span {
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+  padding-left: 12px;
+}
+main #content .youLike .guess_list {
+  width: 100%;
+  height: 382px;
+  margin: 0 -10px;
+}
+main #content .youLike .guess_list li {
+  margin: 0 10px;
+  width: 252px;
+  height: 382px;
+  float: left;
+}
+main #content .youLike .guess_list li .itemImg {
+  width: 180px;
+  height: 180px;
+  border: 1px solid #e9e9e9;
+  background-color: #fff;
+  padding: 39px;
+  display: block;
+  cursor: pointer;
+}
+main #content .youLike .guess_list li .itemImg img {
+  width: 180px;
+  height: 180px;
+}
+main #content .youLike .guess_list li .tit {
+  white-space: normal;
+  word-wrap: break-word;
+  height: 45px;
+  margin: 7px 0 14px;
+  display: -webkit-box;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  border: 0;
+}
+main #content .youLike .guess_list li .tit a {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+}
+main #content .youLike .guess_list li .tit a:hover {
+  text-decoration: underline;
+}
+main #content .youLike .guess_list li .item_price {
+  padding: 0 15px 0 0;
+}
+main #content .youLike .guess_list li .item_price .price {
+  float: left;
+  color: #ff1e32;
+  font-size: 20px;
+}
+main #content .youLike .guess_list li .item_price .price .symbol {
+  font-size: 14px;
+  font-weight: 400;
+}
+main #content .youLike .guess_list li .item_price .price .delPrice,
+main #content .youLike .guess_list li .item_price .price del {
+  color: #999;
+  font-size: 12px;
+  font-weight: 400;
+}
+main #content .youLike .guess_list li .item_price .comment {
+  float: right;
+  display: block;
+  height: 24px;
+  line-height: 20px;
+  color: #999;
+  font-size: 12px;
+}
+main #content .youLike .guess_list li .item_price .comment:hover {
+  text-decoration: underline;
+}
+
+footer {
+  padding-bottom: 0;
+}
+footer .footBgWrap {
+  background: #fff;
+}
+footer .footBgWrap .box {
+  width: 1090px;
+  margin: auto;
+  background-color: transparent;
+  text-align: left;
+  font-size: inherit;
+  color: inherit;
+  cursor: default;
+  display: block;
+}
+footer .footBgWrap .box .btmlist {
+  padding: 49px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+footer .footBgWrap .box .btmlist ul {
+  height: 48px;
+}
+footer .footBgWrap .box .btmlist ul li {
+  float: left;
+  width: 230px;
+  margin-left: 42px;
+}
+footer .footBgWrap .box .btmlist ul li .icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid #d6d6d6;
+  text-align: center;
+  line-height: 44px;
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  margin-right: 12px;
+  float: left;
+  color: #000;
+}
+footer .footBgWrap .box .btmlist ul li strong {
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  line-height: 22px;
+  color: #000;
+}
+footer .footBgWrap .box .btmlist ul li span {
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+}
+footer .footBgWrap .box .guideList {
+  padding: 45px 0 90px;
+}
+footer .footBgWrap .box .guideList ul .foot_logo {
+  width: 218px;
+  padding-right: 40px;
+  padding-left: 0;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .ft-logo {
+  display: block;
+  width: 220px;
+  height: 43px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  outline: none;
+  cursor: pointer;
+  background: url(../images/foot_logo.png) no-repeat;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson {
+  height: 32px;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .label {
+  display: inline-block;
+  vertical-align: middle;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon {
+  position: relative;
+  margin-left: 10px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon:hover .notice {
+  display: block;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon i {
+  width: 32px;
+  height: 32px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .weibo-icon {
+  background: url(../images/foot_icon1.png) no-repeat;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .weixin-icon {
+  background: url(../images/foot_icon2.png) no-repeat;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .yixin-icon {
+  background: url(../images/foot_icon3.png) no-repeat;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .notice {
+  display: none;
+  position: absolute;
+  left: -44px;
+  top: 42px;
+  z-index: 10;
+  background: #fff;
+  text-align: center;
+  color: #333;
+  border: 1px solid #ededee;
+  padding: 10px;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .notice img {
+  width: 100px;
+  height: 100px;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .notice .arrow {
+  position: absolute;
+  left: 52px;
+  top: 0;
+  right: auto;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .notice .arrow .arr {
+  position: absolute;
+  border-width: 8px;
+  border-style: dashed dashed solid;
+  right: -18px;
+  top: -16px;
+  border-color: transparent transparent #ededee;
+}
+footer .footBgWrap .box .guideList ul .foot_logo .focuson .itemIcon .notice .arrow .arr1 {
+  position: absolute;
+  border-width: 8px;
+  border-style: dashed dashed solid;
+  top: -15px;
+  right: -18px;
+  border-color: transparent transparent #fff;
+}
+footer .footBgWrap .box .guideList ul li {
+  float: left;
+  width: 110px;
+  padding: 0 0 0 21px;
+  height: 128px;
+}
+footer .footBgWrap .box .guideList ul li dt {
+  margin: -4px 0 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #222;
+}
+footer .footBgWrap .box .guideList ul li dd {
+  line-height: 29px;
+}
+footer .footBgWrap .box .guideList ul li dd a {
+  color: #333;
+  cursor: pointer;
+  font-size: 12px;
+}
+footer .footBgWrap .box .guideList ul li dd a:hover {
+  text-decoration: underline;
+}
+footer .footBgWrap .box .guideList ul .last {
+  margin-left: 10px;
+  width: 108px;
+  height: 128px;
+  text-align: center;
+}
+footer .footBgWrap .box .guideList ul .last img {
+  margin: 0 0 6px;
+}
+footer .about {
+  position: relative;
+  padding: 20px 0;
+  background: #333;
+  line-height: 26px;
+  text-align: center;
+  color: #c2c2c2;
+}
+footer .about a {
+  color: #c2c2c2;
+  font-size: 12px;
+}
+footer .about a:hover {
+  text-decoration: underline;
+}
+footer .about .license {
+  font-size: 12px;
+  margin-left: 20px;
+}
+footer .about .license-1 {
+  margin-left: 0px;
+}
+footer .about .f-tac {
+  text-align: center;
+}
+footer .about .f-tac #KXYZ img {
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+}
+footer .about .f-tac .shield img {
+  height: 30px;
+  margin: 5px 0 0 10px;
+}
+
+/*# sourceMappingURL=kaola_cont.css.map */

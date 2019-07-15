@@ -6,6 +6,7 @@ import { Cart } from '../js/cart/cart'
 httpRequest(requestUrl.navList, (data) => {
     // console.log(data);//数组对象
     // console.log($('.ctList'));
+    let num = 0;
     let html = data.map(function(item) {
         let str = item.brand.map(function(item) {
             return ` <a href="###">${item}</a>`;
@@ -14,7 +15,7 @@ httpRequest(requestUrl.navList, (data) => {
                         <i class="underline"></i>
                         <div class="item">
                             <p class="title">
-                                <a href="">${item.category}</a>
+                                <a href="html/page/goodList/list.html">${item.category}</a>
                             </p>
                             <div class="listBox">
                                ${str}

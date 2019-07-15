@@ -3,16 +3,15 @@
     //列表数据渲染
     $.ajax({
         type: 'get',
-        url: 'http://www.kl.com/src/api/list/goods.php',
+        url: ' /src/api/list/goods.php',
         success: str => {
-
+            // console.log(str);
             let arr = JSON.parse(str);
 
             $.ajax({
                 type: 'get',
-                url: 'http://www.kl.com/src/database/goodsImg.json',
+                url: ' /src/database/goodsImg.json',
                 success: str => {
-                    // console.log(str)
                     upData(arr, str);
                     mouseoverImg();
                     jumpTo();
@@ -24,7 +23,7 @@
     function jumpTo() {
         $('#result').on('click', '.item', function() {
             let gid = $(this).attr('data-id');
-            window.open('http://www.kl.com/src/html/page/details/details.html?gid=' + gid);
+            window.open(' /src/html/page/details/details.html?gid=' + gid);
         });
     }
 
@@ -58,7 +57,7 @@
                             <div class="goodsWrap">
                                 <a title="${item.title}">
                                     <div class="img">
-                                        <img src="http://www.kl.com/src/images/goods/bigImg/Image Picka${item.bigImg}" alt="">
+                                        <img src="/src/images/goods/bigImg/Image Picka${item.bigImg}" alt="">
                                         <div class="hotSale">
                                             <span class="hot">${item.hot_sale}</span>
                                         </div>
@@ -81,7 +80,7 @@
                                         </span>
                                     </p>
                                     <div class="goods_tit">
-                                        <a id="goods_title" href="">
+                                        <a id="goods_title">
                                             <h2>${item.title}</h2>
                                         </a>
                                     </div>
@@ -90,7 +89,7 @@
                                         <span class="activity fit">${item.col5}</span>
                                     </p>
                                     <p class="goods_info clearfix">
-                                        <a href="" class="comments">
+                                        <a class="comments">
                                             <i class="icon"></i> ${item.comment}
                                         </a>
                                         <span class="proPlace">${item.proPlace}</span>

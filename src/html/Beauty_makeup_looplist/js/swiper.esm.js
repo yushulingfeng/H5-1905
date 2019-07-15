@@ -1,7 +1,7 @@
 /**
  * Swiper 4.3.3
  * Most modern mobile touch slider and framework with hardware accelerated transitions
- * http://www.idangero.us/swiper/
+ *  www.idangero.us/swiper/
  *
  * Copyright 2014-2018 Vladimir Kharlampidi
  *
@@ -3537,7 +3537,7 @@ function isEventSupported() {
     document.implementation &&
     document.implementation.hasFeature &&
     // always returns true in newer browsers as per the standard.
-    // @see http://dom.spec.whatwg.org/#dom-domimplementation-hasfeature
+    // @see  dom.spec.whatwg.org/#dom-domimplementation-hasfeature
     document.implementation.hasFeature('', '') !== true
   ) {
     // This is the only way to test support for the `wheel` event in IE9+.

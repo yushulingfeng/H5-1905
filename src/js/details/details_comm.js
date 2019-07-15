@@ -1,19 +1,19 @@
 (() => {
 
-    $('header').load('http://www.kl.com/src/html/component/header.html');
+    $('header').load('/src/html/component/header.html');
 
-    $('#navBox').load('http://www.kl.com/src/html/component/nav.html', function() {
+    $('#navBox').load('/src/html/component/nav.html', function() {
         $('.twoLevel span').css('font-size', '14px');
         $('.twoLevel').css('border', 'none');
     });
 
 
 
-    $('#comboRecbox').load('http://www.kl.com/src/html/page/details/comboRecbox.html');
+    $('#comboRecbox').load('/src/html/page/details/comboRecbox.html');
 
-    $('footer').load('http://www.kl.com/src/html/component/footer.html');
+    $('footer').load('/src/html/component/footer.html');
 
-    $('.suspension_list').load('http://www.kl.com/src/html/page/index/suspension.html');
+    $('.suspension_list').load('/src/html/page/index/suspension.html');
 
     //回到顶部悬挂侧栏
     let suspension = document.querySelector('.suspension_list');
